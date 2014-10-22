@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+console.log('Pixel Rock Studios by Noximus');
