@@ -1,37 +1,16 @@
 
 /*
- * Globals
- */
-
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
-
-/*
  * Base structure
  */
 
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #fff;
+  
 }
 body {
-  color: #fff;
+  color: #000;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -39,7 +18,19 @@ body {
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
+.jumbotron{
+  background-color: #333;
+}
+.thumbnail{
+  -webkit-box-shadow: 0 0 30px rgba(0,0,0,.3);
+  box-shadow: 0 0 30px rgba(0,0,0,.3); 
+  background-color: transparent;
+  border: none;
+  
+}
+.prs-navbar{
+  margin-bottom: 0px;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {  
 
