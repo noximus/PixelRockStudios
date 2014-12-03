@@ -14,4 +14,6 @@ angular.module('pixelRockStudiosApp')
       'AngularJS',
       'Karma'
     ];
+        console.log("about page functions go here");
+
   });

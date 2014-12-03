@@ -7,6 +7,7 @@
  * # pixelRockStudiosApp
  *
  * Main module of the application.
+ navigation controller
  */
 angular
   .module('pixelRockStudiosApp', [
@@ -23,9 +24,9 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/portfolio', {
+        templateUrl: 'views/portfolio.html',
+        controller: 'portCtrl'
       })
       .otherwise({
         redirectTo: '/'
