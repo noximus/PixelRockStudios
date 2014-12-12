@@ -9,19 +9,35 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 }
 $font-stack:    bankGothic, Helvetica, sans-serif;
 
-$primary-color: #bdb6a2;
+$font-color: #bdb6a2;
+$line-color: #7f704d;
 
 
 body{
-  color: $primary-color;
+  color: $font-color;
   font: 100% $font-stack;
   background: url('../images/pixelRockTempBG.jpg');
   background-size: cover;
 }
 .pixel-wrapper{
+  height: 100vh;
   background: rgba(0,0,0,.2);
-  border-left: 1px solid $primary-color;
-  border-right: 1px solid $primary-color;
+  border-left: 1px solid $line-color;
+  border-right: 1px solid $line-color;
+  
+  .thumbnail{
+    border:none;
+    border-radius: 0;
+    padding:1px;
+  }
+}
+.header{
+  height: 150px;
+  border-bottom: 1px dotted $line-color;
+}
+.footer{
+  border-top: 1px dotted $line-color;
+
 }
 .table{
   display: table;
