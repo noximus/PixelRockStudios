@@ -8,8 +8,11 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   src: url('../fonts/BankGothic/bankgthl.ttf');
 }
 $font-stack:    bankGothic, Helvetica, sans-serif;
-
-.bgBlk{
+body{
+  background: url('../images/pixelRockTempBG.jpg');
+  background-size: cover;
+}
+.pixel-wrapper{
   background: rgba(0,0,0,.2);
 }
 .table{
