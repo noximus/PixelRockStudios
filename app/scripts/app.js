@@ -26,7 +26,7 @@ angular
       })
       .when('/portfolio', {
         templateUrl: 'views/portfolio.html',
-        controller: 'portCtrl'
+        controller: 'PortCtrl'
       })
       .otherwise({
         redirectTo: '/'
