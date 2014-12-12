@@ -25,17 +25,17 @@
       <header>
         <div class="row">
           <div class="col-md-2">
-            <img src="images/logo_dark.svg" class="" alt="Pixel Rock Studios" />
+            <img id="logo" src="images/logo_dark.svg" alt="Pixel Rock Studios" />
           </div>
-          <div class="col-md-2 pull-right">
+          <div id="version" class="col-md-2 pull-right pad-top-50 text-right">
             Version 2.0
           </div>
         </div>
       </header>
       <nav>
-        <ul class="nav-justified text-center">
-          <li role="presentation" class="active">Home</li>
-          <li role="presentation">Services</li>
+        <ul class="nav-justified text-center pad-top-10">
+          <li role="presentation" class="active" ng-href="/">Home</li>
+          <li role="presentation" ng-href="/portfolio">Services</li>
           <li role="presentation">Skills</li>
           <li role="presentation">Bio</li>
           <li role="presentation">Contact</li>
@@ -45,7 +45,7 @@
       <div ng-view=""></div>
       <br/>
       <footer class="text-center">
-        <p>
+        <p class="pad-top-10">
         Follow <a href="https://twitter.com/pixelrockstudio" target="_blank">@PixelRockStudio</a> | <a href="https://www.facebook.com/pixelrockstudios" target="_blank">Facebook</a> | <a href="https://www.linkedin.com/pub/henry-richardson/26/9aa/713" target="_blank">LinkedIn</a>
       </p>
       </footer>

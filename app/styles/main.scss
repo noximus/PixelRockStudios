@@ -32,11 +32,16 @@ body{
     header{
       height: 70px;
       width: 100%;
-      padding: 0px;
+      padding: 5px;
       margin: 0px;
       border-bottom: 1px dotted $line-color;
-
-
+      
+      #logo{
+        padding-left: 10px;
+      }
+      #version{
+        padding-right: 20px;
+      }
     }
     nav{
       height: 30px;
@@ -52,6 +57,14 @@ body{
       border-top: 1px dotted $line-color;
 
     }
+    .pad-top-5{padding-top:5px;}
+    .pad-top-10{padding-top:10px;}
+    .pad-top-15{padding-top:15px;}
+    .pad-top-25{padding-top:25px;}
+    .pad-top-30{padding-top:30px;}
+    .pad-top-50{padding-top:50px;}
+    .pad-top-60{padding-top:60px;}
+    .pad-top-70{padding-top:70px;}
     .thumbnail{
       border:none;
       border-radius: 0;
