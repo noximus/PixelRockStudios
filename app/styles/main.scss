@@ -47,6 +47,15 @@ body{
       height: 30px;
       width: 100%;
       border-bottom: 1px dotted $line-color;
+
+      ul{
+        li{
+          width: 122px;
+          height: 21px;
+          background: url('../images/button.svg');
+          background-size: cover;
+        }
+      }
     }
     footer{
       height: 30px;
