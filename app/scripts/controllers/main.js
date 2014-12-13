@@ -15,4 +15,8 @@ angular.module('pixelRockStudiosApp')
       'Karma'
     ];
     console.log("main page function go here");
+    $(".navbut").click(function(){
+    	$(".navbut").removeClass("active");
+    	$(this).addClass("active");
+    });
   });
