@@ -31,8 +31,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-      // var navBG = $(".navBg");
-      // TweenMax(navBG, 2, {css:{left:"200px"}, ease:Linear.easeNone});
+      
       //$('.pixel-wrapper').css
       // alert('this is the spot');
   });
