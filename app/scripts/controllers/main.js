@@ -15,8 +15,8 @@ angular.module('pixelRockStudiosApp')
       'Karma'
     ];
     console.log("main page function go here");
-    // var navBG = $(".navBg");
-    // TweenMax(navBG, 2, {css:{left:"200px"}, ease:Linear.easeNone});
+    var navBG = $(".navBg");
+    TweenMax.to(navBG, 2, {css:{left:"200px"}, ease:Linear.easeNone});
     $(".navbut").click(function(){
     	$(".navbut").removeClass("active");
     	$(this).addClass("active");
