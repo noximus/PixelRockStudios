@@ -44,13 +44,15 @@ body{
         padding-left: 10px;
       }
       #version{
-        padding-right: 20px;
+        padding-right: 25px;
       }
     }
     nav{
       height: 30px;
       width: 100%;
       border-bottom: 1px dotted $line-color;
+      background: url('../images/navBG.png');
+      background-size: cover;
 
       ul{
         padding-top:4px;
@@ -68,6 +70,9 @@ body{
           li:hover{
             color:$font-roll;
             cursor: pointer;
+          }
+          li:active{
+            color:$font-roll;
           }
         }
       }
