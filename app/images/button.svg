@@ -59,13 +59,13 @@ AQEAAQUAi3//2gAIAQICBj8AN//aAAgBAwIGPwA3/9oACAEBAQY/ABb/2Q==" transform="matrix(
 	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="1.5" y1="43" x2="1.5" y2="38.5"/>
 </g>
 <g id="Layer_5">
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="0.5" x2="4.5" y2="0.5"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="0" x2="0.5" y2="4.5"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="240.5" y1="0.5" x2="244.5" y2="0.5"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="244.5" y1="0" x2="244.5" y2="4.5"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="244.5" y1="38.5" x2="244.5" y2="43"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="244.5" y1="42.5" x2="240.5" y2="42.5"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="4.5" y1="42.5" x2="0.5" y2="42.5"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="43" x2="0.5" y2="38.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="0.5" x2="9.5" y2="0.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="0.5" x2="0.5" y2="9.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="236" y1="0.5" x2="245" y2="0.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="244.5" y1="0" x2="244.5" y2="9"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="244.5" y1="34" x2="244.5" y2="43"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="245" y1="42.5" x2="236" y2="42.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="9" y1="42.5" x2="0" y2="42.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="42.5" x2="0.5" y2="33.5"/>
 </g>
 </svg>

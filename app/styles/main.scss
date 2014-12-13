@@ -10,6 +10,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 $font-stack:    bankGothic, Helvetica, sans-serif;
 
 $font-color: #bdb6a2;
+$font-roll: #DB7D26;
 $line-color: #7f704d;
 
 
@@ -49,11 +50,22 @@ body{
       border-bottom: 1px dotted $line-color;
 
       ul{
-        li{
-          width: 122px;
-          height: 21px;
-          background: url('../images/button.svg');
-          background-size: cover;
+        padding-top:4px;
+        a{
+          color:$font-color;
+          li{
+            width: 122px;
+            height: 21px;
+            padding-top:5px;
+            float:left;
+            background: url('../images/button.svg');
+            background-size: cover;
+            list-style-type:none;
+          }
+          li:hover{
+            color:$font-roll;
+            cursor: pointer;
+          }
         }
       }
     }
