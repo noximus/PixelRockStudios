@@ -47,25 +47,25 @@ AQEAAQUAi3//2gAIAQICBj8AN//aAAgBAwIGPwA3/9oACAEBAQY/ABb/2Q==" transform="matrix(
 <g id="Layer_3" display="none">
 	<rect x="1.5" y="0.5" display="inline" fill="#D12027" stroke="#DC7E27" stroke-miterlimit="10" width="244" height="42"/>
 </g>
-<g id="Layer_4" display="none">
-	<rect x="5.5" y="4.5" display="inline" fill="#0C0808" stroke="#DC7E27" stroke-miterlimit="10" width="236" height="34"/>
-	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="1.5" y1="0.5" x2="5.5" y2="0.5"/>
-	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="1.5" y1="0" x2="1.5" y2="4.5"/>
-	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="241.5" y1="0.5" x2="245.5" y2="0.5"/>
-	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="245.5" y1="0" x2="245.5" y2="4.5"/>
-	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="245.5" y1="38.5" x2="245.5" y2="43"/>
-	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="245.5" y1="42.5" x2="241.5" y2="42.5"/>
-	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="5.5" y1="42.5" x2="1.5" y2="42.5"/>
-	<line display="inline" fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="1.5" y1="43" x2="1.5" y2="38.5"/>
+<g id="Layer_4">
+	<rect x="4.5" y="4.5" opacity="0.2" fill="#0C0808" width="236" height="34"/>
+	<line fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="1.5" y1="0.5" x2="5.5" y2="0.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="1.5" y1="0" x2="1.5" y2="4.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="241.5" y1="0.5" x2="245.5" y2="0.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="245.5" y1="0" x2="245.5" y2="4.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="245.5" y1="38.5" x2="245.5" y2="43"/>
+	<line fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="245.5" y1="42.5" x2="241.5" y2="42.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="5.5" y1="42.5" x2="1.5" y2="42.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-miterlimit="10" x1="1.5" y1="43" x2="1.5" y2="38.5"/>
 </g>
 <g id="Layer_5">
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="0.5" x2="9.5" y2="0.5"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="0.5" x2="0.5" y2="9.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0" y1="0.5" x2="9" y2="0.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="0" x2="0.5" y2="9"/>
 	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="236" y1="0.5" x2="245" y2="0.5"/>
 	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="244.5" y1="0" x2="244.5" y2="9"/>
 	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="244.5" y1="34" x2="244.5" y2="43"/>
 	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="245" y1="42.5" x2="236" y2="42.5"/>
 	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="9" y1="42.5" x2="0" y2="42.5"/>
-	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="42.5" x2="0.5" y2="33.5"/>
+	<line fill="none" stroke="#DC7E27" stroke-width="3" stroke-miterlimit="10" x1="0.5" y1="43" x2="0.5" y2="34"/>
 </g>
 </svg>

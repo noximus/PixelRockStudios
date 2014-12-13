@@ -22,6 +22,9 @@ body{
   .container{
 
   }
+  a{
+    color:$font-roll;
+  }
   .container.pixel-wrapper{
     padding-left: 0px;
     padding-right: 0px;
@@ -70,6 +73,8 @@ body{
       }
     }
     footer{
+      padding-left:15px;
+      padding-right:15px;
       height: 30px;
       width:100%;
       max-width: 1167px;
