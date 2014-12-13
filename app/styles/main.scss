@@ -12,6 +12,7 @@ $font-stack:    bankGothic, Helvetica, sans-serif;
 $font-color: #bdb6a2;
 $font-roll: #DB7D26;
 $line-color: #7f704d;
+$orange-bg: rgba(248,155,18,.8);
 
 
 body{
@@ -53,7 +54,17 @@ body{
       border-bottom: 1px dotted $line-color;
       background: url('../images/navBG.png');
       background-size: cover;
-
+      .navBg {
+        position:absolute;
+        width:116px;
+        height:17px;
+        margin-top:-8px;
+        margin-left: 43px;
+        background: $orange-bg;
+        border:1px solid $line-color;
+        box-shadow: inset 0px 0px 5px black;
+        z-index:-5;
+      }
       ul{
         padding-top:4px;
         a{
