@@ -121,6 +121,13 @@ body{
         padding: 10px;
       }
     }
+    .pixel-button{
+      background: $black-abg;
+      border: 1px solid $line-color;
+      padding: 3px 20px;
+      width: 90%;
+      margin-bottom: 5px;
+    }
     footer{
       padding-top:5px;
       padding-left:15px;
