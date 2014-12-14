@@ -60,7 +60,7 @@ body{
         width:116px;
         height:17px;
         margin-top:-8px;
-        margin-left: 43px;
+        margin-left: 15px;
         background: $orange-abg;
         border:1px solid $line-color;
         box-shadow: inset 0px 0px 5px black;
@@ -68,6 +68,7 @@ body{
       }
       ul{
         padding-top:4px;
+        padding-left:12px;
         a{
           color:$font-color;
           li{
