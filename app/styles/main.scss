@@ -12,7 +12,8 @@ $font-stack:    bankGothic, Helvetica, sans-serif;
 $font-color: #bdb6a2;
 $font-roll: #DB7D26;
 $line-color: #7f704d;
-$orange-bg: rgba(248,155,18,.8);
+$orange-abg: rgba(248,155,18,.8);
+$black-abg: rgba(0,0,0,.2);
 
 
 body{
@@ -60,7 +61,7 @@ body{
         height:17px;
         margin-top:-8px;
         margin-left: 43px;
-        background: $orange-bg;
+        background: $orange-abg;
         border:1px solid $line-color;
         box-shadow: inset 0px 0px 5px black;
         z-index:-5;
@@ -88,6 +89,14 @@ body{
         }
       }
     }
+    .bread-crumbs{
+      height: 30px;
+      width: 100%;
+      padding: 10px 15px;
+      border-bottom: 1px dotted $line-color;
+      background: $black-abg;
+      background-size: cover;
+    }
     footer{
       padding-top:5px;
       padding-left:15px;
@@ -97,6 +106,7 @@ body{
       max-width: 1167px;
       position: absolute;
       bottom: 0;
+      background: $black-abg;
       border-top: 1px dotted $line-color;
       .social-icon{
         width: 20px;
