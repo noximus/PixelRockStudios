@@ -15,5 +15,5 @@ angular.module('pixelRockStudiosApp')
       'Karma'
     ];
     var navBG = $(".navBg");
-    TweenMax.to(navBG, 1, {css:{'margin-left':"137px"}, ease:Elastic.easeOut});
+    TweenMax.to(navBG, 1, {css:{'margin-left':"137px"}, ease:Bounce.easeOut});
   });

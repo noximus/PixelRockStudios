@@ -101,7 +101,7 @@ body{
     .pixel-container{
       background: $black-abg;
       border: 1px solid $line-color;
-      height: 60vh;
+      height: 30%;
     
       .pixel-cont-head{
         width: 100%;
@@ -109,9 +109,16 @@ body{
         background: $black-abg;
         padding: 10px;
         border-bottom: 1px dotted $line-color;
-        .social-icon{
-          width: 20px;
+        .pull-right{
+          margin-top:-5px;
+
+          .social-icon{
+            width: 20px;
+          }
         }
+      }
+      .pixel-cont-area{
+        padding: 10px;
       }
     }
     footer{
