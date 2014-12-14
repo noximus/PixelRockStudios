@@ -70,7 +70,7 @@ body{
         padding-top:4px;
         padding-left:12px;
         a{
-          color:$font-color;
+          color:$font-roll;
           li{
             width: 122px;
             height: 21px;
@@ -81,11 +81,11 @@ body{
             list-style-type:none;
           }
           li:hover{
-            color:$font-roll;
+            color:$font-color;
             cursor: pointer;
           }
           li.active{
-            color:$font-roll;
+            color:$font-color;
           }
         }
       }
@@ -97,6 +97,36 @@ body{
       border-bottom: 1px dotted $line-color;
       background: $black-abg;
       background-size: cover;
+    }
+    .pixel-container{
+      background: $black-abg;
+      border: 1px solid $line-color;
+      height: 30%;
+    
+      .pixel-cont-head{
+        width: 100%;
+        height: 30px;
+        background: $black-abg;
+        padding: 10px;
+        border-bottom: 1px dotted $line-color;
+        .less-padd{
+          margin-top:-5px;
+
+          .social-icon{
+            width: 20px;
+          }
+        }
+      }
+      .pixel-cont-area{
+        padding: 10px;
+      }
+    }
+    .pixel-button{
+      background: $black-abg;
+      border: 1px solid $line-color;
+      padding: 3px 20px;
+      width: 90%;
+      margin-bottom: 5px;
     }
     footer{
       padding-top:5px;

@@ -16,7 +16,12 @@ angular.module('pixelRockStudiosApp')
     ];
     console.log("main page function go here");
     var navBG = $(".navBg");
-    TweenMax.to(navBG, 1, {css:{'margin-left':"15px"}, ease:Elastic.easeOut});
+    var breadCrumb = $(".bread-crumbs");
+    TweenMax.to(navBG, 1, {css:{'margin-left':"15px"}, ease:Bounce.easeOut});
+    //breadCrumb.fadeOut();
+    TweenMax.to(breadCrumb, .5, {css:{'padding-top':"1px"}, ease:Linear.easeOut});
+    TweenMax.to(breadCrumb, 1, {css:{'height':"0px",'display':'none','opacity':'0'}, ease:Linear.easeOut});
+
     $(".navbut").click(function(){
     	$(".navbut").removeClass("active");
     	$(this).addClass("active");
