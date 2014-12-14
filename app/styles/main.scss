@@ -45,6 +45,7 @@ body{
       
       #logo{
         padding-left: 10px;
+        width: 150px;
       }
       #version{
         padding: 40px 25px;
@@ -142,11 +143,17 @@ body{
       bottom: 0;
       background: $black-abg;
       border-top: 1px dotted $line-color;
-      @media screen and (max-width: 768px) {
+      @media screen and (min-width: 768px) {
         max-width: 748px;
       }
-      @media screen and (max-width: 992px) {
+      @media screen and (min-width: 992px) {
         max-width: 748px;
+      }
+      @media screen and (min-width: 1028px) {
+        max-width: 968px;
+      }
+      @media screen and (min-width: 1200px) {
+        max-width: 1168px;
       }
       .social-icon{
         width: 20px;
