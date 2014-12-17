@@ -123,6 +123,14 @@ body{
       }
       .pixel-cont-area{
         padding: 10px;
+        .portfolio-cont-lg{
+          height: 300px;
+        }
+        .portfolio-cont-sm{
+          height: 140px;
+          margin-bottom: 20px;
+        }
+        
       }
     }
     .pixel-button{
@@ -131,6 +139,9 @@ body{
       padding: 3px 20px;
       width: 90%;
       margin-bottom: 5px;
+      img{
+        width: 5px;
+      }
     }
     footer{
       padding-top:5px;
