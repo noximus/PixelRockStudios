@@ -117,9 +117,7 @@ body{
         .less-padd{
           margin-top:-5px;
 
-          .social-icon{
-            width: 20px;
-          }
+
         }
       }
       .pixel-cont-area{
@@ -135,7 +133,13 @@ body{
             box-shadow: inset 0px 0px 5px black;
           }
         }
-        
+        .port-text{
+          h6{
+            color:$font-roll;
+            display: inline-block;
+            margin-bottom: -1px;
+          }
+        }
       }
     }
     .pixel-button{
@@ -215,5 +219,40 @@ body{
     .table-cell{
       display: table-cell;
     }
+    .social-icon{
+      width: 20px;
+      &:hover{
+        /*box-shadow: 0px 0px 5px $font-roll;*/
+      }
+    }
+    #wrapper, #wrapper2{
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      left: 30%;
+      top:300px;
+      -moz-transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+    }
+    #wrapper2{
+      left: 0px !important;
+      top:0px !important;
+      -moz-transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
+      -webkit-transform:translateZ(50px);
+    }
+    .box{
+      width:17px;
+      height: 200px;
+      position: absolute;
+      border-top:1px solid #e1e1e1;
+      border-bottom:1px solid #e1e1e1;
+      box-shadow: inset 0px 0px 5px $font-roll;
+      background: $black-abg;
+      /*background: rgba(50,205,50,.25);*/
+      /*box-shadow: "0px 0px 24px 6px white";*/
+      
+    }
   }
+
 }
