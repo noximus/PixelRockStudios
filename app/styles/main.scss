@@ -13,6 +13,7 @@ $font-color: #bdb6a2;
 $font-roll: #DB7D26;
 $line-color: #7f704d;
 $orange-abg: rgba(248,155,18,.8);
+$orange-abgb: rgba(248,155,18,.2);
 $black-abg: rgba(0,0,0,.2);
 
 
@@ -139,12 +140,19 @@ body{
       padding: 4px 5px;
       width: 90%;
       margin-bottom: 5px;
+      cursor: pointer;
+      color:$font-roll;
       &::before{
         display:inline-block;
         content:url('../images/pixel-button-carot.svg');
         width:10px;
         vertical-align: middle;
         padding: 2px 5px 0px 0px;
+      }
+      &:hover{
+        background: $orange-abgb;
+        box-shadow: inset 0px 0px 5px black;
+        color: $font-color;
       }
 
     }
