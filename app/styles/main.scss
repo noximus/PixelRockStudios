@@ -125,13 +125,11 @@ body{
       .pixel-cont-area{
         padding: 10px;
         .portfolio-cont-lg{
-          height: 300px;
           img{
             box-shadow: inset 0px 0px 5px black;
           }
         }
         .portfolio-cont-sm{
-          height: 140px;
           margin-bottom: 20px;
           img{
             box-shadow: inset 0px 0px 5px black;
@@ -144,7 +142,7 @@ body{
       background: $black-abg;
       border: 1px solid $line-color;
       padding: 5px;
-      width: 90%;
+      width: 100%;
       margin-bottom: 5px;
       cursor: pointer;
       color:$font-roll;

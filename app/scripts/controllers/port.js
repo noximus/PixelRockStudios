@@ -24,5 +24,6 @@ angular.module('pixelRockStudiosApp')
     }, function(e){
     	TweenMax.to($(this).children('img'), 1, {css:{'margin-right':"5px"}, ease:Bounce.easeOut});
     });
+    
 
   });
