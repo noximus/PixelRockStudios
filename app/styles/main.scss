@@ -13,7 +13,8 @@ $font-color: #bdb6a2;
 $font-roll: #DB7D26;
 $line-color: #7f704d;
 $orange-abg: rgba(248,155,18,.8);
-$black-abg: rgba(0,0,0,.2);
+$orange-abgb: rgba(248,155,18,.2);
+$black-abg: rgba(0,0,0,.3);
 
 
 
@@ -123,14 +124,42 @@ body{
       }
       .pixel-cont-area{
         padding: 10px;
+        .portfolio-cont-lg{
+          img{
+            box-shadow: inset 0px 0px 5px black;
+          }
+        }
+        .portfolio-cont-sm{
+          margin-bottom: 20px;
+          img{
+            box-shadow: inset 0px 0px 5px black;
+          }
+        }
+        
       }
     }
     .pixel-button{
       background: $black-abg;
       border: 1px solid $line-color;
-      padding: 3px 20px;
-      width: 90%;
+      padding: 5px;
+      width: 100%;
       margin-bottom: 5px;
+      cursor: pointer;
+      color:$font-roll;
+
+      img{
+        display:inline-block;
+        background:url('../images/pixel-button-carot.svg');
+        width:5px;
+        vertical-align: middle;
+        margin: 0px 5px 1px 0px;
+      }
+      &:hover{
+        background: $orange-abgb;
+        box-shadow: inset 0px 0px 5px black;
+        color: $font-color;
+      }
+
     }
     footer{
       padding-top:5px;
