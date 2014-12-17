@@ -116,6 +116,7 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
         <ul class="text-center">
           <a ng-href="#/"><li class="active navbut" ng-class="{ active: isActive('/')}" >Home</li></a>
           <a ng-href="#/portfolio"><li class="navbut" ng-class="{ active: isActive('/portfolio')}" >Portfolio</li></a>
+          <a ng-href="#/experimental"><li class="navbut" ng-class="{ active: isActive('/experimental')}" >Experimental</li></a>
         </ul>
         <div class="navBg"></div>
       </nav>
@@ -171,11 +172,12 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
     <!-- endbower -->
     <!-- endbuild -->
     <script src="bower_components/greensock/src/minified/TweenMax.min.js"></script>
+    <script src="bower_components/threejs/build/three.min.js"></script>
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/experimental.js"></script>
         <script src="scripts/controllers/port.js"></script>
 
         <!-- endbuild -->

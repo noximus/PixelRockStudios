@@ -28,6 +28,10 @@ angular
         templateUrl: 'views/portfolio.html',
         controller: 'PortCtrl'
       })
+      .when('/experimental', {
+        templateUrl: 'views/experimental.html',
+        controller: 'ExperimentalCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
