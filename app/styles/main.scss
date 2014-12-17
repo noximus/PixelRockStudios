@@ -117,12 +117,7 @@ body{
         .less-padd{
           margin-top:-5px;
 
-          .social-icon{
-            width: 20px;
-            &:hover{
-              /*box-shadow: 0px 0px 5px $font-roll;*/
-            }
-          }
+
         }
       }
       .pixel-cont-area{
@@ -224,5 +219,12 @@ body{
     .table-cell{
       display: table-cell;
     }
+    .social-icon{
+      width: 20px;
+      &:hover{
+        /*box-shadow: 0px 0px 5px $font-roll;*/
+      }
+    }
   }
+
 }
