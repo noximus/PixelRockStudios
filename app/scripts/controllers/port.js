@@ -24,6 +24,13 @@ angular.module('pixelRockStudiosApp')
     }, function(e){
     	TweenMax.to($(this).children('img'), 1, {css:{'margin-right':"5px"}, ease:Bounce.easeOut});
     });
-    
+    $("#launchGit").click(function(e){
+    	//console.log($("#launchGit").data("link"));
+    	window.open($("#launchGit").data("link"));
+    });
+    $("#launchSite").click(function(e){
+    	//console.log($("#launchGit").data("link"));
+    	window.open($("#launchSite").data("link"));
+    });
 
   });
