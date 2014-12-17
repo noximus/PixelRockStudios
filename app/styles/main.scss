@@ -136,12 +136,17 @@ body{
     .pixel-button{
       background: $black-abg;
       border: 1px solid $line-color;
-      padding: 3px 20px;
+      padding: 4px 5px;
       width: 90%;
       margin-bottom: 5px;
-      img{
-        width: 5px;
+      &::before{
+        display:inline-block;
+        content:url('../images/pixel-button-carot.svg');
+        width:10px;
+        vertical-align: middle;
+        padding: 2px 5px 0px 0px;
       }
+
     }
     footer{
       padding-top:5px;
