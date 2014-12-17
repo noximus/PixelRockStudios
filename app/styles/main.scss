@@ -126,10 +126,16 @@ body{
         padding: 10px;
         .portfolio-cont-lg{
           height: 300px;
+          img{
+            box-shadow: inset 0px 0px 5px black;
+          }
         }
         .portfolio-cont-sm{
           height: 140px;
           margin-bottom: 20px;
+          img{
+            box-shadow: inset 0px 0px 5px black;
+          }
         }
         
       }
