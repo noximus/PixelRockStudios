@@ -24,6 +24,11 @@ angular.module('pixelRockStudiosApp')
     }, function(e){
     	TweenMax.to($(this).children('img'), 1, {css:{'margin-right':"5px"}, ease:Bounce.easeOut});
     });
+    // Temporary button to link to site before adding angular database
+    $(".pixel-button").click(function(e){
+    	//console.log($("#launchGit").data("link"));
+    	window.open($(this).data("link"));
+    });
     $("#launchGit").click(function(e){
     	//console.log($("#launchGit").data("link"));
     	window.open($("#launchGit").data("link"));
