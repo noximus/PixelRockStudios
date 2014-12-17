@@ -135,7 +135,13 @@ body{
             box-shadow: inset 0px 0px 5px black;
           }
         }
-        
+        .port-text{
+          h6{
+            color:$font-roll;
+            display: inline-block;
+            margin-bottom: -1px;
+          }
+        }
       }
     }
     .pixel-button{
