@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'threejs',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.1.2
+3 info using node@v0.10.24
+4 warn package.json Pixe-Rock-Studios@10.0.0 No repository field.
+5 silly cache add args [ 'threejs', null ]
+6 verbose cache add spec threejs
+7 silly cache add parsed spec { raw: 'threejs',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'threejs',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 silly addNonLocal parsed spec { raw: 'threejs',
+8 silly addNonLocal   scope: null,
+8 silly addNonLocal   name: 'threejs',
+8 silly addNonLocal   rawSpec: '',
+8 silly addNonLocal   spec: '*',
+8 silly addNonLocal   type: 'range' }
+9 verbose addNamed threejs@*
+10 silly addNamed semver.valid null
+11 silly addNamed semver.validRange *
+12 silly addNameRange { name: 'threejs', range: '*', hasData: false }
+13 verbose mapToRegistry name threejs
+14 verbose mapToRegistry uri https://registry.npmjs.org/threejs
+15 verbose request on initialization, where is /threejs
+16 verbose request after pass 1, where is /threejs
+17 verbose request url raw /threejs
+18 verbose request resolving registry [ 'https://registry.npmjs.org/', './threejs' ]
+19 verbose request after pass 2, where is https://registry.npmjs.org/threejs
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 18:52:36
+22 verbose request id 0819e0a287daf892
+23 http request GET https://registry.npmjs.org/threejs
+24 http 404 https://registry.npmjs.org/threejs
+25 verbose headers { date: 'Thu, 18 Dec 2014 23:52:37 GMT',
+25 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 verbose headers   'content-type': 'application/json',
+25 verbose headers   'cache-control': 'max-age=0',
+25 verbose headers   'content-length': '52',
+25 verbose headers   'accept-ranges': 'bytes',
+25 verbose headers   via: '1.1 varnish',
+25 verbose headers   age: '0',
+25 verbose headers   'x-served-by': 'cache-atl6226-ATL',
+25 verbose headers   'x-cache': 'MISS',
+25 verbose headers   'x-cache-hits': '0',
+25 verbose headers   'x-timer': 'S1418946757.082689,VS0,VE77',
+25 verbose headers   'keep-alive': 'timeout=10, max=50',
+25 verbose headers   connection: 'Keep-Alive' }
+26 silly registry.get cb [ 404,
+26 silly registry.get   { date: 'Thu, 18 Dec 2014 23:52:37 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=0',
+26 silly registry.get     'content-length': '52',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1418946757.082689,VS0,VE77',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 verbose stack Error: 404 Not Found: threejs
+27 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+27 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+27 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+27 verbose stack     at Request.EventEmitter.emit (events.js:98:17)
+27 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+27 verbose stack     at Request.EventEmitter.emit (events.js:117:20)
+27 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+27 verbose stack     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+27 verbose stack     at _stream_readable.js:920:16
+27 verbose stack     at process._tickCallback (node.js:415:13)
+28 verbose statusCode 404
+29 verbose pkgid threejs
+30 verbose cwd /Users/sunnychao/Documents/_Projects/pixel-rock-site/PixelRockStudios
+31 error Darwin 13.4.0
+32 error argv "node" "/usr/local/bin/npm" "install" "threejs" "--save-dev"
+33 error node v0.10.24
+34 error npm  v2.1.2
+35 error code E404
+36 error 404 Not Found: threejs
+36 error 404
+36 error 404 'threejs' is not in the npm registry.
+36 error 404 You should bug the author to publish it (or use the name yourself!)
+36 error 404 It was specified as a dependency of 'Pixe-Rock-Studios'
+36 error 404
+36 error 404 Note that you can also install from a
+36 error 404 tarball, folder, http url, or git url.
+37 verbose exit [ 1, true ]

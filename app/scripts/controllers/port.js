@@ -16,7 +16,12 @@ angular.module('pixelRockStudiosApp')
     ];
     $scope.portfolio = [
     {'name': 'BMW M 40th Anniversary test',
-     'link': 'http://www.bmwusa.com/m'},
+     'link': 'http://www.bmwusa.com/m',
+      'img': [
+          {'image':'../images/lg.jpg'},
+          {'image':'../images/sm1.jpg'},
+          {'image':'../images/sm2.jpg'}
+      ]},
     {'name': 'BMW Motorsports',
      'link': 'http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx'},
     {'name': 'BMW ConnectedDrive',
