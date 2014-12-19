@@ -142,6 +142,18 @@ body{
         }
       }
     }
+    .search{
+      background: $black-abg;
+      border: 1px solid $line-color;
+      color:$font-roll;
+      padding: 5px;
+      margin-bottom: 5px;
+      width: 100%;
+      &:focus{
+        box-shadow: 0 0 5px $font-roll;
+        outline: none;
+      }
+    }
     .pixel-button{
       background: $black-abg;
       border: 1px solid $line-color;
