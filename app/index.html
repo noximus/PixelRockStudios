@@ -113,9 +113,9 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
         </div>
       </header>
       <navigation></navigation>
-      
-      <div class="bread-crumbs"><div ncy-breadcrumb></div><a href="#">breadcrumb</a> / <a href="#">Portfolio</a> / <a href="#">Project</a></div>
-      <div ng-view=""></div>
+
+      <div class="bread-crumbs"><a href="#">breadcrumb</a> / <a href="#">Portfolio</a> / <a href="#">Project</a></div><div ncy-breadcrumb></div>
+      <div ui-view></div>
       <footer class="text-center">
         <div class="row">
           <div class="col-xs-6 text-left pad-top-5">&copy; Pixel Rock Studios 2014</div>
@@ -163,7 +163,8 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
-    <script src="bower_components/angular-touch/angular-breadcrumb.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-breadcrumb/dist/angular-breadcrumb.js"></script>
 
     <!-- endbower -->
     <!-- endbuild -->
