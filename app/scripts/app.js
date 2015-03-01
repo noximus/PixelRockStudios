@@ -63,8 +63,8 @@ angular
         }
     })
     .state('contact', {
-      url: "/bio",
-      templateUrl: "views/bio.html",
+      url: "/contact",
+      templateUrl: "views/contact.html",
         controller: 'ContactCtrl',
         ncyBreadcrumb: {
           label: ''
