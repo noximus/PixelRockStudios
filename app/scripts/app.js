@@ -35,7 +35,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-      
+      // add navigation controller to this level
       //$('.pixel-wrapper').css
       // alert('this is the spot');
   });
