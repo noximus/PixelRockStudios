@@ -70,4 +70,9 @@ angular
           label: ''
         }
     });
+  })
+  .config(function($breadcrumbProvider) {
+    $breadcrumbProvider.setOptions({
+      templateUrl: 'views/partials/breadcrumbs.html'
+    });
 });
