@@ -16,7 +16,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ncy-angular-breadcrumb'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -26,7 +27,10 @@ angular
       })
       .when('/portfolio', {
         templateUrl: 'views/portfolio.html',
-        controller: 'PortCtrl'
+        controller: 'PortCtrl',
+        ncyBreadcrumb: {
+          label: 'Portfolio'
+        }
       })
       .when('/experimental', {
         templateUrl: 'views/experimental.html',
