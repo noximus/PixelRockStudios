@@ -112,14 +112,7 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
           </div>
         </div>
       </header>
-      <nav>
-        <ul class="text-center">
-          <a ng-href="#/"><li class="active navbut" ng-class="{ active: isActive('/')}" >Home</li></a>
-          <a ng-href="#/portfolio"><li class="navbut" ng-class="{ active: isActive('/portfolio')}" >Portfolio</li></a>
-          <a ng-href="#/experimental"><li class="navbut" ng-class="{ active: isActive('/experimental')}" >Experimental</li></a>
-        </ul>
-        <div class="navBg"></div>
-      </nav>
+      <navigation></navigation>
       <div class="bread-crumbs"><a href="#">breadcrumb</a> / <a href="#">Portfolio</a> / <a href="#">Project</a></div>
       <div ng-view=""></div>
       <footer class="text-center">

@@ -9,15 +9,13 @@
  */
 angular.module('pixelRockStudiosApp')
   .controller('ExperimentalCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-    var navBG = $(".navBg");
-    var breadCrumb = $(".bread-crumbs");
-    TweenMax.to(navBG, 1, {css:{'margin-left':"259px"}, ease:Bounce.easeOut});
-    TweenMax.to(breadCrumb, 1, {css:{'padding-top':"10px",'height':"30px",'display':'block','opacity':'1'}, ease:Bounce.easeOut});
+    
+    // var navBG = $(".navBg");
+    // var breadCrumb = $(".bread-crumbs");
+    // TweenMax.to(navBG, 1, {css:{'margin-left':"259px"}, ease:Bounce.easeOut});
+    // TweenMax.to(breadCrumb, 1, {css:{'padding-top':"10px",'height':"30px",'display':'block','opacity':'1'}, ease:Bounce.easeOut});
+    
+    // Three JS code here... needs to be put into a class
     for (var i = 0; i < 72; i++) {
 		var rotateVar = i*5;
 		$("#wrapper").append('<div class="box red" id="box'+i+'"></div>');
@@ -40,5 +38,5 @@ angular.module('pixelRockStudiosApp')
 	};
 	TweenMax.to($("#wrapper"),10,{css:{rotationY:360,transformOrigin:"0 50% 200px",transformPerspective:900,},repeat:-1,ease:Linear.easeNone});
 	TweenMax.to($("#wrapper2"),2,{css:{rotationY:-360,transformOrigin:"0 50% 100px",transformPerspective:0},repeat:-1,ease:Linear.easeNone});
-
+	// Three JS ends here
   });

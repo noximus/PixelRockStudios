@@ -1,1 +1,11 @@
-<p>This is the navigation view.</p>
+<nav>
+	<ul class="text-center">
+	  <a ng-href="#/"><li class="active navbut" ng-class="{ active: isActive('/')}" >Home</li></a>
+	  <a ng-href="#/bio"><li class="navbut" ng-class="{ active: isActive('/bio')}" >Bio</li></a>
+	  <a ng-href="#/portfolio"><li class="navbut" ng-class="{ active: isActive('/portfolio')}" >Portfolio</li></a>
+	  <a ng-href="#/experimental"><li class="navbut" ng-class="{ active: isActive('/experimental')}" >Experimental</li></a>
+	  <a ng-href="#/contact"><li class="navbut" ng-class="{ active: isActive('/contact')}" >Contact</li></a>
+
+	</ul>
+	<div class="navBg"></div>
+</nav>
