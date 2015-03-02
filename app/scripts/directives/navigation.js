@@ -6,7 +6,7 @@
  * @description
  * # navigation
  */
-angular.module('pixelRockStudiosApp',$rootScope)
+angular.module('pixelRockStudiosApp')
   .directive('navigation', function () {
     return {
       templateUrl: '../views/partials/navigation.html',
