@@ -24,8 +24,5 @@ angular.module('pixelRockStudiosApp')
 
     //TweenMax.to($("#Iacfl4_1_"), 1, {css:{'margin-top':"100px"}, ease:Linear.easeOut});
 
-    $(".navbut").click(function(){
-    	$(".navbut").removeClass("active");
-    	$(this).addClass("active");
-    });
+    
   });
