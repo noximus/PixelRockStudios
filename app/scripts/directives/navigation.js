@@ -9,7 +9,10 @@ angular.module('pixelRockStudiosApp')
       	scope.navigationFact = navigationFact;
           // add navigation controller to this level - check
         scope.navClicked = function(item){
-        	console.log("element find attr",element.find('li#'+item).offset().left);
+        	var navBG = $(".navBg");
+        	var newOffset = (122*item)+15;//needs a negative offset to compensate for graphics
+        	// console.log("New offset =", newOffset);
+        	TweenMax.to(navBG, 1, {css:{'margin-left':newOffset+"px"}, ease:Bounce.easeOut});
         }
         
           // 1 move nav elements first 
