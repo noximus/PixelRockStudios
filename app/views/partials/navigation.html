@@ -1,6 +1,6 @@
 <nav>
 	<ul class="text-center">
-	  	<li ui-sref="{{nav}}" ng-repeat="nav in navigationFact" ui-sref-active="active">{{nav}}</li>
+	  	<li ui-sref="{{nav}}" ng-repeat="nav in navigationFact" ui-sref-active="active" ng-click="navClicked({{$index}});" id="{{$index}}">{{nav}}</li>
 	</ul>
 	<div class="navBg"></div>
 </nav>
