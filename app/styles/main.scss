@@ -74,25 +74,23 @@ body{
       ul{
         padding-top:4px;
         padding-left:12px;
-        a{
-          color:$font-roll;
-          li{
-            width: 122px;
-            height: 21px;
-            padding-top:5px;
-            float:left;
-            background: url('../images/button.svg');
-            background-size: cover;
-            list-style-type:none;
-          }
-          li:hover{
-            color:$font-color;
-            cursor: pointer;
-          }
-          li.active{
-            color:$font-color;
-          }
+
+        li{
+          width: 122px;
+          height: 21px;
+          padding-top:5px;
+          float:left;
+          background: url('../images/button.svg');
+          background-size: cover;
+          list-style-type:none;
+          cursor: pointer;
+          color: $font-roll;
+           
         }
+        li.active{
+          color:$font-color;
+        }
+        
       }
     }
     .bread-crumbs{

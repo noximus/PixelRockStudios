@@ -1,11 +1,6 @@
 <nav>
 	<ul class="text-center">
-	  <a ui-sref="home" ><li class="active navbut">Home</li></a>
-	  <a ui-sref="bio"><li class="navbut">Bio</li></a>
-	  <a ui-sref="portfolio"><li class="navbut">Portfolio</li></a>
-	  <a ui-sref="experimental"><li class="navbut">Experimental</li></a>
-	  <a ui-sref="contact"><li class="navbut">Contact</li></a>
-
+	  	<li ui-sref="{{nav}}" ng-repeat="nav in navigationFact" ui-sref-active="active">{{nav}}</li>
 	</ul>
 	<div class="navBg"></div>
 </nav>

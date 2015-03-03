@@ -13,9 +13,13 @@ angular.module('pixelRockStudiosApp')
       restrict: 'E',
       replace:true,
       link: function postLink(scope, element, attrs) {
+      	scope.navigationFact = navigationFact;
+      	// console.log(scope.navigationFact);
+      	// scope.activeIndex=0;
       	element.children().children().click(function(){
-	    	$(".navbut").removeClass("active");
-	    	$(this).children().addClass("active");
+      		
+	    	// $(".navbut").removeClass("active");
+	    	// $(this).children().addClass("active");
 	    });
         // element.text('this is the navigation directive');
         //$rootScope.nav.items = ['home','bio','portfolio','contact'];

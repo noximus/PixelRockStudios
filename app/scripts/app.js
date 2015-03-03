@@ -1,11 +1,5 @@
 'use strict';
-
-/**
- * @ngdoc overview
- * @name pixelRockStudiosApp
- * @description
- * # pixelRockStudiosApp
- *
+/*
  * Main module of the application.
  navigation controller
  */
@@ -20,10 +14,7 @@ angular
     'ncy-angular-breadcrumb'
   ])
   .config(function($stateProvider, $urlRouterProvider) {
-  //
-  // For any unmatched url, redirect to /state1
   $urlRouterProvider.otherwise("/home");
-  //
   // Use angular-breadcrumbs for this *requires ui-router replacing ngRoute
   // https://github.com/ncuillery/angular-breadcrumb
   $stateProvider
