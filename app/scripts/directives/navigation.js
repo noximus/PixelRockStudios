@@ -7,12 +7,13 @@
  * # navigation
  */
 angular.module('pixelRockStudiosApp')
-  .directive('navigation', function () {
+  .directive('navigation', function (navigationFact) {
     return {
       templateUrl: '../views/partials/navigation.html',
       restrict: 'E',
       replace:true,
       link: function postLink(scope, element, attrs) {
+      	console.log('navigationFact',navigationFact[0])
         // element.text('this is the navigation directive');
         //$rootScope.nav.items = ['home','bio','portfolio','contact'];
         //console.log($rootScope.nav.items[0]);
