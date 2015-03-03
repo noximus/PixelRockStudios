@@ -1,7 +1,9 @@
 'use strict';
 angular.module('pixelRockStudiosApp')
-  .factory('navigationFact', function () {
-    var navigation = ["home","bio","portfolio","experimental",'contact'];
+  .factory('navigationFact', ['$rootScope',function ($rootScope) {
+    var navigation = ["home","bio","portfolio","experimental","contact"];
+    // $rootScope.navSelected = navigation;
     // Public API here
+    // create model for navigation here that can be changed using ui-router
     return navigation;
-  });
+  }]);
