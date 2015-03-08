@@ -15,6 +15,10 @@ angular
   ])
 
   .config(function($stateProvider, $urlRouterProvider,$breadcrumbProvider) {
+    .when('/citymaps', {
+      templateUrl: 'views/citymaps.html',
+      controller: 'CitymapsCtrl'
+    })
     $urlRouterProvider.otherwise("/home");
     $breadcrumbProvider.setOptions({
       templateUrl: 'views/partials/breadcrumbs.html'
