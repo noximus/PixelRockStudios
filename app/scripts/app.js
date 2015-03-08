@@ -14,7 +14,6 @@ angular
     'ncy-angular-breadcrumb',
     'uiGmapgoogle-maps'
   ])
-
   .config(function($stateProvider, $urlRouterProvider,$breadcrumbProvider,uiGmapGoogleMapApiProvider) {
     $urlRouterProvider.otherwise("/home");
     $breadcrumbProvider.setOptions({

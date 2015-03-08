@@ -8,7 +8,7 @@
  * Controller of the pixelRockStudiosApp
  */
 angular.module('pixelRockStudiosApp')
-  .controller('CitymapsCtrl', function ($scope,uiGmapGoogleMapApi,cityMaps,$resource) {
+  .controller('CitymapsCtrl', function($scope,uiGmapGoogleMapApi,cityMaps,$resource) {
   	// initial google map settings
     $scope.map = { center: { latitude: 49, longitude: -78 }, zoom: 12, markers: [],tempMarkers:{}};
     $scope.options = {scrollwheel: false};
@@ -30,11 +30,6 @@ angular.module('pixelRockStudiosApp')
 		    }
 		  });
     });
-    // initalie map after
-    uiGmapGoogleMapApi.then(function(maps) {
-    	$scope.mapping = maps
-    	console.log("uiGmapGoogleMapApi",maps)
-    });
     // add marker function
     function addMarkerToMap() {
     	for (var i = 0; i < $scope.map.tempMarkers.count; i++) {
@@ -49,4 +44,9 @@ angular.module('pixelRockStudiosApp')
 			$scope.map.markers.push(marker);
 		};
 	}
+	// initalie map after
+	uiGmapGoogleMapApi.then(function(maps) {
+    	// $scope.mapping = maps
+    	// console.log("uiGmapGoogleMapApi",maps)
+    });
   });
