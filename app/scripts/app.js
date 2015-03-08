@@ -84,5 +84,5 @@ angular
         v: '3.17',
         libraries: 'places,geometry,visualization'
       });
-    });
+  });
     

@@ -1,15 +1,47 @@
-<div class="container">
-  <div class="row">
-  <div class="col-md-4">Search Ctiy Maps: </div><div class="col-md-8"><input class="form-control" type="text" ng-model="search"></div>
-  <div class="col-md-2">Long: </div><div class="col-md-4"><input class="form-control" type="text" ng-model="map.center.latitude" value="{{map.center.latitude}}"></div>
-  <div class="col-md-2">Lat: </div><div class="col-md-4"><input class="form-control" type="text" ng-model="map.center.longitude" value="{{map.center.longitude}}"></div>
-  </div>
-</div>
-<div class="row marketing">
-  <ui-gmap-google-map center='map.center' zoom='map.zoom'>
-    <ui-gmap-markers models="map.markers" coords="'coords'" idKey="'idKey'"></ui-gmap-markers>
-  </ui-gmap-google-map>
-</div>
-<div class="row">
-  <div class="col-md-12"><div ng-repeat="places in map.tempMarkers.items">{{places.name}}</div></div>
+<div class="col-md-12">
+    <div class="row pad-top-15">
+      <div class="col-sm-4 col-md-3">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">Search places in City Map</div><div class="pull-right"></div>
+          </div>
+          <div class="pixel-cont-area">
+            <input type="text" name="search" placeholder="Search Projects" maxlength="40" class="search" ng-model="search"/>
+			<br /><br />
+            <div ng-repeat="places in map.tempMarkers.items" class="pixel-button" data-link="">{{ places.name }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-9">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">City Maps &amp; Google Api</div>
+            <div class="pull-right">{{search}}</div>
+          </div>
+          <div class="pixel-cont-area">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="pixel-container portfolio-cont-lg">
+                	<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+    					<ui-gmap-markers models="map.markers" coords="'coords'" idKey="'idKey'"></ui-gmap-markers>
+ 					</ui-gmap-google-map>
+ 				</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="port-text">
+                  <h6>Latitude:</h6> {{map.center.latitude}}  
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="port-text text-right">
+                  <h6>Longitude: </h6> {{map.center.longitude}}  
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
