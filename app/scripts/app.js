@@ -11,10 +11,11 @@ angular
     'ui.router',
     'ngSanitize',
     'ngTouch',
-    'ncy-angular-breadcrumb'
+    'ncy-angular-breadcrumb',
+    'uiGmapgoogle-maps'
   ])
 
-  .config(function($stateProvider, $urlRouterProvider,$breadcrumbProvider) {
+  .config(function($stateProvider, $urlRouterProvider,$breadcrumbProvider,uiGmapGoogleMapApiProvider) {
     $urlRouterProvider.otherwise("/home");
     $breadcrumbProvider.setOptions({
       templateUrl: 'views/partials/breadcrumbs.html'
@@ -78,10 +79,10 @@ angular
           label: 'City Maps'
         }
       });
+      uiGmapGoogleMapApiProvider.configure({
+        //    key: 'your api key',
+        v: '3.17',
+        libraries: 'places,geometry,visualization'
+      });
     });
-  // .controller('pixelRockStudiosApp', ['$state',
-  //   function($state) {
-  //     console.log("init");
-  //       $state.go('home');
-  //   }
-  // ]);
+    

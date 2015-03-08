@@ -1,1 +1,15 @@
-<p>This is the citymaps view.</p>
+<div class="container">
+  <div class="row">
+  <div class="col-md-4">Search Ctiy Maps: </div><div class="col-md-8"><input class="form-control" type="text" ng-model="search"></div>
+  <div class="col-md-2">Long: </div><div class="col-md-4"><input class="form-control" type="text" ng-model="map.center.latitude" value="{{map.center.latitude}}"></div>
+  <div class="col-md-2">Lat: </div><div class="col-md-4"><input class="form-control" type="text" ng-model="map.center.longitude" value="{{map.center.longitude}}"></div>
+  </div>
+</div>
+<div class="row marketing">
+  <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+    <ui-gmap-markers models="map.markers" coords="'coords'" idKey="'idKey'"></ui-gmap-markers>
+  </ui-gmap-google-map>
+</div>
+<div class="row">
+  <div class="col-md-12"><div ng-repeat="places in map.tempMarkers.items">{{places.name}}</div></div>
+</div>
