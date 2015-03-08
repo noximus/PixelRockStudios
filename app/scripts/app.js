@@ -15,10 +15,6 @@ angular
   ])
 
   .config(function($stateProvider, $urlRouterProvider,$breadcrumbProvider) {
-    .when('/citymaps', {
-      templateUrl: 'views/citymaps.html',
-      controller: 'CitymapsCtrl'
-    })
     $urlRouterProvider.otherwise("/home");
     $breadcrumbProvider.setOptions({
       templateUrl: 'views/partials/breadcrumbs.html'
@@ -73,8 +69,16 @@ angular
         ncyBreadcrumb: {
           label: ''
         }
+      })
+      .state('citymaps', {
+        url: "/citymaps",
+        templateUrl: "views/citymaps.html",
+        controller: 'CitymapsCtrl',
+        ncyBreadcrumb: {
+          label: 'City Maps'
+        }
+      });
     });
-  });
   // .controller('pixelRockStudiosApp', ['$state',
   //   function($state) {
   //     console.log("init");
