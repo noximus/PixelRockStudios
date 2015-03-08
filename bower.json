@@ -15,7 +15,8 @@
     "angular-ui-router": "~0.2.13",
     "angular-breadcrumb": "~0.3.3",
     "angular-google-maps": "~2.0.13",
-    "greensock": "~1.16.0"
+    "greensock": "~1.16.0",
+    "threejs": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.3.0",
