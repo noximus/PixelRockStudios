@@ -7,7 +7,7 @@
           </div>
           <div class="pixel-cont-area">
             <input type="text" name="search" placeholder="Search Projects" maxlength="40" class="search" ng-model="query"/>
-            <div ng-repeat="project in portfolio | filter:query" class="pixel-button" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')">
+            <div ng-repeat="project in portfolio | filter:query" class="pixel-button" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounce">
               <img src="../images/pixel-button-carot.svg" alt="btn carot">{{ project.name }}
             </div>
           </div>

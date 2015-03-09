@@ -22,16 +22,10 @@ angular.module('pixelRockStudiosApp')
         // updatePort();    
     };
     $scope.launchSite = function() {
-        window.open($scope.portDetail.link);
-        // $scope.current = portItem || 0;
-        // var url = 'objects/'+$scope.current;
-        // // portDetail.getJsonFile($scope.current); 
-
-        // $http.get(url).success(function(data){
-        //     $scope.portDetail = data;
-        // });
-        // console.log($scope.portDetail);  
-        // updatePort();    
+        window.open($scope.portDetail.link);  
+    };
+    $scope.btnBounce = function(e) {
+        console.log(e);  
     };
     // selectPortItem('bmw_m_40th.json');
     // bind portDetail to page
