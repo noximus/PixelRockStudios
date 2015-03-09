@@ -3,9 +3,9 @@ angular.module('pixelRockStudiosApp')
   .controller('PortCtrl', function ($scope,portMaster) {
     
     $scope.portfolio = portMaster;
-    console.log("$scope.portfolio",portMaster[1].name);
+    // console.log("$scope.portfolio",portMaster[1].name);
     // $scope.portDetail = 1;
-    function selectPortItem(portItem) {
+    $scope.selectPortItem = function(portItem) {
       $scope.current = portItem || 0;
       console.log($scope.current);        
     }
@@ -23,8 +23,12 @@ angular.module('pixelRockStudiosApp')
     //   TweenMax.to($(this).children('img'), 1, {css:{'margin-right':"5px"}, ease:Bounce.easeOut});
     // });
     // // Temporary button to link to site before adding angular database
+    function launchSiteTemp(e) {
+      // console.log($("#launchGit").data("link"));
+        window.open($(this).data("link"));        
+    }
     // $(".pixel-button").click(function(e){
-    // 	//console.log($("#launchGit").data("link"));
+    // 	console.log($("#launchGit").data("link"));
     // 	window.open($(this).data("link"));
     // });
     // $("#launchGit").click(function(e){

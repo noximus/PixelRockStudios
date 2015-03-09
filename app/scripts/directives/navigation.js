@@ -10,7 +10,7 @@ angular.module('pixelRockStudiosApp')
 		// if(element.find('.active')){
 		// 	console.log(scope.$id);
 		// }
-		console.log(element.children().find('.active').data());
+		// console.log(element.children().find('.active').data());
 		// scope.triggerHandler()
       	// var currentItem = 2;
       	// var prevOffset = (122*currentItem)+15;
