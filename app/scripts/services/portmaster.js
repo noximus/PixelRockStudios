@@ -5,12 +5,7 @@ angular.module('pixelRockStudiosApp')
     return [
     {"name": "BMW M 40th Anniversary test",
      "link": "http://www.bmwusa.com/m",
-     "file": "bmw_m_40th.json",
-      "img": [
-          {"image":"../images/lg.jpg"},
-          {"image":"../images/sm1.jpg"},
-          {"image":"../images/sm2.jpg"}
-      ]},
+     "file": "bmw_m_40th.json",},
     {"name": "BMW Motorsports",
      "link": "http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx",
      "file": "bmw_motorsports.json"},

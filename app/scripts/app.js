@@ -36,7 +36,7 @@ angular
         templateUrl: "views/portfolio.html",
         controller: 'PortCtrl',
         ncyBreadcrumb: {
-          label: 'Portfolio'
+          label: 'Portfolio / {{portDetail.name}}'
         }
       })
       //   .state('portfolio.list', {
