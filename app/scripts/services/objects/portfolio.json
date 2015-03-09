@@ -1,8 +1,4 @@
-'use strict';
-angular.module('pixelRockStudiosApp')
-  .factory('portMaster', function ($http) {
-    // return $http.get('scripts/services/objects/portfolio.json');  
-    return [
+[
     {"name": "BMW M 40th Anniversary test",
      "link": "http://www.bmwusa.com/m",
       "img": [
@@ -32,5 +28,4 @@ angular.module('pixelRockStudiosApp')
      "link": "http://www.pixelrockstudios.com/work/kodak"},
     {"name": "Crestor Astra Zeneca",
      "link": "http://www.pixelrockstudios.com/work/astra"}
-    ]
-});
+]

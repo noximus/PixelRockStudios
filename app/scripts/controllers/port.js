@@ -1,46 +1,15 @@
 'use strict';
-
-/**
- * @ngdoc function
- * @name pixelRockStudiosApp.controller:AboutCtrl
- * @description
- * # AboutCtrl
- * Controller of the pixelRockStudiosApp
- */
 angular.module('pixelRockStudiosApp')
-  .controller('PortCtrl', function ($scope) {
+  .controller('PortCtrl', function ($scope,portMaster) {
     
-    $scope.portfolio = [
-    {'name': 'BMW M 40th Anniversary test',
-     'link': 'http://www.bmwusa.com/m',
-      'img': [
-          {'image':'../images/lg.jpg'},
-          {'image':'../images/sm1.jpg'},
-          {'image':'../images/sm2.jpg'}
-      ]},
-    {'name': 'BMW Motorsports',
-     'link': 'http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx'},
-    {'name': 'BMW ConnectedDrive',
-     'link': 'http://www.bmwusa.com/standard/content/innovations/bmwconnecteddrive/connecteddrive.aspx'},
-    {'name': 'BMW Performance Driving School',
-     'link': 'http://www.bmwusa.com/pds'},
-    {'name': 'Justin Biebers Collection',
-     'link': 'http://www.justinbiebercollectorsedition.com/#home'},
-    {'name': 'Biore Skincare',
-     'link': 'http://www.biore.com/en-US/biore-skincare'},
-    {'name': 'BMW i8 Experience',
-     'link': 'http://www.bmwusa.com/standard/content/vehicles/2014/bmwi/bmwi_i8redirect.aspx?from=/Standard/Content/Vehicles/2014/BMWi/BMWi8RD.aspx&return=/Standard/Content/Vehicles/2014/BMWi/BMWi8RD.aspx'},
-    {'name': 'Fantastic 4 Rise of the Silver Surfer',
-     'link': 'http://www.pixelrockstudios.com/work/f4'},
-    {'name': 'Chevy Flash Calculator',
-     'link': 'http://www.pixelrockstudios.com/work/chevy'},
-    {'name': 'Ritz Carlton White Plains',
-     'link': 'http://www.pixelrockstudios.com/work/ritz'},
-    {'name': 'Kodak Flash Banner',
-     'link': 'http://www.pixelrockstudios.com/work/kodak'},
-    {'name': 'Crestor Astra Zeneca',
-     'link': 'http://www.pixelrockstudios.com/work/astra'}
-  ];
+    $scope.portfolio = portMaster;
+    console.log("$scope.portfolio",portMaster[1].name);
+    // $scope.portDetail = 1;
+    function selectPortItem(portItem) {
+      $scope.current = portItem || 0;
+      console.log($scope.current);        
+    }
+    // console.log("port Master: ",$scope.portfolio);
     // var navBG = $(".navBg");
     // var breadCrumb = $(".bread-crumbs");
     // var buttons = $(".pixel-button img");
