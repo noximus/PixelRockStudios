@@ -1,7 +1,7 @@
 {
-	"name": "Biore Skincare",
-   "link": "http://www.biore.com/en-US/biore-skincare",
-   "id": "biore",
+	"name": "BMW Motorsports",
+   "link": "http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx",
+   "id": "bmw-motorsports",
    "client": "BMW",
    "date": "4/2013",
    "technology": "HTML, CSS, Javascript, Jquery, Ajax, Greensock",
@@ -14,5 +14,4 @@
         {"image":"../images/lg.jpg"},
         {"image":"../images/sm1.jpg"},
         {"image":"../images/sm2.jpg"}
-    ]
-   }
+    ]}

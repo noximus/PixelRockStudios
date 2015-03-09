@@ -1,6 +1,7 @@
-{		"name": "Fantastic 4 Rise of the Silver Surfer",
-       "link": "http://www.pixelrockstudios.com/work/f4",
-       "id": "fantastic4",
+{
+		"name": "BMW i8 Experience",
+       "link": "http://www.bmwusa.com/standard/content/vehicles/2014/bmwi/bmwi_i8redirect.aspx?from=/Standard/Content/Vehicles/2014/BMWi/BMWi8RD.aspx&return=/Standard/Content/Vehicles/2014/BMWi/BMWi8RD.aspx",
+       "id": "bmw-i8",
        "client": "BMW",
        "date": "4/2013",
        "technology": "HTML, CSS, Javascript, Jquery, Ajax, Greensock",
@@ -13,4 +14,5 @@
             {"image":"../images/lg.jpg"},
             {"image":"../images/sm1.jpg"},
             {"image":"../images/sm2.jpg"}
-        ]}
+        ]
+}

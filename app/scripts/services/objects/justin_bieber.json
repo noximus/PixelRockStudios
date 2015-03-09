@@ -1,7 +1,7 @@
 {
-	"name": "Biore Skincare",
-   "link": "http://www.biore.com/en-US/biore-skincare",
-   "id": "biore",
+	"name": "Justin Biebers Collection",
+   "link": "http://www.justinbiebercollectorsedition.com/#home",
+   "id": "justin-bieber",
    "client": "BMW",
    "date": "4/2013",
    "technology": "HTML, CSS, Javascript, Jquery, Ajax, Greensock",
@@ -15,4 +15,4 @@
         {"image":"../images/sm1.jpg"},
         {"image":"../images/sm2.jpg"}
     ]
-   }
+  }

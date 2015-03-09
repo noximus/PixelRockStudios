@@ -7,7 +7,7 @@
           </div>
           <div class="pixel-cont-area">
             <input type="text" name="search" placeholder="Search Projects" maxlength="40" class="search" ng-model="query"/>
-            <div ng-repeat="project in portfolio | filter:query" class="pixel-button" data-link="{{ project.link }}" ng-click="selectPortItem({{$index}})">
+            <div ng-repeat="project in portfolio | filter:query" class="pixel-button" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')">
               <img src="../images/pixel-button-carot.svg" alt="btn carot">{{ project.name }}
             </div>
           </div>
@@ -23,43 +23,42 @@
           <div class="pixel-cont-area">
             <div class="row">
               <div class="col-sm-8">
-                <div class="pixel-container portfolio-cont-lg"><img ng-src="" src="./images/lg.jpg" class="img-responsive" alt=""></div>
+                <div class="pixel-container portfolio-cont-lg"><img ng-src="{{portDetail.img[0].image}}" class="img-responsive" alt=""></div>
               </div>
               <div class="col-sm-4 col-xs-6">
-                <div class="pixel-container portfolio-cont-sm"><img ng-src="" src="./images/sm1.jpg" class="img-responsive" alt=""></div>
+                <div class="pixel-container portfolio-cont-sm"><img ng-src="{{portDetail.img[1].image}}" class="img-responsive" alt=""></div>
               </div>
               <div class="col-sm-4 col-xs-6">
-                <div class="pixel-container portfolio-cont-sm"><img ng-src="" src="./images/sm2.jpg" class="img-responsive" alt=""></div>
+                <div class="pixel-container portfolio-cont-sm"><img ng-src="{{portDetail.img[2].image}}" class="img-responsive" alt=""></div>
               </div>
             </div>
             <div class="row">
               <div class="col-sm-6">
                 <div class="port-text">
-                  <h6>Client:</h6> BMW  
+                  <h6>Client:</h6> {{portDetail.name}} 
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="port-text text-right">
-                  <h6>Date Launched: </h6> 04-2013  
+                  <h6>Date Launched: </h6> {{portDetail.date | date}}  
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="port-text">
                   <h6>Technology:</h6>
-                    HTML, CSS, Javascript, Jquery, Ajax, Greensock
+                    {{portDetail.technology}}
                 </div>
                 <div class="port-text">
-                  <h6>Description:</h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                   
+                  <h6>Description:</h6> {{portDetail.description}}
                 </div>
               </div>
             </div>
             <div class="row pad-top-10">
               <div class="col-sm-3">
-                <div class="pixel-button" id="launchSite" data-link="http://www.bmwusa.com/m"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+                <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
               </div>
               <div class="col-sm-3">
-                <div class="pixel-button" id="launchGit" data-link="https://github.com/noximus/bmw-explore-m40"><img src="../images/pixel-button-carot.svg" alt="" />View on GitHub</div>
+                <div class="pixel-button" id="launchGit" data-link="{{portDetail.github}}"><img src="../images/pixel-button-carot.svg" alt="" />View on GitHub</div>
               </div>
               
               <div class="col-sm-3 pull-right text-right">Share on

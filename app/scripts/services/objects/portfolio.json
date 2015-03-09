@@ -1,7 +1,7 @@
 [
     {"name": "BMW M 40th Anniversary test",
      "link": "http://www.bmwusa.com/m",
-     "file": "bmw-m-40th.json",
+     "file": "bmw_m_40th.json",
       "img": [
           {"image":"../images/lg.jpg"},
           {"image":"../images/sm1.jpg"},
