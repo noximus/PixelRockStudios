@@ -11,7 +11,7 @@
         "linkedin":"../images/sm2.jpg",
         "github":"",
         "img": [
-            {"image":"../images/lg.jpg"},
-            {"image":"../images/sm1.jpg"},
-            {"image":"../images/sm2.jpg"}
+            {"image":"../images/portfolio/crestlg.jpg"},
+            {"image":"../images/portfolio/crestsm1.jpg"},
+            {"image":"../images/portfolio/crestsm2.jpg"}
         ]}

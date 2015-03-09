@@ -10,7 +10,7 @@
         "linkedin":"../images/sm2.jpg",
         "github":"",
         "img": [
-            {"image":"../images/lg.jpg"},
-            {"image":"../images/sm1.jpg"},
-            {"image":"../images/sm2.jpg"}
+            {"image":"../images/portfolio/chevylg.jpg"},
+            {"image":"../images/portfolio/chevysm1.jpg"},
+            {"image":"../images/portfolio/chevysm2.jpg"}
         ]}
