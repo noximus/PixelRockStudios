@@ -2,17 +2,17 @@
 angular.module('pixelRockStudiosApp')
   .controller('PortCtrl', function ($scope,portMaster,$http) {
     
-    var initUrl = 'scripts/services/objects/bmw_m_40th.json';
+    var initUrl = 'objects/bmw_m_40th.json';
     $scope.portfolio = portMaster;
     $scope.portDetail = $http.get(initUrl).success(function(data){
             $scope.portDetail = data;
-        });;
+        });
     // console.log("$scope.portfolio",portDetail.getJsonFile('bmw-m-40th.json'));
     // $scope.portDetail = 1;
     $scope.selectPortItem = function(portItem) {
 
         $scope.current = portItem || 0;
-        var url = 'scripts/services/objects/'+$scope.current;
+        var url = 'objects/'+$scope.current;
         // portDetail.getJsonFile($scope.current); 
 
         $http.get(url).success(function(data){
@@ -20,7 +20,19 @@ angular.module('pixelRockStudiosApp')
         });
         // console.log($scope.portDetail);  
         // updatePort();    
-    }
+    };
+    $scope.launchSite = function() {
+        window.open($scope.portDetail.link);
+        // $scope.current = portItem || 0;
+        // var url = 'objects/'+$scope.current;
+        // // portDetail.getJsonFile($scope.current); 
+
+        // $http.get(url).success(function(data){
+        //     $scope.portDetail = data;
+        // });
+        // console.log($scope.portDetail);  
+        // updatePort();    
+    };
     // selectPortItem('bmw_m_40th.json');
     // bind portDetail to page
 
