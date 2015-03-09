@@ -18,7 +18,7 @@ angular.module('pixelRockStudiosApp')
         $http.get(url).success(function(data){
             $scope.portDetail = data;
         });
-        console.log($scope.portDetail);  
+        // console.log($scope.portDetail);  
         // updatePort();    
     }
     // selectPortItem('bmw_m_40th.json');

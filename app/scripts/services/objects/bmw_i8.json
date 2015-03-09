@@ -11,8 +11,8 @@
         "linkedin":"../images/sm2.jpg",
         "github":"https://github.com/noximus/bmw-explore-m40",
         "img": [
-            {"image":"../images/lg.jpg"},
-            {"image":"../images/sm1.jpg"},
-            {"image":"../images/sm2.jpg"}
+            {"image":"../images/portfolio/bmwi8lg.jpg"},
+            {"image":"../images/portfolio/bmwi8sm1.jpg"},
+            {"image":"../images/portfolio/bmwi8sm2.jpg"}
         ]
 }
