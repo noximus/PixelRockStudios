@@ -1,13 +1,14 @@
 [
     {"name": "BMW M 40th Anniversary test",
      "link": "http://www.bmwusa.com/m",
+     "file": "bmw-m-40th.json",
       "img": [
           {"image":"../images/lg.jpg"},
           {"image":"../images/sm1.jpg"},
           {"image":"../images/sm2.jpg"}
       ]},
     {"name": "BMW Motorsports",
-     "link": "http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx"},
+     "link": "http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx","file": "bmw-motorsports.json",},
     {"name": "BMW ConnectedDrive",
      "link": "http://www.bmwusa.com/standard/content/innovations/bmwconnecteddrive/connecteddrive.aspx"},
     {"name": "BMW Performance Driving School",
