@@ -24,8 +24,11 @@ angular.module('pixelRockStudiosApp')
     $scope.launchSite = function() {
         window.open($scope.portDetail.link);  
     };
-    $scope.btnBounce = function(e) {
-        console.log(e);  
+    $scope.btnBounceOver = function(hoverEvent) {
+        TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"30px"}, ease:Elastic.easeOut});
+    };
+    $scope.btnBounceLeave = function(hoverEvent) {
+        TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"5px"}, ease:Elastic.easeOut});
     };
     // selectPortItem('bmw_m_40th.json');
     // bind portDetail to page
