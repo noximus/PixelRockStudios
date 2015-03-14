@@ -45,6 +45,9 @@ angular.module('pixelRockStudiosApp')
     {"name": "Crestor Astra Zeneca",
      "link": "http://www.pixelrockstudios.com/work/astra",
      "file": "crestor_astra.json"},
+    {"name": "Gerber",
+     "link": "http://www.pixelrockstudios.com/work/gerber/",
+     "file": "gerber.json"},
     {"name": "Fashion Limos",
      "link": "http://www.pixelrockstudios.com/work/fashionLimo/",
      "file": "fashionLimo.json"}

@@ -1,0 +1,16 @@
+{		"name": "Garber",
+       "link": "http://www.pixelrockstudios.com/work/gerber/",
+       "id": "gerber",
+       "client": "Gerber",
+       "date": "7/2006",
+       "technology": "Flash, ActionScript 2.0",
+       "description": "Gerber",
+       "facebook":"",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/gerlg.jpg"},
+            {"image":"../images/portfolio/gersm1.jpg"},
+            {"image":"../images/portfolio/gersm2.jpg"}
+        ]}
