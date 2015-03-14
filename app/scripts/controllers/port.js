@@ -28,7 +28,7 @@ angular.module('pixelRockStudiosApp')
         TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"30px"}, ease:Elastic.easeOut});
     };
     $scope.btnBounceLeave = function(hoverEvent) {
-        TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"5px"}, ease:Elastic.easeOut});
+        TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"0px"}, ease:Elastic.easeOut});
     };
     // selectPortItem('bmw_m_40th.json');
     // bind portDetail to page
