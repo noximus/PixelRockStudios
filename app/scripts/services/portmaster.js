@@ -53,6 +53,9 @@ angular.module('pixelRockStudiosApp')
      "file": "gerber.json"},
     {"name": "Fashion Limos",
      "link": "http://www.pixelrockstudios.com/work/fashionLimo/",
-     "file": "fashionLimo.json"}
+     "file": "fashionLimo.json"},
+    {"name": "Scene Ent",
+     "link": "http://www.pixelrockstudios.com/work/Scene-Ent/",
+     "file": "scene.json"}
     ]
 });
