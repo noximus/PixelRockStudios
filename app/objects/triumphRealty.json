@@ -1,16 +1,16 @@
-{		"name": "Fred Loans",
-       "link": "http://www.pixelrockstudios.com/work/Fred-Loans/",
-       "id": "fredLoans",
-       "client": "Fred Loans",
-       "date": "9/2004",
+{		"name": "Triumph Funding Realty Corp",
+       "link": "http://www.pixelrockstudios.com/work/Triumph-Realty/",
+       "id": "Scene-Ent",
+       "client": "Scene Entertainment",
+       "date": "7/2004",
        "technology": "Design, HTML, CSS, PHP, XML, Flash, ActionScript 2.0",
-       "description": "Fred Loans",
+       "description": "Triumph Funding Realty Corp",
        "facebook":"",
         "twitter":"",
         "linkedin":"",
         "github":"",
         "img": [
-            {"image":"../images/portfolio/fredlg.jpg"},
-            {"image":"../images/portfolio/fredsm1.jpg"},
-            {"image":"../images/portfolio/fredsm2.jpg"}
+            {"image":"../images/portfolio/triumphlg.jpg"},
+            {"image":"../images/portfolio/triumphsm1.jpg"},
+            {"image":"../images/portfolio/triumphsm2.jpg"}
         ]}
