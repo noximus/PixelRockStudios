@@ -44,6 +44,9 @@ angular.module('pixelRockStudiosApp')
      "file": "kodak_flash.json"},
     {"name": "Crestor Astra Zeneca",
      "link": "http://www.pixelrockstudios.com/work/astra",
-     "file": "crestor_astra.json"}
+     "file": "crestor_astra.json"},
+    {"name": "Fashion Limos",
+     "link": "http://www.pixelrockstudios.com/work/fashionLimo/",
+     "file": "fashionLimo.json"}
     ]
 });
