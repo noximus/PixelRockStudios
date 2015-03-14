@@ -120,6 +120,8 @@ body{
       }
       .pixel-cont-area{
         padding: 10px;
+        height:500px;
+        overflow-y: scroll;
         .portfolio-cont-lg{
           img{
             box-shadow: inset 0px 0px 5px black;

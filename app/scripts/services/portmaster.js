@@ -56,6 +56,12 @@ angular.module('pixelRockStudiosApp')
      "file": "fashionLimo.json"},
     {"name": "Scene Ent",
      "link": "http://www.pixelrockstudios.com/work/Scene-Ent/",
-     "file": "scene.json"}
+     "file": "scene.json"},
+    {"name": "Triumph Realty Funding Corp",
+     "link": "http://www.pixelrockstudios.com/work/Triumph-Realty/",
+     "file": "triumphRealty.json"},
+    {"name": "Fred Loans",
+     "link": "http://www.pixelrockstudios.com/work/Fred-Loans/",
+     "file": "fredLoans.json"}
     ]
 });
