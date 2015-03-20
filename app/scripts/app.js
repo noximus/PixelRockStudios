@@ -30,6 +30,7 @@ angular
         onExit: function(){
           console.log("ExitAnimation");
         }
+        // [ofn] then tab
       })
       .state('portfolio', {
         url: "/portfolio",

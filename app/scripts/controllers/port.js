@@ -11,7 +11,7 @@ angular.module('pixelRockStudiosApp')
     // $scope.portDetail = 1;
     $scope.selectPortItem = function(portItem) {
 
-        $scope.current = portItem || 0;
+        $scope.current = portItem || 'objects/bmw_m_40th.json';
         var url = 'objects/'+$scope.current;
         // portDetail.getJsonFile($scope.current); 
 
@@ -30,6 +30,7 @@ angular.module('pixelRockStudiosApp')
     $scope.btnBounceLeave = function(hoverEvent) {
         TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"0px"}, ease:Elastic.easeOut});
     };
+    
     // selectPortItem('bmw_m_40th.json');
     // bind portDetail to page
 
