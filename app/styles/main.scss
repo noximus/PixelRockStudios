@@ -100,12 +100,13 @@ body{
       border-bottom: 1px dotted $line-color;
       background: $black-abg;
       background-size: cover;
+    }      
+    .scroll{
+        overflow-y: scroll;
     }
     .pixel-container{
       background: $black-abg;
-      border: 1px solid $line-color;
-      height: 30%;
-    
+      border: 1px solid $line-color;  
       .pixel-cont-head{
         width: 100%;
         height: 30px;
@@ -114,20 +115,13 @@ body{
         border-bottom: 1px dotted $line-color;
         .less-padd{
           margin-top:-5px;
-
-
         }
-      }
-      .scroll{
-        overflow-y: scroll;
       }
       .pixel-cont-cell{
         padding: 10px;
       }
       .pixel-cont-area{
         padding: 10px;
-        height:500px;
-        
         .portfolio-cont-lg{
           img{
             box-shadow: inset 0px 0px 5px black;
@@ -139,13 +133,13 @@ body{
             box-shadow: inset 0px 0px 5px black;
           }
         }
-        .port-text{
-          h6{
-            color:$font-roll;
-            display: inline-block;
-            margin-bottom: -1px;
-          }
-        }
+      }
+    }
+    .port-text{
+      h6{
+        color:$font-roll;
+        display: inline-block;
+        margin-bottom: -1px;
       }
     }
     .search{
@@ -168,7 +162,6 @@ body{
       margin-bottom: 5px;
       cursor:pointer;
       color:$font-roll;
-
       img{
         display:inline-block;
         background:url('../images/pixel-button-carot.svg');
@@ -181,7 +174,6 @@ body{
         box-shadow: inset 0px 0px 5px black;
         color: $font-color;
       }
-
     }
     footer{
       padding-top:5px;
