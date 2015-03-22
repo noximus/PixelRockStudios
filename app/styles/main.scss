@@ -23,13 +23,31 @@ body{
   font: 100% $font-stack;
   background: url('../images/pixelRockTempBG.jpg');
   background-size: cover;
+  overflow: hidden;
   .container{
 
   }
   a{
     color:$font-roll;
   }
-  .container.pixel-wrapper{
+  .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    @media screen and (min-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      /*@media screen and (min-width: 992px) {
+        max-width: 968px;
+      }
+      @media screen and (min-width: 1028px) {
+        max-width: 968px;
+      }
+      @media screen and (min-width: 1200px) {
+        max-width: 1168px;
+      }*/
+  }
+  .pixel-wrapper{
     padding-left: 0px;
     padding-right: 0px;
     min-height: 100vh;
@@ -107,6 +125,9 @@ body{
     .pixel-container{
       background: $black-abg;
       border: 1px solid $line-color;  
+      height: 100%;
+      max-height: 500px;
+
       .pixel-cont-head{
         width: 100%;
         height: 30px;
@@ -122,6 +143,8 @@ body{
       }
       .pixel-cont-area{
         padding: 10px;
+        height: 100%;
+        max-height: 500px;
         .portfolio-cont-lg{
           img{
             box-shadow: inset 0px 0px 5px black;
@@ -181,7 +204,7 @@ body{
       padding-right:15px;
       height: 30px;
       width:100%;
-      max-width: 1167px;
+      max-width: calc(100% - 22px);
       position: fixed;
       bottom: 0;
       background: $black-abg;
