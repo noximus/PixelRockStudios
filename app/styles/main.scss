@@ -17,7 +17,7 @@ $orange-abgb: rgba(248,155,18,.2);
 $black-abg: rgba(0,0,0,.3);
 
 
-
+/*body > div {overflow: hidden; }*/
 body{
   color: $font-color;
   font: 100% $font-stack;
@@ -144,7 +144,7 @@ body{
       .pixel-cont-area{
         padding: 10px;
         height: 100%;
-        max-height: 500px;
+        max-height: 444px;
         .portfolio-cont-lg{
           img{
             box-shadow: inset 0px 0px 5px black;

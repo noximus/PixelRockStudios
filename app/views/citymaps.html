@@ -8,7 +8,7 @@
           <div class="pixel-cont-area">
             <input type="text" name="search" placeholder="Search Projects" maxlength="40" class="search" ng-model="search"/>
 			<br /><br />
-            <div ng-repeat="places in map.tempMarkers.items" class="pixel-button" data-link="">{{ places.name }}</div>
+            <div ng-repeat="places in map.tempMarkers.items" class="pixel-button hidden-xs" data-link="">{{ places.name }}</div>
           </div>
         </div>
       </div>
@@ -29,12 +29,12 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <div class="port-text">
                   <h6>Latitude:</h6> {{map.center.latitude}}  
                 </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <div class="port-text text-right">
                   <h6>Longitude: </h6> {{map.center.longitude}}  
                 </div>
