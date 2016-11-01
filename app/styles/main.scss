@@ -102,6 +102,9 @@ body{
     .scroll{
         overflow-y: scroll;
     }
+    .navbar{
+      margin-bottom: 0;
+    }
     .navbar-default {
       background: none; 
       border: none; 
@@ -131,6 +134,9 @@ body{
           
         }
       }
+      .navbar-brand{
+        color: $font-roll;
+      }
       .navbar-toggle{
         border-color: $font-roll;
         background: none;
@@ -143,6 +149,21 @@ body{
       }
       .navbar-collapse{
         border: none;
+      }
+    }
+    .centerLogo{
+      margin-top: 30%;
+      @media screen and (min-width: 768px) {
+        margin-top: 20%;
+      }
+      @media screen and (min-width: 992px) {
+        margin-top: 20%;
+      }
+      @media screen and (min-width: 1028px) {
+        margin-top: 20%;
+      }
+      @media screen and (min-width: 1200px) {
+        margin-top: 20%;
       }
     }
     .pixel-container{
