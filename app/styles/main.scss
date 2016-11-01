@@ -18,14 +18,31 @@ $black-abg: rgba(0,0,0,.3);
 
 
 /*body > div {overflow: hidden; }*/
+html{
+  height: 100%;
+}
 body{
   color: $font-color;
   font: 100% $font-stack;
   background: url('../images/pixelRockTempBG.jpg');
   background-size: cover;
   overflow: hidden;
+  height: 100%;
   .container{
 
+  }
+  .noxBoxes{
+    display: table;
+    width: 100%;
+  }
+  .containerBoxes{
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .noxBox{
+    display: table-cell;
+    vertical-align: middle;
   }
   a{
     color:$font-roll;
@@ -50,7 +67,8 @@ body{
   .pixel-wrapper{
     padding-left: 0px;
     padding-right: 0px;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
+    height: 100%;
     background: rgba(0,0,0,.2);
     border-left: 1px solid $line-color;
     border-right: 1px solid $line-color;
@@ -72,45 +90,7 @@ body{
         text-align: right;
       }
     }
-    nav{
-      height: 30px;
-      width: 100%;
-      border-bottom: 1px dotted $line-color;
-      background: url('../images/navBG.png');
-      background-size: cover;
-      .navBg {
-        position:absolute;
-        width:116px;
-        height:17px;
-        margin-top:-8px;
-        margin-left: 15px;
-        background: $orange-abg;
-        border:1px solid $line-color;
-        box-shadow: inset 0px 0px 5px black;
-        z-index:-5;
-      }
-      ul{
-        padding-top:4px;
-        padding-left:12px;
-
-        li{
-          width: 122px;
-          height: 21px;
-          padding-top:5px;
-          float:left;
-          background: url('../images/button.svg');
-          background-size: cover;
-          list-style-type:none;
-          cursor:pointer;
-          color: $font-roll;
-           
-        }
-        li.active{
-          color:$font-color;
-        }
-        
-      }
-    }
+    
     .bread-crumbs{
       height: 30px;
       width: 100%;
@@ -121,6 +101,49 @@ body{
     }      
     .scroll{
         overflow-y: scroll;
+    }
+    .navbar-default {
+      background: none; 
+      border: none; 
+      border-bottom: 1px dotted $line-color;
+      ul{
+        li{
+          a{
+            color: $font-roll;
+          }
+          a:visited{
+            color: $font-roll;
+            background: none;
+          }
+          a:active{
+            color: $font-color;
+            background: none;
+          }
+          a:link{
+            /*color: $font-roll;*/
+            background: none;
+          }
+          a:hover{
+            color: $font-color;
+            background: none;
+          }
+          
+          
+        }
+      }
+      .navbar-toggle{
+        border-color: $font-roll;
+        background: none;
+        .icon-bar{
+          background: $font-roll;
+        }
+      }
+      .navbar-toggle:hover, .navbar-toggle:visited, .navbar-toggle:link{
+          background: none;
+      }
+      .navbar-collapse{
+        border: none;
+      }
     }
     .pixel-container{
       background: $black-abg;
@@ -258,7 +281,7 @@ body{
       position: absolute;
       width: 200px;
       height: 200px;
-      left: 30%;
+      left: 50%;
       top:300px;
       -moz-transform-style: preserve-3d;
       -webkit-transform-style: preserve-3d;
@@ -268,7 +291,7 @@ body{
       top:0px !important;
       -moz-transform-style: preserve-3d;
       -webkit-transform-style: preserve-3d;
-      -webkit-transform:translateZ(50px);
+      /*-webkit-transform:translateZ(50px);*/
     }
     .box{
       width:17px;
@@ -285,4 +308,13 @@ body{
   }
 
 }
+iframe{
+  width: 300px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+iframe{
+}
+
 .angular-google-map-container { height: 300px; }

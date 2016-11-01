@@ -1,0 +1,17 @@
+{		"name": "Gerber",
+       "link": "http://www.pixelrockstudios.com/work/gerber/",
+   "type": "web",
+       "id": "gerber",
+       "client": "Gerber",
+       "date": "7/2006",
+       "technology": "Flash, ActionScript 2.0",
+       "description": "Gerber interactive Flash animation.",
+       "facebook":"",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/gerlg.jpg"},
+            {"image":"../images/portfolio/gersm1.jpg"},
+            {"image":"../images/portfolio/gersm2.jpg"}
+        ]}

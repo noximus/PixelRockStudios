@@ -386,6 +386,19 @@ module.exports = function (grunt) {
         configFile: 'test/karma.conf.js',
         singleRun: true
       }
+    },
+    secret: grunt.file.readJSON('secret.json'),
+    'ftp-deploy': {
+      build: {
+        auth: {
+          host: '<%= secret.staging.host %>',
+          port: '<%= secret.staging.port %>',
+          authKey: 'key1'
+        },
+        src: 'dist',
+        dest: '',
+        exclusions: ['/**/.DS_Store', '/**/Thumbs.db', 'dist/tmp']
+      }
     }
   });
 
@@ -433,6 +446,23 @@ module.exports = function (grunt) {
     'filerev',
     'usemin',
     'htmlmin'
+  ]);
+  grunt.registerTask('deploy', [
+    'clean:dist',
+    'wiredep',
+    'useminPrepare',
+    'concurrent:dist',
+    'autoprefixer',
+    'concat',
+    'ngAnnotate',
+    'copy:dist',
+    'cdnify',
+    'cssmin',
+    'uglify',
+    'filerev',
+    'usemin',
+    'htmlmin',
+    'ftp-deploy'
   ]);
 
   grunt.registerTask('default', [

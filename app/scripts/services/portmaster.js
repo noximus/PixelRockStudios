@@ -1,7 +1,8 @@
 'use strict';
 angular.module('pixelRockStudiosApp')
   .factory('portMaster', function () {
-    return [{"name": "BMW M 40th Anniversary test", "link": "http://www.bmwusa.com/m", "file": "bmw_m_40th.json"},
+    return [{"name": "Banner Ads", "link": "http://www.google.com/", "file": "banner.json"},
+    {"name": "BMW M 40th Anniversary", "link": "http://www.bmwusa.com/m", "file": "bmw_m_40th.json"},
     {"name": "BMW Motorsports", "link": "http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx", "file": "bmw_motorsports.json"},
     {"name": "BMW ConnectedDrive", "link": "http://www.bmwusa.com/standard/content/innovations/bmwconnecteddrive/connecteddrive.aspx", "file": "bmw_connecteddrive.json"},
     {"name": "BMW Performance Driving School", "link": "http://www.bmwusa.com/pds","file": "bmw_pds.json"},

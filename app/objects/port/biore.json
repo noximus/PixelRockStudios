@@ -1,0 +1,19 @@
+{
+	"name": "Biore Skincare",
+   "link": "http://www.biore.com/en-US/biore-skincare",
+   "type": "web",
+   "id": "biore",
+   "client": "Biore",
+   "date": "3/2014",
+   "technology": "HTML5, CSS3, Jquery, Grunt, Bower, Bootstrap, Sass",
+   "description": "",
+   "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/biorelg.jpg"},
+        {"image":"../images/portfolio/bioresm1.jpg"},
+        {"image":"../images/portfolio/bioresm2.jpg"}
+    ]
+   }

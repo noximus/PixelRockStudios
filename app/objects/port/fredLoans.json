@@ -1,0 +1,17 @@
+{		"name": "Fred Loans",
+       "link": "http://www.pixelrockstudios.com/work/Fred-Loans/",
+   "type": "web",
+       "id": "fredLoans",
+       "client": "Fred Loans",
+       "date": "9/2004",
+       "technology": "Design, HTML, CSS, PHP, XML, Flash, ActionScript 2.0",
+       "description": "Fred Loans",
+       "facebook":"",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/fredlg.jpg"},
+            {"image":"../images/portfolio/fredsm1.jpg"},
+            {"image":"../images/portfolio/fredsm2.jpg"}
+        ]}

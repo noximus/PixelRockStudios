@@ -1,0 +1,19 @@
+{
+	"name": "Justin Biebers Collection",
+   "link": "http://www.justinbiebercollectorsedition.com/#home",
+   "type": "web",
+   "id": "justin-bieber",
+   "client": "Justin Bieber",
+   "date": "8/2013",
+   "technology": "HTML, CSS, Javascript, Jquery, Ajax, Greensock",
+   "description": "Justin Biebers Collection",
+   "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/jblg.jpg"},
+        {"image":"../images/portfolio/jbsm1.jpg"},
+        {"image":"../images/portfolio/jbsm2.jpg"}
+    ]
+  }

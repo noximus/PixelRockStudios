@@ -1,0 +1,140 @@
+<div class="col-xs-12 visible-xs">
+  <div class="row pad-top-15">
+    <div class="col-xs-12">
+      <div class="pixel-container">
+        <div class="pixel-cont-head">
+          <div class="pull-left">Mobile Layout </div><div class="pull-right">Coming Soon</div>
+        </div>
+        <div class="pixel-cont-area">
+        <div class="row">
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+              <img src="./images/sm2.jpg" alt="...">
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-12 hidden-xs">
+    <div class="row pad-top-15">
+      <div class="col-sm-4 col-md-3">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">Select an API</div><div class="pull-right">Search</div>
+          </div>
+
+          <div class="pixel-cont-area scroll">
+            
+            <input type="text" name="search" placeholder="Search API's" maxlength="40" class="search" ng-model="query"/>
+            
+            <div ng-repeat="api in apiList | filter:query" class="pixel-button" data-link="{{ api.link }}" ng-click="selectApiItem('{{ api.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
+              
+              <img src="../images/pixel-button-carot.svg" alt="btn carot">{{ api.name }}
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-9">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">{{apiDetail.name}}</div>
+            <div class="pull-right">API's
+            </div>
+          </div>
+          <div class="pixel-cont-area scroll">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="pixel-container portfolio-cont-lg"><img ng-src="{{apiDetail.img[0].image}}" class="img-responsive" alt=""></div>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="pixel-container portfolio-cont-sm"><img ng-src="{{apiDetail.img[1].image}}" class="img-responsive" alt=""></div>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="pixel-container portfolio-cont-sm"><img ng-src="{{apiDetail.img[2].image}}" class="img-responsive" alt=""></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="port-text">
+                  <h6>Client:</h6> {{apiDetail.client}} 
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="port-text text-right">
+                  <h6>Date Launched: </h6> {{apiDetail.date | date}}  
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="port-text">
+                  <h6>Technology:</h6>
+                    {{apiDetail.technology}}
+                </div>
+                <div class="port-text">
+                  <h6>Description:</h6> {{apiDetail.description}}
+                </div>
+              </div>
+            </div>
+            <div class="row pad-top-10">
+              <div class="col-sm-3">
+                <div class="pixel-button" id="launchSite" data-link="{{apiDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+              </div>
+              <div class="col-sm-3">
+                <!-- <div class="pixel-button" id="launchGit" data-link="{{apiDetail.github}}"><img src="../images/pixel-button-carot.svg" alt="" />View on GitHub</div> -->
+              </div>
+              
+              <!-- <div class="col-sm-3 pull-right text-right">Share on
+                <a href="https://twitter.com/pixelrockstudio" target="_blank"><img class="social-icon" src="../images/twitter.svg" alt="Follow me on Twitter @PixelRockStudio"></a> 
+                <a href="https://www.facebook.com/pixelrockstudios" target="_blank"><img class="social-icon" src="../images/facebook-square.svg" alt="Follow me on Facebook"></a> 
+                <a href="https://www.linkedin.com/pub/henry-richardson/26/9aa/713" target="_blank"><img class="social-icon" src="../images/linkedin.svg" alt="Follow me on Linkedin"></a>
+              </div> -->
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

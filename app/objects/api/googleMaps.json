@@ -1,0 +1,18 @@
+{
+	"name": "Google Maps",
+   "link": "https://developers.google.com/maps/",
+   "id": "googleMaps",
+   "client": "Google Maps Api - Custom API",
+   "date": "9/2015",
+   "technology": "HTML, CSS, Javascript, Google Maps API, 3rd Party API/Database",
+   "description": "Used a 3rd party database and itegrated the Google maps API to show locations of all the places listed in database",
+   "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/biorelg.jpg"},
+        {"image":"../images/portfolio/bioresm1.jpg"},
+        {"image":"../images/portfolio/bioresm2.jpg"}
+    ]
+   }

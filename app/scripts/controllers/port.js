@@ -2,7 +2,7 @@
 angular.module('pixelRockStudiosApp')
   .controller('PortCtrl', function ($scope,portMaster,$http) {
     
-    var initUrl = 'objects/bmw_m_40th.json';
+    var initUrl = 'objects/port/bmw_m_40th.json';
     $scope.portfolio = portMaster;
     $scope.portDetail = $http.get(initUrl).success(function(data){
             $scope.portDetail = data;
@@ -11,8 +11,8 @@ angular.module('pixelRockStudiosApp')
     // $scope.portDetail = 1;
     $scope.selectPortItem = function(portItem) {
 
-        $scope.current = portItem || 'objects/bmw_m_40th.json';
-        var url = 'objects/'+$scope.current;
+        $scope.current = portItem || 'objects/port/banner.json';
+        var url = 'objects/port/'+$scope.current;
         // portDetail.getJsonFile($scope.current); 
 
         $http.get(url).success(function(data){

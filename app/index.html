@@ -21,6 +21,7 @@
     <meta property="og:description" content="Web Developement &amp; Internet Marketing Studio" /> 
     <meta property="og:site_name" content="Pixel Rock Studios" />
     <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
@@ -90,7 +91,7 @@ function createsoundbite(sound){
 //Initialize two sound clips with 1 fallback file each:
 
 var mouseoversound=createsoundbite("audio/beep2.mp3")
-//var clicksound=createsoundbite("click.ogg", "click.mp3")
+// var clicksound=createsoundbite("click.ogg", "click.mp3")
 
 </script>
   </head>
@@ -108,16 +109,42 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
             <img id="logo" src="images/logo_dark.svg" alt="Pixel Rock Studios" />
           </div>
           <div id="version" class="col-xs-8">
-            Beta Construction Version 0.0.7
+            Beta V.0.0.10
           </div>
         </div>
       </header>
-      <navigation></navigation>
+      <!-- <navigation></navigation> -->
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img id="logo" src="images/logo_dark.svg" alt="Pixel Rock Studios" /></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#/home">Home</a></li>
+        <li><a href="#/portfolio">Portfolio</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
       <div ncy-breadcrumb></div>
-      <div ui-view></div>
+      <div ui-view class="containerBoxes"></div>
       <footer class="text-center">
         <div class="row">
-          <div class="col-xs-6 text-left pad-top-5">&copy; Pixel Rock Studios 2015</div>
+          <div class="col-xs-6 text-left pad-top-5">&copy; Pixel Rock Studios 2016</div>
           <div class="col-xs-6 text-right"><a href="https://github.com/noximus/PixelRockStudios" target="_blank"><img class="social-icon" src="../images/github.svg" alt="Follow Pixel Rock Studios Project on Github"></a> <a href="https://twitter.com/pixelrockstudio" target="_blank"><img class="social-icon" src="../images/twitter.svg" alt="Follow me on Twitter @PixelRockStudio"></a> <a href="https://www.facebook.com/pixelrockstudios" target="_blank"><img class="social-icon" src="../images/facebook-square.svg" alt="Follow me on Facebook"></a> <a href="https://www.linkedin.com/pub/henry-richardson/26/9aa/713" target="_blank"><img class="social-icon" src="../images/linkedin.svg" alt="Follow me on Linkedin"></a> <a href="https://plus.google.com/u/0/100984058166960182445/posts" target="_blank"><img class="social-icon" src="../images/googleplus-square.svg" alt="Follow me on Google+"></a></div>
         </div>
       </footer>
@@ -144,18 +171,7 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
@@ -164,7 +180,7 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/angular-breadcrumb/release/angular-breadcrumb.js"></script>
-    <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
     <script src="bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
     <script src="bower_components/greensock/src/uncompressed/TweenMax.js"></script>
     <script src="bower_components/threejs/build/three.js"></script>
@@ -186,6 +202,11 @@ var mouseoversound=createsoundbite("audio/beep2.mp3")
         <script src="scripts/services/citymaps.js"></script>
         <script src="scripts/services/portmaster.js"></script>
         <script src="scripts/services/portdetail.js"></script>
+        <script src="scripts/controllers/skills.js"></script>
+        <script src="scripts/services/skilllist.js"></script>
+        <script src="scripts/controllers/api.js"></script>
+        <script src="scripts/services/apimaster.js"></script>
+        <script src="scripts/services/apidetail.js"></script>
         <!-- endbuild -->
 </body>
 </html>

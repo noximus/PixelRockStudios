@@ -1,0 +1,17 @@
+{		"name": "Scholastic - Teach Dear America",
+       "link": "http://www.pixelrockstudios.com/work/TeachDearAmerica/",
+   "type": "web",
+       "id": "scholastic",
+       "client": "Scholastic",
+       "date": "7/20012",
+       "technology": "HTML, CSS, Jquery",
+       "description": "Scholastic Teach Dear America site.",
+       "facebook":"",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/schlg.jpg"},
+            {"image":"../images/portfolio/schsm1.jpg"},
+            {"image":"../images/portfolio/schsm2.jpg"}
+        ]}

@@ -8,7 +8,7 @@ angular.module('pixelRockStudiosApp')
     return {
       getJsonFile: function (fileName) {
 
-        var url = 'scripts/services/objects/'+fileName;
+        var url = 'scripts/services/objects/port/'+fileName;
         var portDetail = $http({
             url: url,
             method: 'GET'

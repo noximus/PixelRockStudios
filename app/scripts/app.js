@@ -40,19 +40,19 @@ angular
           label: 'Portfolio / {{portDetail.name}}'
         }
       })
-      //   .state('portfolio.list', {
+      // .state('portfolio.list', {
       //     url: "/list",
       //     templateUrl: "views/portfolio.details.html",
       //     controller: function($scope) {
       //       $scope.things = ["A", "Set", "Of", "Things"];
       //     }
       // })
-      .state('bio', {
-        url: "/bio",
-        templateUrl: "views/bio.html",
-        controller: 'BioCtrl',
+      .state('skills', {
+        url: "/skills",
+        templateUrl: "views/skills.html",
+        controller: 'SkillsCtrl',
         ncyBreadcrumb: {
-          label: 'Bio'
+          label: 'Skills'
         }
       })
       .state('experimental', {
@@ -61,6 +61,14 @@ angular
         controller: 'ExperimentalCtrl',
         ncyBreadcrumb: {
           label: 'Experimental'
+        }
+      })
+      .state('api', {
+        url: "/api",
+        templateUrl: "views/api.html",
+        controller: 'ApiCtrl',
+        ncyBreadcrumb: {
+          label: 'API'
         }
       })
       .state('contact', {

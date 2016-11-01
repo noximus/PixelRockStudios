@@ -1,0 +1,18 @@
+{
+		"name": "Crestor Astra Zeneca",
+       "link": "http://www.pixelrockstudios.com/work/astra",
+   "type": "web",
+       "id": "crestor-astra",
+       "client": "Crestor Astrazeneca",
+       "date": "7/2011",
+       "technology": "Flash, ActionScript 3.0, Greensock",
+       "description": "Crestor Astrazeneca",
+       "facebook":"../images/lg.jpg",
+        "twitter":"../images/sm1.jpg",
+        "linkedin":"../images/sm2.jpg",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/crestlg.jpg"},
+            {"image":"../images/portfolio/crestsm1.jpg"},
+            {"image":"../images/portfolio/crestsm2.jpg"}
+        ]}

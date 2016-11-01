@@ -1,0 +1,17 @@
+{		"name": "Scene Ent",
+       "link": "http://www.pixelrockstudios.com/work/Scene-Ent/",
+   "type": "web",
+       "id": "Scene-Ent",
+       "client": "Scene Entertainment",
+       "date": "8/2004",
+       "technology": "Design, HTML, CSS, PHP, XML, Flash, ActionScript 2.0",
+       "description": "Scene Entertainment web site",
+       "facebook":"",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/scenelg.jpg"},
+            {"image":"../images/portfolio/scenesm1.jpg"},
+            {"image":"../images/portfolio/scenesm2.jpg"}
+        ]}

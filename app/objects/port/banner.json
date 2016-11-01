@@ -1,0 +1,20 @@
+{       
+    "name": "Banner Test",
+    "link": "http://www.bmwusa.com/m",
+    "type": "banner",
+    "frame":"../work/AOC_SWExBundles_LearnMore_300x250_na_html5/index.html",
+    "id": "bmw-m-40th",
+    "client": "BMW",
+    "date": "4/2013",
+    "technology": "HTML, CSS, Javascript, Jquery, Ajax, Greensock",
+    "description": "",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"https://github.com/noximus/bmw-explore-m40",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ]
+}
