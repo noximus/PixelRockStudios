@@ -2,7 +2,7 @@
 angular.module('pixelRockStudiosApp')
   .controller('PortCtrl', function ($scope,portMaster,$http) {
     
-    var initUrl = 'objects/port/bmw_m_40th.json';
+    var initUrl = 'objects/port/init.json';
     $scope.portfolio = portMaster;
     $scope.portDetail = $http.get(initUrl).success(function(data){
             $scope.portDetail = data;
@@ -19,16 +19,25 @@ angular.module('pixelRockStudiosApp')
             $scope.portDetail = data;
         });
         // console.log($scope.portDetail);  
-        // updatePort();    
+        // updatePort(); 
+        if($(window).width() < 798){
+            window.open($scope.portDetail.link);
+        }    
     };
     $scope.launchSite = function() {
-        window.open($scope.portDetail.link);  
+        window.open($scope.portDetail.link); 
+
+
     };
     $scope.btnBounceOver = function(hoverEvent) {
-        TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"30px"}, ease:Elastic.easeOut});
+        // TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"30px"}, ease:Elastic.easeOut});
     };
     $scope.btnBounceLeave = function(hoverEvent) {
-        TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"0px"}, ease:Elastic.easeOut});
+        // TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"0px"}, ease:Elastic.easeOut});
+    };
+    $scope.refreshBanner = function() {
+        // TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"0px"}, ease:Elastic.easeOut});
+        document.getElementById('bannerView').contentWindow.location.reload(true);
     };
     
     // selectPortItem('bmw_m_40th.json');

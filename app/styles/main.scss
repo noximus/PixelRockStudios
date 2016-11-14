@@ -47,6 +47,16 @@ body{
   a{
     color:$font-roll;
   }
+  .replay {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+          cursor: pointer;
+  }
+  .replay:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
   .container{
         margin-left: 10px;
         margin-right: 10px;
@@ -101,6 +111,9 @@ body{
     }      
     .scroll{
         overflow-y: scroll;
+    }
+    .noscroll{
+      overflow: hidden;
     }
     .navbar{
       margin-bottom: 0;
@@ -179,12 +192,21 @@ body{
           margin-top:-5px;
         }
       }
+      .thumbnail{
+        border: 1px solid $line-color;
+        background: $black-abg;
+        .caption{
+          color: $font-color;
+        }
+      }
       .pixel-cont-cell{
         padding: 10px;
       }
       .pixel-cont-area{
         padding: 10px;
-        max-height: calc(100vh - 210px);
+        max-height: calc(100vh - 130px);
+        overflow-y: scroll;
+        overflow-x: hidden;
         .portfolio-cont-lg{
           img{
             box-shadow: inset 0px 0px 5px black;
@@ -330,10 +352,11 @@ body{
 
 }
 iframe{
-  width: 300px;
-  height: 250px;
+  width: 310px;
+  height: 260px;
   position: relative;
   overflow: hidden;
+  border: none;
 }
 iframe{
 }
