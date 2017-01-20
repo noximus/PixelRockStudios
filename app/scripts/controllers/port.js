@@ -20,14 +20,26 @@ angular.module('pixelRockStudiosApp')
         });
         // console.log($scope.portDetail);  
         // updatePort(); 
-        if($(window).width() < 798){
-            window.open($scope.portDetail.link);
-        }    
+        // if($(window).width() < 798){
+        //     window.open($scope.portDetail.link);
+        // }    
     };
     $scope.launchSite = function() {
         window.open($scope.portDetail.link); 
-
-
+    };
+    $scope.launchBanner = function(numVar) {
+        // $scope.bannerCurrent = $scope.portDetail.banners[numVar].link;
+        // $scope.bannerCurrentWid = $scope.portDetail.banners[numVar].width;
+        // $scope.bannerCurrentHei = $scope.portDetail.banners[numVar].height;
+        // $('#bannerModal').modal();
+        window.open($scope.portDetail.banners[numVar].link); 
+    };
+    $scope.launchBannerRich = function(numVar) {
+        // $scope.bannerCurrentRich = $scope.portDetail.richbanners[numVar].link;
+        // $scope.bannerCurrentWidRich = $scope.portDetail.richbanners[numVar].width;
+        // $scope.bannerCurrentHeiRich = $scope.portDetail.richbanners[numVar].height;
+        // $('#bannerModalRich').modal();
+        window.open($scope.portDetail.richbanners[numVar].link); 
     };
     $scope.btnBounceOver = function(hoverEvent) {
         // TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"30px"}, ease:Elastic.easeOut});

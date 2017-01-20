@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+    position: absolute;
+    width:300px;
+    height:250px;
+    border:solid;
+    border-color:#000;
+    border-width:1px;
+    overflow:hidden;
+    cursor: pointer;
+}
+#utensil3{
+    top:-118px;
+    position: absolute;
+}
+
+#utensil1, #utensil2, #utensil4, #utensil5, #star1, #star2, #star3, #star4, #star5, #star6, #your, #tinykitchen, #thankyou, #f2Star1, #f2Star2, #f2Star3, #f2Star4, #f2Star5, #f2AndSoWill, #f2TheGuy, #f2SublettingIt, #f3Logo, #f3NyEats, #f3OrderNow{
+    position: absolute;
+    display:none;
+    opacity:0;
+}
+#f3OrderNow{
+    top:250px;
+}
+#bg {
+    position: absolute;
+    top:0px;
+    background: #038c8e;
+    width:300px;
+    height:250px;
+    z-index: -4;
+}

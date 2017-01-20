@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+body{margin:0;}
+
+#container {
+	position: absolute;
+	width:300px;
+	height:250px;
+	background: url('../images/starbg.jpg');	
+	overflow:hidden;
+	font-family: 'Open Sans';
+	cursor: pointer;
+}
+
+#learnMore{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 20px;
+	width: 110px;
+	z-index: 100;
+}
+#learnMore a{
+	font-family: NeuzeitGro;
+	color:  #ffffff;
+	font-size: 13px;
+	font-family: 'Open Sans';
+	line-height: 15.6px;
+	text-align: right;
+	text-shadow: 0px 1px 4px rgba(19, 36, 91, 0.59);
+	text-decoration: none;
+	display: block;
+}
+#enter, #tweet{
+	height: 90px;
+	width: 258px;
+	position: absolute;
+	top:67px;
+	left:0px;
+	color: #fff;
+	text-align: center;
+
+}
+
+
+#tweet{
+
+	left:22px !important;
+}
+
+
+#tweet, div#heros, p#hashtag{
+	display: none;
+	position: absolute;
+}
+#enter p, #tweet p{
+	margin: 0;
+	display: block;
+	opacity: 0;
+}
+#prize{
+	position: absolute;
+    top: 119px;
+    left: 0px;
+    width: 255px;
+    font-size: 17px;
+    font-family: 'Open Sans';
+    opacity: 0;
+}
+
+div#wave{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index:20000;
+}
+div#wave img{
+	display: block;
+}
+div#logo{
+	position: absolute;
+	bottom: 2px;
+    right: 12px;
+}
+div#heros{
+	top: 0;
+}
+div#heros img{
+	opacity: 0;
+}
+p#noPurch{
+	font-size: 8px;
+	position: absolute;
+	top: -1px;
+    left: 5px;
+	color: #fff;
+	display: none;
+	z-index: 100;
+}
+p#hashtag{
+	z-index: 100;
+	top: 73px;
+	font-size: 18px;
+	color: #fff;
+	opacity: 0;
+	text-align: center;
+	left: 5px;
+}
+div#finalFrame{
+	text-align: center;
+	background-color: #17669e;
+	color: #fff;
+	z-index: 100;
+	width: 300px;
+	height: 250px;
+	display: none;
+	position: absolute;
+	margin: 0;
+	opacity: 0;
+}
+#finaltxt{
+	color: #fff;
+	opacity: 0;
+	margin: 0;
+}
+#hash{
+	color: #fff;
+	opacity: 0;
+	margin: 0;
+}
+h4#finaltxt{
+	margin: 15px;
+}
+h3#finaltxt{
+	font-size: 25px;
+}
+h1#finaltxt{
+	font-size: 35px;
+}
+#lrnBtn{
+	color: #fff;
+	opacity: 0;
+	display: none;
+	position: absolute;
+	/*background: url('../images/btnBg.svg');*/
+	font-size: 12px;
+	top:150px;
+	left: 79px;
+	border: none;
+	/*padding: 10px 23px 15px 23px;*/
+	cursor: pointer;
+}
+#great{
+	letter-spacing: 2px;
+}
+

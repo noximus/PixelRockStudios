@@ -1,0 +1,77 @@
+{       
+    "name": "Parker Pen",
+    "brief": "HTML5 Banner",
+    "link": "",
+    "type": "banner",
+    "frame":"../work/banners/parker/300x250/main.html",
+    "id": "jbl",
+    "client": "JBL",
+    "date": "12/2015",
+    "technology": "HTML 5, CSS, Javascript, Jquery, Greensock, Minification",
+    "description": "Tasked with building HTML5 Animatied Banners using Greensock and cell animation tricks. All banners meet file size specifications.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ],
+    "banners": [
+        {
+            "size":"300x250",
+            "width":"300",
+            "height":"250",
+            "link":"../work/banners/parker/300x250/main.html"
+        },
+        {   
+            "size":"350x240",
+            "width":"350",
+            "height":"240",
+            "link":"../work/banners/parker/350x240/main.html"
+        },
+        {
+            "size":"374x250",
+            "width":"374",
+            "height":"240",
+            "link":"../work/banners/parker/374x250/main.html"
+        },
+        {
+            "size":"635x100",
+            "width":"635",
+            "height":"100",
+            "link":"../work/banners/parker/635x100/main.html"
+        },
+        {
+            "size":"980x90",
+            "width":"980",
+            "height":"90",
+            "link":"../work/banners/parker/980x90/main.html"
+        },
+        {
+            "size":"980x450",
+            "width":"980",
+            "height":"450",
+            "link":"../work/banners/parker/980x450/main.html"
+        },
+        {
+            "size":"980x500",
+            "width":"980",
+            "height":"500",
+            "link":"../work/banners/parker/980x500/main.html"
+        },
+        {
+            "size":"1035x600",
+            "width":"1035",
+            "height":"600",
+            "link":"../work/banners/parker/1035x600/main.html"
+        },
+        {
+            "size":"1200x480",
+            "width":"1200",
+            "height":"480",
+            "link":"../work/banners/parker/1200x480/main.html"
+        }
+    ]
+}

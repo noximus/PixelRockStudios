@@ -1,0 +1,127 @@
+<!-- <!doctype html> -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Star Wars Battle Front</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600italic' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container" class="hidden">
+	<div id="clickBtn" class="show"></div>
+	<div id="wave" class="show"><img src="images/wave1.png" /></div>
+	<div id="learnMore" class="show"><img src="images/learnMore.png" /></div>
+	<div id="ESRB" class="show"><img src="images/ESRB.png" /></div>
+		
+	<div id="enterFor" class="hidden"><img src="images/EnterForWin.png" /></div>
+	<div id="tweet" class="hidden"><img src="images/tweetPic.png" /></div>
+	
+	<div id="noPurch" class="hidden"><img src="images/nopurchase.png" /></div>
+	<div id="hashtag" class="hidden"><img src="images/usingSweep.png" /></div>
+	
+	<div id="finalFrame" class="hidden">
+		<div id='finaltxt' class="hidden"><img src="images/hashBundle.png" /></div>
+		<div id="logo" class="hidden"><img src="images/DestinyLogo.png" /></div>
+		<div id='hash' class="hidden"><img src="images/extrodinaryGreat.png" /></div>
+		<div id="lrnBtn" class="hidden"><img src="images/learnBtn.png" /></div>
+	</div>
+</div>
+<div class="show" id="containerEx">
+	<div id="vidHolder" class="show"></div>
+	<div class="show contExInt">
+		<div id="closeBtn" class="show"></div>
+		<div id="waveEx" class="show"><img src="images/wave1Ex.png" /></div>
+		<div id="close" class="show"><img src="images/close.png" /></div>
+		<div id="learnMoreEx" class="show"><img src="images/learnMoreEx.png" /></div>
+		<div id="ESRBEx" class="show"><img src="images/ESRBEx.png" /></div>
+			
+		<div id="enterEx" class="hidden"><img src="images/EnterForWinEx.png" /></div>
+		<div id="tweetEx" class="hidden"><img src="images/tweetPicEx.png" /></div>
+		
+		<div id="noPurchEx" class="hidden"><img src="images/nopurchaseEx.png" /></div>
+		<div id="hashtagEx" class="hidden"><img src="images/usingSweepEx.png" /></div>
+		
+		<div id="finalFrameEx" class="hidden">
+			<div id="logoEx" class="hidden"><img src="images/DestinyLogoEx.png" /></div>
+			<div id='finaltxtEx' class="hidden"><img src="images/hashBundleEx.png" /></div>
+			<div id='hashEx' class="hidden"><img src="images/extrodinaryGreatEx.png" /></div>
+			<div id="lrnBtnEx" class="hidden"><img src="images/learnBtnEx.png" /></div>
+		</div>	
+	</div>
+
+</div>
+
+<script src="https://cdn.flashtalking.com/frameworks/js/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdn.flashtalking.com/frameworks/js/gsap/1.17.0/easing/EasePack.min.js"></script>
+<script src="https://cdn.flashtalking.com/frameworks/js/gsap/1.17.0/TweenLite.min.js"></script>
+<script type="text/javascript" src="http://cdn.flashtalking.com/frameworks/js/api/2/8/html5API.js"></script>
+<script type="text/javascript" src="manifest.js"></script>
+<script type="text/javascript" src="Animation.js"></script>
+<script type="text/javascript">
+	var myFT = new FT,
+	unexpanded = FT.query("#container"),
+	expanded = FT.query("#containerEx"),
+	vidHolder = FT.query("#vidHolder"),
+	containerExWrapHolder = FT.query("#containerEx"),
+	click_to_expand_btn = FT.query("#clickBtn"),
+	close = FT.query("#closeBtn"),
+	vid = myFT.insertVideo({
+		parent: vidHolder,
+		video: "video1",
+		controls: true,
+		width: "828",
+		height: "418",
+		muted: true
+	}),
+	expand = function(){
+		unexpanded.style.display = "none";
+		containerExWrapHolder.style.display = "block";
+		containerExWrapHolder.style.opacity = "1";
+		myFT.expand();
+		NoxTimeline.frame1ExIntro();
+		vid.play();
+		vid.unmute();
+	},
+	onAutoExpand = function(){
+		unexpanded.style.display = "none";
+		expanded.style.display = "block";
+		myFT.expand();
+		vid.play();
+		console.log("auto expand");
+	},
+	contract = function(e){
+		containerExWrapHolder.style.display = "none";
+		unexpanded.style.display = "block";
+		unexpanded.style.opacity = "1";
+		NoxTimeline.frame1();
+    vid.pause();
+    console.log("contract");
+	    myFT.contract();
+    clearTimeout(ContractTimeOut);
+	},
+	pausePlay = function(){
+		clearTimeout(ContractTimeOut);
+	};
+	var autoCloseTimer=setInterval(function(){
+  	try{
+		if(document.activeElement.id!=""){
+			clearInterval(ContractTimeOut)
+			clearInterval(autoCloseTimer)
+		}}catch(error){}
+  },250);
+	myFT.applyButton(close, contract);
+	myFT.applyButton(expanded, contract);myFT.applyButton(click_to_expand_btn, function(){expand()});
+	
+	myFT.addEventListener("instantads", function(){
+		myFT.videos.video1 = myFT.instantAds.youtubeTextVariable		
+	});
+
+	myFT.applyClickTag(expanded);
+	myFT.applyClickTag(unexpanded);
+	setTimeout(onAutoExpand, 500);
+	var ContractTimeOut = setTimeout(contract, 15000);
+	
+
+</script>
+</body>
+</html>

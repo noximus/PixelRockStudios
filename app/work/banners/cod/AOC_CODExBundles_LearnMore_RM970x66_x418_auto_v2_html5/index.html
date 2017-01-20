@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>COD</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600italic' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container" id="container">
+	<div id="learnMore">
+		<a href="#">
+			<img src="images/learnMore.png">
+		</a>
+	</div>
+	<div id="enter">
+		<img src="images/enter.png" id="enterFor">	
+	</div>
+	
+	<div id="prize"><img src="images/home_tag.png"></div>
+
+
+	 <div id="tweet">
+		<img src="images/tweet.png">
+	</div>
+	<div id="heroFrame">
+		<div id="heros">
+			<img src="images/starbg.jpg"id='herosbg'>
+		</div>
+		<img src="images/hashtag.png" id="hashtag">
+		
+	</div>
+	<div id="finalFrame">
+		<img src="images/greatness.png" id="greatness">
+		<img src="images/bundlesweeps.png" id='bundlesweeps'>
+		<img id='lrnBtn' src="images/btnBgEx.gif">
+	</div> 
+	<div id="wave">
+		<img src="images/wave1.png">
+	</div>
+	
+	<div id="logo">
+		<img src="images/destinylogo.png">
+	</div>
+</div>
+<div id="containerExWrap">
+<div class="containerEx" id="containerEx">
+<div id="close"><img src="images/close.png"></div>
+	<div id="learnMoreEx">
+		<a href="#">
+			<img src="images/learnMore.png">
+		</a>
+	</div>
+	<div id="enterEx">
+		<img src="images/enterEx.png" id="enterForEx">	
+	</div>
+	<div id="prizeEx"><img src="images/home_tagEx.png"></div>
+	 <div id="tweetEx">
+		<img src="images/tweetEx.png">
+	</div>
+	<div id="heroFrameEx">
+		<div id="herosEx">
+			<img src="images/starbgEx.jpg" id='herosbgEx'>
+		</div>
+		<img src="images/hashtagEx.png" id="hashtagEx">
+		<img src="images/noPurchaseEX.png" id="noPurch">
+	</div>
+	<div id="finalFrameEx">
+		<img src="images/greatnessEx.png" id="greatnessEx">
+		<img src="images/bundlesweeps.png" id='bundlesweepsEx'>
+		<img src="images/learnBtn.gif" id='lrnBtnEx2'>
+	</div> 
+	<div id="waveEx">
+		<img src="images/wave1.png">
+	</div>
+	<div id="bloodEx">
+		<img src="images/ESRB.jpg">
+	</div>
+	<div id="logoEx">
+		<img src="images/destinylogoEx.png">
+	</div>
+	<div id="vidHolder"></div>
+</div>
+</div>
+<script src="https://cdn.flashtalking.com/frameworks/js/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdn.flashtalking.com/frameworks/js/gsap/1.17.0/easing/EasePack.min.js"></script>
+<script src="https://cdn.flashtalking.com/frameworks/js/gsap/1.17.0/TweenLite.min.js"></script>
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/plugins/CSSPlugin.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenLite.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/easing/EasePack.min.js"></script>-->
+<script type="text/javascript" src="http://cdn.flashtalking.com/frameworks/js/api/2/8/html5API.js"></script>
+<script type="text/javascript" src="manifest.js"></script>
+<script type="text/javascript" src="Animation.js"></script>
+<script type="text/javascript">
+	function isPlaying(){
+		console.log("it's playing");
+	};
+	var myFT = new FT,
+	unexpanded = FT.query("#container"),
+	expanded = FT.query("#containerEx"),
+	vidHolder = FT.query("#vidHolder"),
+	containerExWrapHolder = FT.query("#containerExWrap"),
+	click_to_expand_btn = FT.query("#lrnBtn"),
+	close = FT.query("#close"),
+	vid = myFT.insertVideo({
+		parent: vidHolder,
+		video: "video1",
+		controls: true,
+		width: "670",
+		height: "418",
+		muted: true
+	}),
+
+	expand = function(){
+		unexpanded.style.display = "none";
+		containerExWrapHolder.style.display = "block";
+		containerExWrapHolder.style.opacity = "1";
+		myFT.expand();
+		home_animation.frame1ExIntro();
+		console.log("expand");
+		vid.play();
+		vid.unmute();
+	},
+	onAutoExpand = function(){
+		unexpanded.style.display = "none";
+		expanded.style.display = "block";
+		myFT.expand();
+		vid.video.addEventListener('play', isPlaying);
+		vid.play();
+		console.log("auto expand");
+
+	},
+	contract = function(e){
+		containerExWrapHolder.style.display = "none";
+		unexpanded.style.display = "block";
+		unexpanded.style.opacity = "1";
+		home_animation.frame1();
+    vid.pause();
+    console.log("contract");    // if(e && e.type) {
+	    myFT.contract();
+	  // }
+    clearTimeout(ContractTimeOut);
+
+	},
+	pausePlay = function(){
+		clearTimeout(ContractTimeOut);
+	};
+	var autoCloseTimer=setInterval(function(){
+  	try{
+		if(document.activeElement.id!=""){
+				clearInterval(ContractTimeOut)       		
+				clearInterval(autoCloseTimer)       	
+		}
+  	}catch(error){
+  		//do nothing
+  	}
+  },250);
+	myFT.applyButton(close, contract);
+	myFT.applyButton(expanded, contract);myFT.applyButton(click_to_expand_btn, function(){expand()});
+	// myFT.applyButton(unexpanded, expand);
+	// myFT.applyButton(vidHolder, pausePlay);
+	
+	myFT.addEventListener("instantads", function(){
+		myFT.videos.video1 = myFT.instantAds.youtubeTextVariable		
+	});
+
+	myFT.applyClickTag(expanded);
+	myFT.applyClickTag(unexpanded);
+	setTimeout(onAutoExpand, 500);
+	var ContractTimeOut = setTimeout(contract, 15000);
+	
+
+</script>
+</body>
+</html>

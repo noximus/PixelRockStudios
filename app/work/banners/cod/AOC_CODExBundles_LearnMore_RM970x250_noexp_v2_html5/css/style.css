@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	position: absolute;
+	width:970px;
+	height:250px;
+	background: url('../images/starbg.jpg');	
+	overflow:hidden;
+	font-family: 'Open Sans';
+	cursor: pointer;
+}
+#vidHolder{
+	width: 445px;
+	height: 250px;
+	left:525px;
+	position: absolute;
+}
+#learnMore{
+	position: absolute;
+	right: 455px;
+	bottom: 10px;
+	height: 20px;
+	width: 110px;
+	z-index: 100;
+}
+#learnMore a{
+	font-family: NeuzeitGro;
+	color:  #ffffff;
+	font-size: 13px;
+	font-family: 'Open Sans';
+	line-height: 15.6px;
+	text-align: right;
+	text-shadow: 0px 1px 4px rgba(19, 36, 91, 0.59);
+	text-decoration: none;
+	display: block;
+}
+#enter, #tweet{
+	height: 90px;
+	width: 258px;
+	position: absolute;
+	top:60px;
+	left:65px;
+	color: #fff;
+	text-align: center;
+
+}
+
+
+#tweet{
+
+	left:100px !important;
+}
+
+
+#tweet, div#heros, p#hashtag{
+	display: none;
+	position: absolute;
+}
+#enter p, #tweet p{
+	margin: 0;
+	display: block;
+	opacity: 0;
+}
+#prize{
+	position: absolute;
+  top: 170px;
+  left: 100px;
+  width: 255px;
+  font-size: 17px;
+  font-family: 'Open Sans';
+  opacity: 0;
+}
+
+div#wave{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index:20000;
+}
+div#blood{
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	z-index:20000;
+}
+div#wave img{
+	display: block;
+}
+div#logo{
+	position: absolute;
+	top: 10px;
+    right: 457px;
+}
+div#heros{
+	top: 0;
+}
+div#heros img{
+	opacity: 0;
+}
+p#noPurch{
+	font-size: 8px;
+	position: absolute;
+	top: 4px;
+    left: 175px;
+	color: #fff;
+	display: none;
+	z-index: 100;
+	opacity: 0;
+}
+p#hashtag{
+	z-index: 100;
+	top: 50px;
+	font-size: 18px;
+	color: #fff;
+	opacity: 0;
+	text-align: center;
+	left: 74px;
+}
+div#finalFrame{
+	text-align: center;
+	background-color: #17669e;
+	color: #fff;
+	z-index: 100;
+	width: 525px;
+	height: 250px;
+	display: none;
+	position: absolute;
+	margin: 0;
+	opacity: 0;
+}
+.finaltxt{
+	color: #fff;
+	opacity: 0;
+	display: none;
+	margin: 0;
+	top: 10px;
+}
+.finaltxt img{
+	top: 90px;
+	left: 45px;
+	position: absolute;
+}
+#learnMore2{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+h4.finaltxt{
+	margin: 15px;
+}
+h3.finaltxt{
+	font-size: 25px;
+}
+h1.finaltxt{
+	font-size: 35px;
+}
+.bundle img{
+	position: absolute;
+	bottom:10px !important;
+	right:10px !important;
+}
+#lrnBtn{
+	color: #fff;
+	opacity: 0;
+	display: none;
+	position: absolute;
+	background: url('../images/btnBg.svg');
+	font-size: 12px;
+	left: 88px;
+	border: none;
+	padding: 10px 23px;
+	cursor: pointer;
+}
+#great{
+	letter-spacing: 2px;
+}
+#ps4logo{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	opacity: 0; 
+}
+

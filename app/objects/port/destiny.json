@@ -1,0 +1,71 @@
+{       
+    "name": "Destiny - Playstation 4",
+    "brief": "HTML5 Banner",
+    "link": "",
+    "type": "banner",
+    "frame":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_300x250_na_v1_html5/index.html",
+    "id": "starwars",
+    "client": "Playstation",
+    "date": "9/2015",
+    "technology": "HTML 5, CSS, Javascript, Jquery, Greensock, Minification",
+    "description": "Tasked with building HTML 5 Animatied Banners for both static and Rich Media expandable Banners. All banners meet file size specifications without sacrificing animation.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"https://github.com/noximus/PS4StarWarsBattleFrontBanners",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ],
+    "banners": [
+        {
+            "size":"160x600",
+            "width":"160",
+            "height":"600",
+            "link":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_160x600_na_v1_html5/index.html"
+        },
+        {
+            "size":"300x250",
+            "width":"300",
+            "height":"250",
+            "link":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_300x250_na_v1_html5/index.html"
+        },
+        {   
+            "size":"300x600",
+            "width":"300",
+            "height":"600",
+            "link":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_300x600_na_v1_html5/index.html"
+        },
+        {   
+            "size":"600x400",
+            "width":"600",
+            "height":"400",
+            "link":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_600x400_na_v1_html5/index.html"
+        },
+        {   
+            "size":"728x90",
+            "width":"728",
+            "height":"90",
+            "link":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_728x90_na_v1_html5/index.html"
+        },
+        {   
+            "size":"970x66",
+            "width":"970",
+            "height":"66",
+            "link":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_970x66_na_v1_html5/index.html"
+        },
+        {   
+            "size":"970x250",
+            "width":"970",
+            "height":"250",
+            "link":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_970x250_na_v1_html5/index.html"
+        },
+        {   
+            "size":"1280x100",
+            "width":"1280",
+            "height":"100",
+            "link":"../work/banners/destiny/AOC_DestinyExBundles_LearnMore_1280x100_na_v1_html5/index.html"
+        }
+    ]
+}

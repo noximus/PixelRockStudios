@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+body{margin:0;}
+#container, #containerEx {
+	position: absolute;
+	width:1280px;
+	
+	overflow:hidden;
+	cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border:solid;
+  border-color:#000;
+  border-width:1px;
+}
+#container {
+  background: url('../images/starbg.jpg');
+  height:100px;
+}
+#containerEx {
+  height:418px;
+}
+.contExInt{
+  background: url('../images/starbgEx.jpg');
+  left: 828px;
+  height:418px;
+  width: 453px;
+}
+.hidden{
+	position: absolute;
+	opacity: 0;
+	display: 0;
+}
+.show{
+	position: absolute;
+	opacity: 1;
+	display: 1;
+}
+#clickBtn{
+  right: 0px;
+  top: 50px;
+  width: 175px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 100;
+  /*background-color: green;*/
+}
+#closeBtn{
+  left: 355px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 100; 
+  /*background-color: red;*/
+}
+#close{
+  z-index: 50;
+}
+#finalFrame, #finalFrameEx{
+  background-color: #17669e;
+  width: 1280px;
+}
+#finalFrame{
+  height: 100px;
+}
+#finalFrameEx{
+  height: 418px;
+}
+#wave,#waveEx{
+	z-index: 10;
+}

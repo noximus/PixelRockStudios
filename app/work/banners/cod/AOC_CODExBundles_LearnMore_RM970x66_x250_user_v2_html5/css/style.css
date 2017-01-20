@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+	position: absolute;
+	width:970px;
+	height:66px;
+	background: url('../images/starbg.jpg');	
+	overflow:hidden;
+	cursor: pointer;	
+}
+#close {
+	position: absolute;
+	right: 400px;
+	bottom: 0px;
+	height: 20px;
+	width: 110px;
+	z-index: 500;
+}
+#extra {
+	position: absolute;
+	left:444px;
+	top:27px;
+}
+
+#click_to_expand {
+	position: absolute;
+	right:17px;
+  top: 48px;
+  z-index: 600;
+}
+
+#learnMore{
+	position: absolute;
+	right: 1px;
+	bottom: 1px;
+	z-index: 100;
+}
+#learnMore a{
+	display: block;
+}
+img#enterFor{
+	position: absolute;
+	top: -4px;
+    left: 260px;
+}
+
+#prize{
+	color: white;
+    width: 531px;
+    position: absolute;
+    right: 85px;
+    top: 35px;
+    font-size: 22px;
+}
+div#tweet{
+	position: absolute;
+	right: 230px;
+}
+
+div#wave{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 200000;
+}
+div#wave img{
+	display: block;
+}
+div#logo{
+	position: absolute;
+	top: 2px;
+	right: 15px;
+}
+div#heros{
+	top: 0;
+}
+div#heros img{
+	opacity: 0;
+}
+img#hashtag{
+	top: 5px;
+	right: 230px;
+}
+
+div#finalFrame{
+	text-align: center;
+	background-color: #17669e;
+	width: 970px;
+	height: 66px;
+	z-index: 100;
+}
+img#greatness{
+	top: 7px;
+	right: 245px;
+}
+img#ps4logo{
+	bottom: 6px;
+    left: 9px;
+}
+img#bundlesweeps{
+	right: 5px;
+	top: 8px;
+}
+#lrnBtn{
+	top: 23px;
+	right: 0px;
+	display: none;
+	position: absolute;
+	cursor: pointer;
+}
+#enterFor, #prize, #tweet, #herosbg, #hashtag, #lrnBtn, #greatness, #ps4logo, #finalFrame, #bundlesweeps{
+	opacity: 0;
+}
+#tweet,div#heroFrame, img#hashtag,div#finalFrame, #lrnBtn, #greatness, #ps4logo, #bundlesweeps{
+	display: none;
+	position: absolute;
+}
+#containerExWrap{
+	position: absolute;
+	width:970px;
+	height:250px;
+	overflow:hidden;
+	cursor: pointer;
+	left:0px;
+	z-index: 3000000;
+	display: none;
+	
+}
+
+#containerEx {
+	position: absolute;
+	width:970px;
+	height:250px;
+	background: url('../images/starbgEx.jpg');	
+	overflow:hidden;
+	font-family: 'Open Sans';
+	cursor: pointer;
+
+}
+#vidHolder{
+	width: 445px;
+	height: 250px;
+	left:525px;
+	top: 0px;
+	position: absolute;
+}
+#learnMoreEx{
+	position: absolute;
+	right: 455px;
+	bottom: 30px;
+	height: 20px;
+	width: 110px;
+	z-index: 100;
+}
+#enterEx, #tweetEx{
+	height: 90px;
+	width: 258px;
+	position: absolute;
+	top:60px;
+	left:65px;
+	color: #fff;
+	text-align: center;
+
+}
+
+
+#tweetEx{
+
+	left:100px !important;
+}
+
+#enterEx p, #tweetEx p{
+	margin: 0;
+	display: block;
+	opacity: 0;
+}
+#prizeEx{
+	position: absolute;
+  top: 170px;
+  left: 100px;
+  width: 255px;
+  font-size: 17px;
+  font-family: 'Open Sans';
+  opacity: 0;
+}
+
+div#waveEx{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index:20000;
+}
+div#bloodEx{
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	z-index:20000;
+}
+div#waveEx img{
+	display: block;
+}
+div#logoEx{
+	position: absolute;
+	top: 10px;
+    right: 457px;
+}
+div#herosEx{
+	top: 0;
+}
+div#herosBgEx img{
+	opacity: 0;
+}
+#noPurch{
+	font-size: 8px;
+	position: absolute;
+	top: 10px;
+    left: 185px;
+	color: #fff;
+	display: none;
+	z-index: 100;
+	opacity: 0;
+}
+#hashtagEx{
+	z-index: 100;
+	top: 83px;
+	font-size: 18px;
+	color: #fff;
+	opacity: 0;
+	text-align: center;
+	left: 120px;
+}
+div#finalFrameEx{
+	text-align: center;
+	background-color: #17669e;
+	color: #fff;
+	z-index: 100;
+	width: 525px;
+	height: 250px;
+	display: none;
+	position: absolute;
+	margin: 0;
+	opacity: 0;
+}
+#finaltxtEx{
+	color: #fff;
+	opacity: 0;
+	display: none;
+	margin: 0;
+	top: 10px;
+}
+#finaltxtEx img{
+	top: 90px;
+	left: 50px;
+	position: absolute;
+}
+#learnMore2Ex{
+	position: absolute;
+	top: 160px;
+	right: 200px;
+	display: none;
+	opacity: 0;
+}
+h4#finaltxtEx{
+	margin: 15px;
+}
+h3#finaltxtEx{
+	font-size: 25px;
+}
+h1#finaltxtEx{
+	font-size: 35px;
+}
+#bundleEx{
+	display: none;
+}
+#bundleEx img{
+	position: absolute;
+	top:10px !important;
+	right:178px !important;
+}
+#lrnBtnEx{
+	color: #fff;
+	opacity: 0;
+	display: none;
+	position: absolute;
+	font-size: 12px;
+	left: 88px;
+	border: none;
+	cursor: pointer;
+}
+#greatEx{
+	letter-spacing: 2px;
+}
+#enterForEx, #prizeEx, #tweetEx, #herosbgEx, #hashtagEx, #lrnBtnEx, #greatnessEx, #ps4logoEx, #finalFrameEx, #bundlesweepsEx{
+	opacity: 0;
+}
+#tweetEx,div#heroFrameEx, img#hashtagEx,div#finalFrameEx, #lrnBtnEx, #greatnessEx, #ps4logoEx, #bundlesweepsEx{
+	display: none;
+	position: absolute;
+}

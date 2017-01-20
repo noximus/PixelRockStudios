@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+	position: absolute;
+	width: 298px;
+	height: 598px;
+	background:#d4262a;	
+	border:solid;
+	border-color:#000;
+	border-width:1px;
+	overflow:hidden;
+	
+}
+
+body{
+	margin: 0px;
+}
+
+#last_frame_back {
+	width: 100%;
+	height: 100%;
+	background:#f4b926;
+	top:620px;
+	position: absolute;
+}
+
+
+#click_screen {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+#how {
+position: absolute;
+left:0px;
+top:0px;
+opacity:0;
+}
+
+#get {
+position: absolute;
+left:0px;
+top:182px;
+opacity:0;
+}
+
+
+#logo {
+position: absolute;
+left:0px;
+top:0px;
+opacity:0;
+}
+
+#frame_two {
+position: absolute;
+left:0px;
+top:0px;
+opacity:0;
+z-index: 1;
+}
+
+#img01A, #img01B, #img01C {
+	position: absolute;
+	z-index: 1;
+	left:0px;
+	top:0px;
+	opacity:0;
+}
+
+#frame_three, #img02A, #img02B, #img02C {
+position: absolute;
+
+left:0px;
+top:187px;
+z-index: 3;
+
+}
+
+#img02A, #img02C, #img02B {
+opacity:0;
+
+}
+
+#pre_war {
+position: absolute;
+left:0px;
+top:900px;
+background-color: #f4b926;
+z-index: 2;
+width: 300px;
+padding-left:3px;
+}
+
+#PreWar_circle {
+position: absolute;
+left: -4px;
+top: -83px;
+opacity:0;
+/*background-color: #f4b926; */
+z-index: 3;
+height:400px;
+}
+
+

@@ -1,0 +1,47 @@
+{       
+    "name": "Sheraton",
+    "brief": "HTML5 Banner",
+    "link": "",
+    "type": "banner",
+    "frame":"../work/banners/sheraton/English/sheraton_amx_300x250/index.html",
+    "id": "sheraton",
+    "client": "Sheraton",
+    "date": "12/2015",
+    "technology": "HTML 5, CSS 3, Javascript, Minification",
+    "description": "Tasked with building HTML5 Animatied Banners using CSS3 in 5 languages. All banners meet file size specifications.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ],
+    "banners": [
+        {
+            "size":"160x600",
+            "width":"160",
+            "height":"600",
+            "link":"../work/banners/sheraton/English/sheraton_amx_160x600/index.html"
+        },
+        {
+            "size":"300x250",
+            "width":"300",
+            "height":"250",
+            "link":"../work/banners/sheraton/English/sheraton_amx_300x250/index.html"
+        },
+        {   
+            "size":"300x600",
+            "width":"300",
+            "height":"600",
+            "link":"../work/banners/sheraton/English/sheraton_amx_300x600/index.html"
+        },
+        {   
+            "size":"728x90",
+            "width":"728",
+            "height":"90",
+            "link":"../work/banners/sheraton/English/sheraton_amx_728x90/index.html"
+        }
+    ]
+}

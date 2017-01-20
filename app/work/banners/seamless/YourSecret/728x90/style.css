@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background:#fcae1d;	
+	border:solid;
+	border-color:#000;
+	border-width:1px;
+	overflow:hidden;
+	display: none;
+}
+
+body{
+	margin: 0px;
+}
+
+
+#your, #secret, #ThreeAM, #dumpling, #order, #donuts, #and,#safe, #logo, #how, #order_now  {
+position: absolute;
+top:0px;
+left:0px;
+opacity:0;
+}
+#building_color{
+	z-index: 2;
+}
+
+#order_now {
+
+top:350px;
+}
+
+
+

@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+position: absolute;
+width:970px;
+height:66px;
+background: url('../images/starbg.jpg');	
+overflow:hidden;
+cursor: pointer;
+display: block;
+	
+}
+#close {
+	position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 500;
+}
+#extra {
+	position: absolute;
+	left:444px;
+	top:27px;
+}
+
+#click_to_expand {
+	position: absolute;
+	right:17px;
+  top: 48px;
+  z-index: 600;
+}
+
+#learnMore{
+	position: absolute;
+	right: 1px;
+	bottom: -2px;
+	z-index: 100;
+}
+#learnMore a{
+	display: block;
+}
+img#enterFor{
+	position: absolute;
+	top: -5px;
+    left: 260px;
+}
+
+#prize{
+	color: white;
+    width: 531px;
+    position: absolute;
+    right: 85px;
+    top: 35px;
+    font-size: 22px;
+}
+div#tweet{
+	position: absolute;
+	right: 230px;
+}
+
+div#wave{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 200000;
+}
+div#wave img{
+	display: block;
+}
+div#logo{
+	position: absolute;
+	top: 2px;
+	right: 15px;
+}
+div#heros{
+	top: 0;
+}
+div#heros img{
+	opacity: 0;
+}
+img#hashtag{
+	top: 5px;
+	right: 240px;
+}
+
+div#finalFrame{
+	text-align: center;
+	background-color: #17669e;
+	width: 970px;
+	height: 66px;
+	z-index: 100;
+}
+img#greatness{
+	top: 7px;
+	right: 245px;
+}
+img#ps4logo{
+	bottom: 6px;
+    left: 9px;
+}
+img#bundlesweeps{
+	right: 5px;
+	top: 8px;
+}
+#lrnBtn{
+	top: 23px;
+	right: 0px;
+	display: none;
+	position: absolute;
+	cursor: pointer;
+}
+#enterFor, #prize, #tweet, #herosbg, #hashtag, #lrnBtn, #greatness, #ps4logo, #finalFrame, #bundlesweeps{
+	opacity: 0;
+}
+#tweet,div#heroFrame, img#hashtag,div#finalFrame, #lrnBtn, #greatness, #ps4logo, #bundlesweeps{
+	display: none;
+	position: absolute;
+}
+#containerExWrap{
+	position: absolute;
+	width:970px;
+	height:418px;
+	overflow:hidden;
+	cursor: pointer;
+	left:0px;
+	z-index: 3000000;
+	display: none;
+
+}
+.containerEx {
+	display: none;
+	position: absolute;
+	width:300px;
+	height:418px;
+	background: url('../images/starbgEx.jpg');	
+	cursor: pointer;
+	left:670px;
+	z-index: 3000000;
+	
+}
+#vidHolder{
+	width: 670px;
+	height: 418px;
+	left:-670px;
+	position: absolute;
+}
+
+#learnMoreEx{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 2100;
+}
+#learnMoreEx a{
+	display: block;
+}
+img#enterForEx{
+	position: absolute;
+	top: 130px;
+    left: 0px;
+}
+
+#prizeEx{
+	color: white;
+    width: 531px;
+    position: absolute;
+    left: 0px;
+    top: 248px;
+    font-size: 22px;
+}
+div#tweetEx{
+	position: absolute;
+	top:140px;
+	left: 20px;
+}
+
+div#waveEx{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 200000;
+}
+div#bloodEx{
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+	z-index: 200000;
+}
+div#waveEx img{
+	display: block;
+}
+
+div#logoEx{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+div#herosEx{
+	top: 0;
+}
+div#heros img{
+	opacity: 0;
+}
+img#hashtagEx{
+	top: 150px;
+}
+
+div#finalFrameEx{
+	text-align: center;
+	background-color: #17669e;
+	width: 300px;
+	height: 418px;
+	z-index: 100;
+}
+img#greatnessEx{
+	top: 165px;
+	left: 45px;
+}
+img#ps4logo{
+	bottom: 6px;
+    left: 45px;
+}
+img#bundlesweepsEx{
+	left: 65px;
+	top: 100px;
+}
+ img#noPurch{
+	top: 34px;
+	right: 8px;
+	position: absolute;
+	display: none;
+	opacity: 0;
+}
+img#noPurchEx{
+	top: 34px;
+	right: 8px;
+	position: absolute;
+	display: none;
+	opacity: 0;
+}
+#lrnBtnEx{
+	top: 28px;
+	position: absolute;
+	right: 6px;
+	display: none;
+}
+#enterForEx, #prizeEx, #tweetEx, #herosbgEx, #hashtagEx, #lrnBtnEx, #greatnessEx, #ps4logoEx, #finalFrameEx, #bundlesweepsEx{
+	opacity: 0;
+}
+#tweetEx,div#heroFrameEx, img#hashtagEx,div#finalFrameEx, #lrnBtnEx, #greatnessEx, #ps4logoEx, #bundlesweepsEx{
+	display: none;
+	position: absolute;
+}
+#lrnBtnEx2{
+	color: #fff;
+	opacity: 0;
+	display: none;
+	position: absolute;
+	top:280px;
+	left: 88px;
+	border: none;
+	cursor: pointer;
+}

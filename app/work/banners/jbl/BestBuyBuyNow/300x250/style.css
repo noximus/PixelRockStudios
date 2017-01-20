@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	border:solid;
+	border-color:#58585a;
+	border-width:1px;
+	overflow:hidden;
+	background-color: #e1e1e1;
+	display: none;
+	z-index:0;
+	cursor:pointer;
+}
+
+body{
+	margin: 0px;
+}
+
+#textHolder {
+position: absolute;	
+top:0px;	
+}
+
+#jbl_logos {
+
+	opacity: 1;
+}
+
+#wire {
+position: absolute;	
+left: 165px;
+top: 18px;
+z-index:-1;
+}
+
+#headPhoneHolder {
+position: absolute;	
+top: -16px;
+}
+
+
+.position {
+position: absolute;
+left:0px;
+
+}
+
+.hide {
+position: absolute;
+	opacity: 0;
+	left:0px;
+}
+
+#black_headphone_1 {
+position: absolute;	
+left:135px;
+}
+
+#black_headphone_blur_left {
+	left:-68px;
+}
+
+
+#whileless_holder {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+#white_headphone {
+	position: absolute;
+	left:-300px;
+	top:-15px;
+}

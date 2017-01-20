@@ -1,0 +1,47 @@
+{       
+    "name": "Seamless Pre War",
+    "brief": "HTML5 Banner",
+    "link": "",
+    "type": "banner",
+    "frame":"../work/banners/seamless/PreWar/300x250/index.html",
+    "id": "seamless",
+    "client": "Seamless",
+    "date": "11/2015",
+    "technology": "HTML 5, CSS, Javascript, Jquery, Greensock, Minification",
+    "description": "Tasked with building HTML 5 Animatied Banners for both static and Rich Media expandable Banners. All banners meet file size specifications without sacrificing animation.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ],
+    "banners": [
+        {
+            "size":"Pre War 160x600",
+            "width":"160",
+            "height":"600",
+            "link":"../work/banners/seamless/PreWar/160x600/index.html"
+        },
+        {
+            "size":"Pre War 300x250",
+            "width":"300",
+            "height":"250",
+            "link":"../work/banners/seamless/PreWar/300x250/index.html"
+        },
+        {   
+            "size":"Pre War 300x600",
+            "width":"300",
+            "height":"600",
+            "link":"../work/banners/seamless/PreWar/300x600/index.html"
+        },
+        {   
+            "size":"Pre War 728x90",
+            "width":"728",
+            "height":"90",
+            "link":"../work/banners/seamless/PreWar/728x90/index.html"
+        }
+    ]
+}

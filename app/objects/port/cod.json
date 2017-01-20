@@ -1,0 +1,72 @@
+{       
+    "name": "Call of Duty Black Ops III - Playstation 4",
+    "brief": "HTML5 Banner",
+    "link": "",
+    "type": "banner",
+    "id": "cod",
+    "client": "Playstation",
+    "date": "10/2015",
+    "technology": "HTML 5, CSS, Javascript, Jquery, Greensock, Minification",
+    "description": "Tasked with building HTML 5 Animatied Banners for both static and Rich Media expandable Banners. All banners meet file size specifications without sacrificing animation.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"https://github.com/noximus/PS4StarWarsBattleFrontBanners",
+    "image":"../work/banners/cod/bannertemp.jpg",
+    "richbanners": [
+        {
+            "size":"970x66-250 Auto",
+            "width":"970",
+            "height":"250",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM970x66_x250_auto_v2_html5/index.html"
+        },
+        {
+            "size":"970x66-970x250 User",
+            "width":"970",
+            "height":"250",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM970x66_x250_user_v2_html5/index.html"
+        },
+        {
+            "size":"970x66-418 Auto",
+            "width":"970",
+            "height":"418",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM970x66_x418_auto_v2_html5/index.html"
+        },
+        {
+            "size":"970x66-418 User",
+            "width":"970",
+            "height":"418",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM970x66_x418_user_v2_html5/index.html"
+        },
+        {
+            "size":"970x250 No Expand",
+            "width":"970",
+            "height":"250",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM970x250_noexp_v2_html5/index.html"
+        },
+        {
+            "size":"970x250-418 Auto",
+            "width":"970",
+            "height":"418",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM970x250_x418_auto_v3_html5/index.html"
+        },
+        {
+            "size":"970x250-418 User",
+            "width":"970",
+            "height":"418",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM970x250_x418_user_v3_html5/index.html"
+        },
+        {
+            "size":"1280x100-418 Auto",
+            "width":"1280",
+            "height":"418",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM1280x100_x418_auto_v2_html5/index.html"
+        },
+        {
+            "size":"1280x100-418 User",
+            "width":"1280",
+            "height":"418",
+            "link":"../work/banners/cod/AOC_CODExBundles_LearnMore_RM1280x100_x418_user_v2_html5/index.html"
+        }
+    ]
+}

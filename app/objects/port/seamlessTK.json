@@ -1,0 +1,47 @@
+{       
+    "name": "Seamless Tiny Kitchen",
+    "brief": "HTML5 Banner",
+    "link": "",
+    "type": "banner",
+    "frame":"../work/banners/seamless/TinyKitchen/300x250/index.html",
+    "id": "seamless",
+    "client": "Seamless",
+    "date": "11/2015",
+    "technology": "HTML 5, CSS, Javascript, Jquery, Greensock, Minification",
+    "description": "Tasked with building HTML 5 Animatied Banners for both static and Rich Media expandable Banners. All banners meet file size specifications without sacrificing animation.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ],
+    "banners": [
+        {
+            "size":"Tiny Kitchen 160x600",
+            "width":"160",
+            "height":"600",
+            "link":"../work/banners/seamless/TinyKitchen/160x600/index.html"
+        },
+        {
+            "size":"Tiny Kitchen 300x250",
+            "width":"300",
+            "height":"250",
+            "link":"../work/banners/seamless/TinyKitchen/300x250/index.html"
+        },
+        {   
+            "size":"Tiny Kitchen 300x600",
+            "width":"300",
+            "height":"600",
+            "link":"../work/banners/seamless/TinyKitchen/300x600/index.html"
+        },
+        {   
+            "size":"Tiny Kitchen 728x90",
+            "width":"728",
+            "height":"90",
+            "link":"../work/banners/seamless/TinyKitchen/728x90/index.html"
+        }
+    ]
+}

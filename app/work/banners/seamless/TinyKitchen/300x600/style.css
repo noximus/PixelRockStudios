@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+    position: absolute;
+    width:300px;
+    height:600px;
+    border:solid;
+    border-color:#000;
+    border-width:1px;
+    overflow:hidden;
+    cursor: pointer;
+}
+#star1, #star2, #star3, #star4, #star5, #star6, #your, #tinyKitchen, #willThankYou, #f2_star1, #f2_star2, #f2_star3, #f2_star4, #f2_star5, #f2And, #f2So, #f2Will, #f2The, #f2Guy, #f3_star1, #f3_star2, #f3_star3, #f3Subletting, #f4Logo, #f4NyEats, #f4OrderNow{
+    position: absolute;
+    display:none;
+    opacity:0;
+}
+#bg {
+    position: absolute;
+    top:0px;
+    background: #038c8e;
+    width:300px;
+    height:600px;
+    z-index: -4;
+}

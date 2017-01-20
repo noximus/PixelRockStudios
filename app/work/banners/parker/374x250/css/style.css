@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+    position: absolute;
+    width:374px;
+    height:250px; 
+    background:#1c1d20; 
+    border:solid;
+    border-color:#000;
+    border-width:1px;
+    overflow:hidden;
+    cursor: pointer;
+}
+.show{
+    position: absolute;
+    display:block;
+    opacity:1;
+}
+.hidden{
+    position: absolute;
+    display:none;
+    opacity:0;
+}
+#f4_img1{
+    left: 75px;
+    top: 15px;
+    width: 100px;
+    z-index: 10;
+}
+#f4_img2{
+    z-index: 10;
+}
+#bgColor{
+    background:#1c1d20; 
+    z-index: 10;
+}
+
+#penHolder {
+ position: absolute;
+  left:-228px;  
+top:-188px;
+opacity:1;
+
+z-index: 1;   
+}
+
+
+#pen {
+ position: absolute;
+ z-index: 1;
+
+}

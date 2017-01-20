@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+    position: absolute;
+    width:635px;
+    height:100px; 
+    background:#1c1d20; 
+    border:solid;
+    border-color:#000;
+    border-width:1px;
+    overflow:hidden;
+    cursor: pointer;
+}
+.show{
+    position: absolute;
+    display:block;
+    opacity:1;
+}
+.hidden{
+    position: absolute;
+    display:none;
+    opacity:0;
+}
+
+#bgColor{
+    background:#1c1d20; 
+    z-index: 10;
+}
+
+#f3_img1 {
+    position: absolute;
+    top:100px;
+
+}

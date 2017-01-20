@@ -1,0 +1,61 @@
+{       
+    "name": "JBL",
+    "brief": "HTML5 Banner",
+    "link": "",
+    "type": "banner",
+    "frame":"../work/banners/jbl/BestBuyBuyNow/300x250/index.html",
+    "id": "jbl",
+    "client": "JBL",
+    "date": "12/2015",
+    "technology": "HTML 5, CSS, Javascript, Jquery, Greensock, Minification",
+    "description": "Tasked with building HTML5 Animatied Banners using Greensock and animation tricks. All banners meet file size specifications.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ],
+    "banners": [
+        {
+            "size":"160x600",
+            "width":"160",
+            "height":"600",
+            "link":"../work/banners/jbl/BestBuyBuyNow/160x600/index.html"
+        },
+        {
+            "size":"300x250",
+            "width":"300",
+            "height":"250",
+            "link":"../work/banners/jbl/BestBuyBuyNow/300x250/index.html"
+        },
+        {   
+            "size":"728x90",
+            "width":"728",
+            "height":"90",
+            "link":"../work/banners/jbl/BestBuyBuyNow/728x90/index.html"
+        }
+    ],
+    "richbanners": [
+        {
+            "size":"160x600",
+            "width":"160",
+            "height":"600",
+            "link":"../work/banners/jbl/RichMedia/160x600x600x600/160-600x600/index.html"
+        },
+        {
+            "size":"300x250",
+            "width":"300",
+            "height":"250",
+            "link":"../work/banners/jbl/RichMedia/300x250x600x250/300-600x250/index.html"
+        },
+        {   
+            "size":"728x90",
+            "width":"728",
+            "height":"90",
+            "link":"../work/banners/jbl/RichMedia/728x90x728x315/728x90-315/index.html"
+        }
+    ]
+}

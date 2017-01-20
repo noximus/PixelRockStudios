@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+body{margin: 0px;}
+#container {
+	position: absolute;
+	width: 298px;
+	height: 248px;
+	background:#d52430;	
+	border:solid;
+	border-color:#000;
+	border-width:1px;
+	overflow:hidden;
+	display: none;
+	cursor: pointer;
+}
+.hidden{
+	position: absolute;
+	top:0px;
+	left:0px;
+	opacity:0;
+}
+.show{
+	position: absolute;
+	top:0px;
+	left:0px;
+	opacity:1;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+    position: absolute;
+    width:728px;
+    height:90px;
+    border:solid;
+    border-color:#000;
+    border-width:1px;
+    overflow:hidden;
+    cursor: pointer;
+}
+
+#f2Star1, #f2Star2, #f2Star3, #your, #tinyKitchen, #f2willThankYou, #f3andSoWill, #f3theGuy, #f4Subletting, #f5Logo, #f5NyEats, #f5OrderNow{
+    position: absolute;
+    display:none;
+    opacity:0;
+}
+#bg {
+    position: absolute;
+    top:0px;
+    background: #038c8e;
+    width:728px;
+    height:90px;
+    z-index: -4;
+}

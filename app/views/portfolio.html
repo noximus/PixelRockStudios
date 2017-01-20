@@ -7,12 +7,16 @@
         </div>
         <div class="pixel-cont-area">
         <div class="row">
-          <div ng-repeat="project in portfolio | filter:query" class="col-xs-4" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
+        <div class="col-xs-12 text-center">
+        <h3>Please view on desktop as most of my projects were made for desktop. </h3>
+        </div>
+           
+          <!-- <div ng-repeat="project in portfolio | filter:query" class="col-xs-4" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
             <a href="#" class="thumbnail">
-              <img ng-src="{{portfolio[$index].thumb}}" alt="{{portfolio[$index].name}}">
+              <img ng-src="{{portfolio[$index].thumb}}" alt="{{portfolio[$index].name}}"> -->
               <!-- <div class="caption">{{portfolio[$index].name}}</div> -->
-            </a>
-          </div>
+            <!-- </a>
+          </div> -->
           
         </div>
         </div>
@@ -22,13 +26,13 @@
 </div>
 <div class="col-md-12 hidden-xs">
     <div class="row pad-top-15">
-      <div class="col-sm-4 col-md-3">
-        <div class="pixel-container">
-          <div class="pixel-cont-head">
+      <div class="col-sm-4 col-lg-3 sideScroll">
+        <!-- <div class="pixel-container"> -->
+          <!-- <div class="pixel-cont-head">
             <div class="pull-left">Select a Project</div><div class="pull-right">Search</div>
-          </div>
+          </div> -->
 
-          <div class="pixel-cont-area scroll">
+          <div class="pixel-cont-area">
             
             <input type="text" name="search" placeholder="Search Projects" maxlength="40" class="search" ng-model="query"/>
             
@@ -38,55 +42,87 @@
             
             </div>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
-      <div class="col-sm-8" ng-show="portDetail.type == 'banner'">
+      <div class="col-sm-8 col-lg-9" ng-show="portDetail.type == 'banner'">
         <div class="pixel-container">
           <div class="pixel-cont-head">
             <div class="pull-left">{{portDetail.name}}</div>
-            <div class="pull-right">Banner
-            </div>
+            <div class="pull-right">{{portDetail.brief}}</div>
           </div>
-          <div class="pixel-cont-area scroll">
+          <div class="pixel-cont-area">
             <div class="row">
               <div class="col-sm-12 col-lg-6 noscroll">
-                <iframe id="bannerView" ng-src="{{portDetail.frame}}"></iframe>
+                <iframe ng-if="portDetail.frame" class="iframePreview" id="bannerView" ng-src="{{portDetail.frame}}"></iframe>
+                <img ng-if="!portDetail.frame" ng-src="{{portDetail.image}}" class="img-responsive" alt="">
               </div>
-              <div class="col-sm-12 col-lg-6">
+              <div class="col-sm-12 col-lg-6" ng-if="portDetail.frame">
                 <div class="port-text">
                   <h6>Replay Animation:</h6>
                     <span class="glyphicon glyphicon-repeat replay" aria-hidden="true" ng-click="refreshBanner()"></span>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-3">
+              <div class="col-sm-6 col-lg-3" ng-if="portDetail.banners">
                 <div class="port-text">
                   <h6>Standard Sizes:</h6>
                   <p></p>
-                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">160x600</div>
-                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">300x250</div>
-                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">300x600</div>
+                    
+                    <div ng-repeat="banners in portDetail.banners" class="pixel-button" data-target="#bannerModal" data-link="{{banners.link}}" ng-click="launchBanner($index)" class="pixel-button"><img src="../images/pixel-button-carot.svg" alt="">{{ banners.size }}</div>
+
+                    <div class="modal fade" id="bannerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+
+                            <button type="button" class="close"  data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{{portDetail.name}} - Standard {{bannerCurrentWid}}x{{bannerCurrentHei}}</h4>
+                          </div>
+                          <div class="modal-body text-center">
+                            <iframe id="bannerView" ng-src="{{bannerCurrent}}" width="{{bannerCurrentWid}}" height="{{bannerCurrentHei}}"></iframe>
+                          </div><!-- 
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
 
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-3">
+              <div class="col-sm-6 col-lg-3" ng-if="portDetail.richbanners">
                 <div class="port-text">
                   <h6>Rich Media Sizes:</h6>
                   <p></p>
-                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">160x600</div>
-                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">300x250</div>
-                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">300x600</div>
+                    
+                    <div ng-repeat="banners in portDetail.richbanners" class="pixel-button" data-target="#bannerModalRich" data-link="{{banners.link}}" ng-click="launchBannerRich($index)" class="pixel-button"><img src="../images/pixel-button-carot.svg" alt="">{{ banners.size }}</div>
 
+                    <div class="modal fade" id="bannerModalRich" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{{portDetail.name}} - Rich Media {{bannerCurrentWidRich}}x{{bannerCurrentHeiRich}}</h4>
+                          </div>
+                          <div class="modal-body text-center" >
+                            <iframe id="bannerView" ng-src="{{bannerCurrentRich}}" width="{{bannerCurrentWidRich}}" height="{{bannerCurrentHeiRich}}"></iframe>
+                          </div><!-- 
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-12">
                 <div class="port-text">
                   <h6>Client:</h6> {{portDetail.client}} 
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="port-text text-right">
+              <div class="col-sm-12">
+                <div class="port-text">
                   <h6>Date Launched: </h6> {{portDetail.date | date}}  
                 </div>
               </div>
@@ -125,7 +161,7 @@
             <div class="pull-right">Projects
             </div>
           </div>
-          <div class="pixel-cont-area scroll">
+          <div class="pixel-cont-area">
             <div class="row">
               <div class="col-sm-8">
                 <div class="pixel-container portfolio-cont-lg"><img ng-src="{{portDetail.img[0].image}}" class="img-responsive" alt=""></div>
@@ -178,3 +214,4 @@
       </div>
     </div>
 </div>
+

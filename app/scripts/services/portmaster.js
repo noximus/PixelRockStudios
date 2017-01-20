@@ -1,7 +1,17 @@
 'use strict';
 angular.module('pixelRockStudiosApp')
   .factory('portMaster', function () {
-    return [{"name": "Star Wars - Playstation", "link": "http://www.google.com/", "file": "banner.json","thumb":"images/portfolio/biore.jpg"},
+    return [{"name": "Star Wars - Playstation 4", "link": "http://www.google.com/", "file": "starwars.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Call of Duty BOIII - Playstation 4", "link": "http://www.google.com/", "file": "cod.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Destiny - Playstation 4", "link": "http://www.google.com/", "file": "destiny.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Sheraton", "link": "http://www.google.com/", "file": "sheraton.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "JBL Headphones", "link": "http://www.google.com/", "file": "jbl.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Parker Pens", "link": "http://www.google.com/", "file": "parker.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Seamless 8 Million", "link": "http://www.google.com/", "file": "seamless8m.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Seamless Avoid Cooking", "link": "http://www.google.com/", "file": "seamlessAC.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Seamless Pre War", "link": "http://www.google.com/", "file": "seamlessPW.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Seamless Tiny Kitchen", "link": "http://www.google.com/", "file": "seamlessTK.json","thumb":"images/portfolio/biore.jpg"},
+    {"name": "Seamless Your Secret", "link": "http://www.google.com/", "file": "seamlessYS.json","thumb":"images/portfolio/biore.jpg"},
     {"name": "BMW M 40th Anniversary", "link": "http://www.bmwusa.com/m", "file": "bmw_m_40th.json","thumb":"images/portfolio/bmwM40.jpg"},
     {"name": "BMW Motorsports", "link": "http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx", "file": "bmw_motorsports.json","thumb":"images/portfolio/bmwms.jpg"},
     {"name": "BMW ConnectedDrive", "link": "http://www.bmwusa.com/standard/content/innovations/bmwconnecteddrive/connecteddrive.aspx", "file": "bmw_connecteddrive.json","thumb":"images/portfolio/bmwcd.jpg"},

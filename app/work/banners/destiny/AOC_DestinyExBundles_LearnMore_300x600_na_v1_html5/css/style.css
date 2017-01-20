@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+position: absolute;
+width:300px;
+height:600px;
+background: url('../images/starbg.jpg');	
+overflow:hidden;
+	font-family: 'Open Sans';
+	cursor: pointer;
+}
+
+#learnMore{
+	position: absolute;
+	right: 21px;
+    top: 32px;
+	height: 20px;
+	width: 110px;
+	z-index: 100;
+}
+#learnMore a{
+	font-family: NeuzeitGro;
+	color:  #ffffff;
+	font-size: 13px;
+	font-family: 'Open Sans';
+	line-height: 15.6px;
+	text-align: right;
+	text-shadow: 0px 1px 4px rgba(19, 36, 91, 0.59);
+	text-decoration: none;
+	display: block;
+}
+#enter, #tweet{
+	height: 90px;
+	width: 258px;
+	position: absolute;
+	top:167px;
+	left:0px;
+	color: #fff;
+	text-align: center;
+
+}
+
+#concole {
+
+position: absolute;
+top:298px;
+left:57px;
+opacity: 0;
+
+}
+
+
+#finalhash {
+	position: absolute;
+	top: 34px;
+    left: 20px;
+	
+}
+
+
+#tweet{
+	top:147px !important;
+	left:0px !important;
+}
+
+
+#rate {
+	position: absolute;
+	top:26px;
+	left:15px;
+	z-index: 1;
+}
+
+#tweet, div#heros, p#hashtag{
+	display: none;
+	position: absolute;
+}
+#enter p, #tweet p{
+	margin: 0;
+	display: block;
+	opacity: 0;
+}
+#prize{
+	position: absolute;
+    top: 340px;
+    left: 0px;
+    width: 255px;
+    font-size: 17px;
+    font-family: 'Open Sans';
+    opacity: 0;
+}
+
+div#wave{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 104;
+}
+div#wave img{
+	display: block;
+}
+div#logo{
+	position: absolute;
+	bottom: 2px;
+    right: 12px;
+}
+div#heros{
+	top: 0;
+}
+div#heros img{
+	opacity: 0;
+}
+p#noPurch{
+	font-size: 8px;
+	position: absolute;
+	top: -1px;
+    left: 16px;
+	color: #fff;
+	display: none;
+	z-index: 100;
+}
+p#hashtag{
+	z-index: 100;
+	top: 238px;
+	font-size: 18px;
+	color: #fff;
+	opacity: 0;
+	text-align: center;
+	left: 0px;
+}
+#finalFrame{
+	text-align: center;
+	background-color: #17669e;
+	color: #fff;
+	z-index: 100;
+	width: 300px;
+	height: 600px;
+	display: none;
+	position: absolute;
+	margin: 0;
+	opacity: 0;
+}
+#finaltxt{
+	color: #fff;
+	opacity: 0;
+	display: none;
+	margin: 0;
+	margin-top: 204px;
+}
+h4#finaltxt{
+	margin: 15px;
+	margin-top:134px;
+}
+h3#finaltxt{
+	font-size: 25px;
+}
+h1#finaltxt{
+	font-size: 35px;
+}
+#lrnBtn{
+	color: #fff;
+	opacity: 0;
+	display: none;
+	position: absolute;
+	background: url('../images/learn_more.png');
+	font-size: 12px;
+	left: 82px;
+	top: 330px;
+	border: none;
+	padding: 10px 23px;
+	cursor: pointer;
+	width: 144px;
+    height: 48px;
+}
+#great{
+	letter-spacing: 2px;
+}
+#ps4logo{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	opacity: 0; 
+}
+

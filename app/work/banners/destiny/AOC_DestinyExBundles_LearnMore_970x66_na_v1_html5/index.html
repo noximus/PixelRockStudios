@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Destiny</title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600italic' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container">
+	<div id="learnMore">
+		<a href="#">
+			<img src="images/learnMore.png">
+		</a>
+	</div>
+	<div id="enter">
+		<img src="images/enter.png" id="enterFor">	
+	</div>
+	
+	<div id="prize"><img src="images/home_tag.png"></div>
+
+
+	 <div id="tweet">
+		<img src="images/tweet.png">
+	</div>
+	<div id="heroFrame">
+		<div id="heros">
+			<img src="images/herosbg.jpg"id='herosbg'>
+		</div>
+		<img src="images/hashtag.png" id="hashtag">
+		
+	</div>
+	<div id="finalFrame">
+		<img src="images/ps4logo.png" id='ps4logo'>
+		<img src="images/greatness.png" id="greatness">
+		<img src="images/bundlesweeps.png" id='bundlesweeps'>
+		<a href="#" id="lrnBtn">
+			<img src="images/learnBtn.png" >
+		</a>
+	</div> 
+	<div id="wave">
+		<img src="images/wave1.png">
+	</div>
+	<div id="logo">
+		<img src="images/destinylogo.png">
+	</div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/plugins/CSSPlugin.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenLite.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/easing/EasePack.min.js"></script>
+<script type="text/javascript" src="http://cdn.flashtalking.com/frameworks/js/api/2/8/html5API.js"></script>
+<script type="text/javascript" src="manifest.js"></script>
+<script type="text/javascript" src="Animation.js"></script>
+<script type="text/javascript">
+	var myFT = new FT,
+	// Declare HTML elements
+	container = FT.query("#container")
+
+	// Apply clickTags
+	myFT.applyClickTag(container, 1);
+
+</script>
+</body>
+</html>
