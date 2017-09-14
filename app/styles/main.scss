@@ -10,7 +10,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 $font-stack:    bankGothic, Helvetica, sans-serif;
 
 $font-color: #bdb6a2;
-$font-roll: #DB7D26;
+$font-roll: #7b42b4;
 $line-color: #7f704d;
 $orange-abg: rgba(248,155,18,.8);
 $orange-abgb: rgba(248,155,18,.2);
@@ -340,9 +340,9 @@ body{
       width:17px;
       height: 200px;
       position: absolute;
-      border-top:1px solid #e1e1e1;
+      border:1px solid #bdbdbd;
       border-bottom:1px solid #e1e1e1;
-      box-shadow: inset 0px 0px 5px $font-roll;
+      box-shadow: inset 0px 0px 5px #7b42b4;
       background: $black-abg;
       /*background: rgba(50,205,50,.25);*/
       /*box-shadow: "0px 0px 24px 6px white";*/
