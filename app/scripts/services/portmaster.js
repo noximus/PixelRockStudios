@@ -1,10 +1,12 @@
 'use strict';
 angular.module('pixelRockStudiosApp')
   .factory('portMaster', function () {
-    return [{"name": "Star Wars - Playstation 4", "link": "http://www.google.com/", "file": "starwars.json","thumb":"images/portfolio/biore.jpg"},
-    {"name": "Call of Duty BOIII - Playstation 4", "link": "http://www.google.com/", "file": "cod.json","thumb":"images/portfolio/biore.jpg"},
-    {"name": "Destiny - Playstation 4", "link": "http://www.google.com/", "file": "destiny.json","thumb":"images/portfolio/biore.jpg"},
-    {"name": "Sheraton", "link": "http://www.google.com/", "file": "sheraton.json","thumb":"images/portfolio/biore.jpg"},
+    return [{"name": "Dell Technologies - ARC", "link": "http://www.google.com/", "file": "dell.json","thumb":"images/portfolio/ThumbDell.jpg"},
+    {"name": "Star Wars - Playstation 4", "link": "http://www.google.com/", "file": "starwars.json","thumb":"images/portfolio/ThumbSWBF.jpg"},
+    {"name": "Star Wars - Playstation 4", "link": "http://www.google.com/", "file": "starwars.json","thumb":"images/portfolio/ThumbSWBF.jpg"},
+    {"name": "Call of Duty BOIII - Playstation 4", "link": "http://www.google.com/", "file": "cod.json","thumb":"images/portfolio/ThumbSWBF.jpg"},
+    {"name": "Destiny - Playstation 4", "link": "http://www.google.com/", "file": "destiny.json","thumb":"images/portfolio/ThumbDestiny.jpg"},
+    {"name": "Sheraton", "link": "http://www.google.com/", "file": "sheraton.json","thumb":"images/portfolio/ThumbShermin.jpg"},
     {"name": "JBL Headphones", "link": "http://www.google.com/", "file": "jbl.json","thumb":"images/portfolio/biore.jpg"},
     {"name": "Parker Pens", "link": "http://www.google.com/", "file": "parker.json","thumb":"images/portfolio/biore.jpg"},
     {"name": "Seamless 8 Million", "link": "http://www.google.com/", "file": "seamless8m.json","thumb":"images/portfolio/biore.jpg"},

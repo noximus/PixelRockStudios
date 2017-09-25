@@ -7,14 +7,22 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   font-family: bankGothic;
   src: url('../fonts/BankGothic/bankgthl.ttf');
 }
-$font-stack:    bankGothic, Helvetica, sans-serif;
+$font-stack:bankGothic, Helvetica, sans-serif;
 
 $font-color: #bdb6a2;
 $font-roll: #DB7D26;
 $line-color: #7f704d;
 $orange-abg: rgba(248,155,18,.8);
 $orange-abgb: rgba(248,155,18,.2);
-$black-abg: rgba(0,0,0,.3);
+$black-abg: rgba(0,0,0,.3);/*
+$mainColor:#7b42b4;
+$mainDarker:#481e76;
+$font-color: #bdbdbd;
+$font-roll: #7b42b4;
+$line-color: #481e76;
+$orange-abg: rgba(123,66,180,.8);
+$orange-abgb: rgba(123,66,180,.2);
+$black-abg: rgba(0,0,0,.3);*/
 
 
 /*body > div {overflow: hidden; }*/

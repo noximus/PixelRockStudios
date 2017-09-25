@@ -8,15 +8,17 @@
         <div class="pixel-cont-area">
         <div class="row">
         <div class="col-xs-12 text-center">
+<!--
         <h3>Please view on desktop as most of my projects were made for desktop. </h3>
+-->
         </div>
            
-          <!-- <div ng-repeat="project in portfolio | filter:query" class="col-xs-4" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
-            <a href="#" class="thumbnail">
-              <img ng-src="{{portfolio[$index].thumb}}" alt="{{portfolio[$index].name}}"> -->
-              <!-- <div class="caption">{{portfolio[$index].name}}</div> -->
-            <!-- </a>
-          </div> -->
+          <div ng-repeat="project in portfolio | filter:query" class="col-xs-12" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
+            <a href="#" class="thumbnail" data-toggle="modal" data-target="#mobilePortModal">
+              <img ng-src="{{portfolio[$index].thumb}}" alt="{{portfolio[$index].name}}">
+              <div class="caption">{{portfolio[$index].name}}</div>
+            </a>
+          </div>
           
         </div>
         </div>
@@ -24,9 +26,52 @@
     </div>
   </div>
 </div>
+<!--Mobile Modal Start-->
+<div class="modal fade" id="mobilePortModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{{portDetail.name}}</h4>
+      </div>
+      <div class="modal-body">
+        <div class="pixel-container portfolio-cont-lg"><img ng-src="{{portDetail.img[0].image}}" class="img-responsive" alt=""></div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="port-text">
+              <h6>Client:</h6> {{portDetail.client}} 
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="port-text">
+              <h6>Date Launched: </h6> {{portDetail.date | date}}  
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="port-text">
+              <h6>Technology:</h6>
+                {{portDetail.technology}}
+            </div>
+            <div class="port-text">
+              <h6>Description:</h6> {{portDetail.description}}
+            </div>
+          </div>
+          <div class="col-xs-6 pad-top-10">
+            <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--Mobile Modal End-->
 <div class="col-md-12 hidden-xs">
     <div class="row pad-top-15">
-      <div class="col-sm-4 col-lg-3 sideScroll">
+      <div class="col-sm-4 col-md-3 sideScroll">
         <!-- <div class="pixel-container"> -->
           <!-- <div class="pixel-cont-head">
             <div class="pull-left">Select a Project</div><div class="pull-right">Search</div>
@@ -44,7 +89,7 @@
           </div>
         <!-- </div> -->
       </div>
-      <div class="col-sm-8 col-lg-9" ng-show="portDetail.type == 'banner'">
+      <div class="col-sm-8 col-md-9" ng-show="portDetail.type == 'banner'">
         <div class="pixel-container">
           <div class="pixel-cont-head">
             <div class="pull-left">{{portDetail.name}}</div>

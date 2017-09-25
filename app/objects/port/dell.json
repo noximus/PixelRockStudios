@@ -1,0 +1,19 @@
+{       
+    "name": "Dell Technologies ARC",
+    "link": "https://www.delltechnologies.com/en-us/annual-report/2017/index.htm",
+   "type": "web",
+    "id": "dell-arc",
+    "client": "Dell - Rebellion Design Co.",
+    "date": "8/2017",
+    "technology": "HTML5, CSS3, Javascript, SASS, Greensock, Bootstrap Responsive",
+    "description": "Responsive Website built using Bootstraps framework",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/ThumbDell.jpg"},
+        {"image":"../images/portfolio/dell2.jpg"},
+        {"image":"../images/portfolio/dell3.jpg"}
+    ]
+}
