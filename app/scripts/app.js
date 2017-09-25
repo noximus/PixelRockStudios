@@ -55,6 +55,14 @@ angular
           label: 'Skills'
         }
       })
+      .state('profile', {
+        url: "/profile",
+        templateUrl: "views/profile.html",
+        controller: 'ProfileCtrl',
+        ncyBreadcrumb: {
+          label: 'Profile'
+        }
+      })
       .state('experimental', {
         url: "/experimental",
         templateUrl: "views/experimental.html",
