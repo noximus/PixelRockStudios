@@ -10,7 +10,7 @@ angular
     'ngResource',
     'ui.router',
     'ngSanitize',
-    'ngTouch',
+    'hmTouchEvents',
     'ncy-angular-breadcrumb',
     'uiGmapgoogle-maps'
   ])

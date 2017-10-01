@@ -13,8 +13,8 @@
 -->
         </div>
            
-          <div ng-repeat="project in portfolio | filter:query" class="col-xs-12" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
-            <a href="#" class="thumbnail" data-toggle="modal" data-target="#mobilePortModal">
+          <div ng-repeat="project in portfolio | filter:query" class="col-xs-12">
+            <a class="thumbnail" data-toggle="modal" data-target="#mobilePortModal" hm-tap="selectPortItem('{{ project.file }}')">
               <img ng-src="{{portfolio[$index].thumb}}" alt="{{portfolio[$index].name}}">
               <div class="caption">{{portfolio[$index].name}}</div>
             </a>
@@ -57,7 +57,7 @@
             </div>
           </div>
           <div class="col-xs-6 pad-top-10">
-            <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+            <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" hm-tap="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@
             
             <input type="text" name="search" placeholder="Search Projects" maxlength="40" class="search" ng-model="query"/>
             
-            <div ng-repeat="project in portfolio | filter:query" class="pixel-button" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
+            <div ng-repeat="project in portfolio | filter:query" class="pixel-button" data-link="{{ project.link }}" hm-tap="selectPortItem('{{ project.file }}')" >
               
               <img src="../images/pixel-button-carot.svg" alt="btn carot">{{ project.name }}
             
@@ -104,7 +104,7 @@
               <div class="col-sm-12 col-lg-6" ng-if="portDetail.frame">
                 <div class="port-text">
                   <h6>Replay Animation:</h6>
-                    <span class="glyphicon glyphicon-repeat replay" aria-hidden="true" ng-click="refreshBanner()"></span>
+                    <span class="glyphicon glyphicon-repeat replay" aria-hidden="true" hm-tap="refreshBanner()"></span>
                 </div>
               </div>
               <div class="col-sm-6 col-lg-3" ng-if="portDetail.banners">
@@ -112,7 +112,7 @@
                   <h6>Standard Sizes:</h6>
                   <p></p>
                     
-                    <div ng-repeat="banners in portDetail.banners" class="pixel-button" data-target="#bannerModal" data-link="{{banners.link}}" ng-click="launchBanner($index)" class="pixel-button"><img src="../images/pixel-button-carot.svg" alt="">{{ banners.size }}</div>
+                    <div ng-repeat="banners in portDetail.banners" class="pixel-button" data-target="#bannerModal" data-link="{{banners.link}}" hm-tap="launchBanner($index)" class="pixel-button"><img src="../images/pixel-button-carot.svg" alt="">{{ banners.size }}</div>
 
                     <div class="modal fade" id="bannerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                       <div class="modal-dialog" role="document">
@@ -139,7 +139,7 @@
                   <h6>Rich Media Sizes:</h6>
                   <p></p>
                     
-                    <div ng-repeat="banners in portDetail.richbanners" class="pixel-button" data-target="#bannerModalRich" data-link="{{banners.link}}" ng-click="launchBannerRich($index)" class="pixel-button"><img src="../images/pixel-button-carot.svg" alt="">{{ banners.size }}</div>
+                    <div ng-repeat="banners in portDetail.richbanners" class="pixel-button" data-target="#bannerModalRich" data-link="{{banners.link}}" hm-tap="launchBannerRich($index)" class="pixel-button"><img src="../images/pixel-button-carot.svg" alt="">{{ banners.size }}</div>
 
                     <div class="modal fade" id="bannerModalRich" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                       <div class="modal-dialog" role="document">
@@ -183,7 +183,7 @@
             </div>
             <div class="row pad-top-10">
               <div class="col-sm-3">
-<!--                 <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+<!--                 <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" hm-tap="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
  -->              </div>
               <div class="col-sm-3">
                 <!-- <div class="pixel-button" id="launchGit" data-link="{{portDetail.github}}"><img src="../images/pixel-button-carot.svg" alt="" />View on GitHub</div> -->
@@ -241,7 +241,7 @@
             </div>
             <div class="row pad-top-10">
               <div class="col-sm-3">
-                <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+                <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" hm-tap="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
               </div>
               <div class="col-sm-3">
                 <!-- <div class="pixel-button" id="launchGit" data-link="{{portDetail.github}}"><img src="../images/pixel-button-carot.svg" alt="" />View on GitHub</div> -->
