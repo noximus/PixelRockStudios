@@ -1,0 +1,19 @@
+{       
+    "name": "Basser Center for BRCA",
+    "link": "http://pixelrockstudios.com/work/Infographics/index.html",
+   "type": "web",
+    "id": "basser",
+    "client": "Basser Center",
+    "date": "10/2016",
+    "technology": "HTML, CSS, Javascript, Jquery, Greensock",
+    "description": "9 Responsive animation modules set to animate on page scroll,",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/basserlg.jpg"},
+        {"image":"../images/portfolio/bassersm1.jpg"},
+        {"image":"../images/portfolio/bassersm2.jpg"}
+    ]
+}

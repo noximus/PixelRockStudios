@@ -1,0 +1,47 @@
+{       
+    "name": "Sherwin Williams - HGTV Color Match Campaign",
+    "brief": "HTML5 Banner",
+    "link": "",
+    "type": "banner",
+    "frame":"../work/banners/sherwin/HGTV_colormatch/300x250/index.html",
+    "id": "sherwin",
+    "client": "Deutch - Sherwin Williams",
+    "date": "3/2017",
+    "technology": "HTML 5, CSS, Grunt, Bower, Javascript, Jquery, Greensock, Minification",
+    "description": "Tasked with building HTML 5 Animatied Banners. All banners meet file size specifications without sacrificing animation.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/ThumbShermin.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ],
+    "banners": [
+        {
+            "size":"160x600",
+            "width":"160",
+            "height":"600",
+            "link":"../work/banners/sherwin/HGTV_colormatch/160x600/index.html"
+        },
+        {
+            "size":"300x250",
+            "width":"300",
+            "height":"250",
+            "link":"../work/banners/sherwin/HGTV_colormatch/300x250/index.html"
+        },
+        {   
+            "size":"300x600",
+            "width":"300",
+            "height":"600",
+            "link":"../work/banners/sherwin/HGTV_colormatch/300x600/index.html"
+        },
+        {   
+            "size":"728x90",
+            "width":"728",
+            "height":"90",
+            "link":"../work/banners/sherwin/HGTV_colormatch/728x90/index.html"
+        }
+    ]
+}

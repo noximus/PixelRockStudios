@@ -65,7 +65,7 @@
         <div class="pixel-container">
           <div class="pixel-cont-head">
             <div class="pull-left">{{portDetail.name}}</div>
-            <div class="pull-right">{{portDetail.brief}}</div>
+            <div class="pull-right hidden-xs">{{portDetail.brief}}</div>
           </div>
           <div class="pixel-cont-area">
             <div class="row">
@@ -214,7 +214,7 @@
               <div class="col-sm-12 col-lg-6" ng-if="portDetail.frame">
                 <div class="port-text">
                   <h6>Replay Animation:</h6>
-                    <span class="glyphicon glyphicon-repeat replay" aria-hidden="true" hm-tap="refreshBanner()"></span>
+                    <span class="glyphicon glyphicon-repeat replay" aria-hidden="true" ng-click="refreshBanner()"></span>
                 </div>
               </div>
               <div class="col-sm-6 col-lg-3" ng-if="portDetail.banners">

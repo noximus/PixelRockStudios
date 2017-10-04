@@ -48,6 +48,7 @@ angular.module('pixelRockStudiosApp')
         // TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"0px"}, ease:Elastic.easeOut});
     };
     $scope.refreshBanner = function() {
+       /* console.log(document.getElementById('bannerView').contentWindow.location);*/
         // TweenMax.to($(hoverEvent.target).children('img'), 1, {css:{'margin-left':"0px"}, ease:Elastic.easeOut});
         document.getElementById('bannerView').contentWindow.location.reload(true);
     };

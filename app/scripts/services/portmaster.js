@@ -2,7 +2,15 @@
 angular.module('pixelRockStudiosApp')
   .factory('portMaster', function () {
     return [{"name": "Dell Technologies - ARC", "link": "http://www.google.com/", "file": "dell.json","thumb":"images/portfolio/ThumbDell.jpg"},
-    {"name": "Sherwin Williams", "link": "http://www.google.com/", "file": "sherwin.json","thumb":"images/portfolio/ThumbShermin.jpg"},
+    {"name": "Basser Center", "link": "http://www.pixelrockstudios.com/work/Infographics/index.html", "file": "basser.json","thumb":"images/portfolio/ThumbBasser.jpg"},
+    {"name": "Sherwin Williams - HGTV Color", "link": "http://www.google.com/", "file": "hgtv_color.json","thumb":"images/portfolio/ThumbShermin.jpg"},
+    {"name": "Sherwin Williams - HGTV Infinity", "link": "http://www.google.com/", "file": "hgtv_infinity.json","thumb":"images/portfolio/ThumbShermin.jpg"},
+    {"name": "Sherwin Williams - HGTV Infinity Male 65%", "link": "http://www.google.com/", "file": "hgtv_infinitymale.json","thumb":"images/portfolio/ThumbShermin.jpg"},
+    {"name": "Sherwin Williams - HGTV Infinity 65%", "link": "http://www.google.com/", "file": "hgtv_infinity65.json","thumb":"images/portfolio/ThumbShermin.jpg"},
+    {"name": "Sherwin Williams - HGTV Male Version", "link": "http://www.google.com/", "file": "hgtv_male.json","thumb":"images/portfolio/ThumbShermin.jpg"},
+    {"name": "Sherwin Williams - HGTV Infinity Showcase", "link": "http://www.google.com/", "file": "hgtv_infinityshowcase.json","thumb":"images/portfolio/ThumbShermin.jpg"},
+    {"name": "Thompsons - Peace of Mind", "link": "http://www.google.com/", "file": "thompsons_peaceofmind.json","thumb":"images/portfolio/ThumbShermin.jpg"},
+    {"name": "Thompsons - More Protection", "link": "http://www.google.com/", "file": "thompsons_moreprotection.json","thumb":"images/portfolio/ThumbShermin.jpg"},
     {"name": "Star Wars - Playstation 4", "link": "http://www.google.com/", "file": "starwars.json","thumb":"images/portfolio/ThumbSWBF.jpg"},
     {"name": "Call of Duty BOIII - Playstation 4", "link": "http://www.google.com/", "file": "cod.json","thumb":"images/portfolio/ThumbCOD.jpg"},
     {"name": "Destiny - Playstation 4", "link": "http://www.google.com/", "file": "destiny.json","thumb":"images/portfolio/ThumbDestiny.jpg"},
