@@ -1,0 +1,14 @@
+{
+  "require": {
+    "respect/validation": "0.7.*@dev",
+    "gregwar/captcha": "dev-master",
+    "phpmailer/phpmailer": "^6.0",
+    "nesbot/carbon": "1.13.0",
+    "illuminate/contracts": "5.0.*@dev",
+    "illuminate/container": "5.0.*@dev",
+    "illuminate/support": "5.0.*@dev",
+    "illuminate/database": "5.0.*@dev",
+    "ircmaxell/password-compat": "dev-master",
+    "ezyang/htmlpurifier": "dev-master"
+  }
+}

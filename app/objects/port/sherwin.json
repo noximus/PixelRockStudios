@@ -6,7 +6,7 @@
     "frame":"../work/banners/sherwin/HGTV_color/300x250/index.html",
     "id": "sherwin",
     "client": "Deutch - Sherwin Williams",
-    "date": "9/2015",
+    "date": "3/2017",
     "technology": "HTML 5, CSS, Grunt, Bower, Javascript, Jquery, Greensock, Minification",
     "description": "Tasked with building HTML 5 Animatied Banners. All banners meet file size specifications without sacrificing animation.",
     "facebook":"../images/lg.jpg",
@@ -14,7 +14,7 @@
     "linkedin":"../images/sm2.jpg",
     "github":"",
     "img": [
-        {"image":"../images/lg.jpg"},
+        {"image":"../images/portfolio/ThumbShermin.jpg"},
         {"image":"../images/sm1.jpg"},
         {"image":"../images/sm2.jpg"}
     ],

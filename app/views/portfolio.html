@@ -34,7 +34,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel">{{portDetail.name}}</h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" ng-show="portDetail.type == 'web'">
         <div class="pixel-container portfolio-cont-lg"><img ng-src="{{portDetail.img[0].image}}" class="img-responsive" alt=""></div>
         <div class="row">
           <div class="col-xs-12">
@@ -58,6 +58,116 @@
           </div>
           <div class="col-xs-6 pad-top-10">
             <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" hm-tap="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body" ng-show="portDetail.type == 'banner'">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">{{portDetail.name}}</div>
+            <div class="pull-right">{{portDetail.brief}}</div>
+          </div>
+          <div class="pixel-cont-area">
+            <div class="row">
+              <div class="col-sm-12 col-lg-6 noscroll">
+                <iframe ng-if="portDetail.frame" class="iframePreview" id="bannerView" ng-src="{{portDetail.frame}}"></iframe>
+                <img ng-if="!portDetail.frame" ng-src="{{portDetail.image}}" class="img-responsive" alt="">
+              </div>
+              <div class="col-sm-12 col-lg-6" ng-if="portDetail.frame">
+                <div class="port-text">
+                  <h6>Replay Animation:</h6>
+                    <span class="glyphicon glyphicon-repeat replay" aria-hidden="true" hm-tap="refreshBanner()"></span>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3" ng-if="portDetail.banners">
+                <div class="port-text">
+                  <h6>Standard Sizes:</h6>
+                  <p></p>
+                    
+                    <div ng-repeat="banners in portDetail.banners" class="pixel-button" data-target="#bannerModal" data-link="{{banners.link}}" hm-tap="launchBanner($index)" class="pixel-button"><img src="../images/pixel-button-carot.svg" alt="">{{ banners.size }}</div>
+
+                    <div class="modal fade" id="bannerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+
+                            <button type="button" class="close"  data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{{portDetail.name}} - Standard {{bannerCurrentWid}}x{{bannerCurrentHei}}</h4>
+                          </div>
+                          <div class="modal-body text-center">
+                            <iframe id="bannerView" ng-src="{{bannerCurrent}}" width="{{bannerCurrentWid}}" height="{{bannerCurrentHei}}"></iframe>
+                          </div><!-- 
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3" ng-if="portDetail.richbanners">
+                <div class="port-text">
+                  <h6>Rich Media Sizes:</h6>
+                  <p></p>
+                    
+                    <div ng-repeat="banners in portDetail.richbanners" class="pixel-button" data-target="#bannerModalRich" data-link="{{banners.link}}" hm-tap="launchBannerRich($index)" class="pixel-button"><img src="../images/pixel-button-carot.svg" alt="">{{ banners.size }}</div>
+
+                    <div class="modal fade" id="bannerModalRich" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">{{portDetail.name}} - Rich Media {{bannerCurrentWidRich}}x{{bannerCurrentHeiRich}}</h4>
+                          </div>
+                          <div class="modal-body text-center" >
+                            <iframe id="bannerView" ng-src="{{bannerCurrentRich}}" width="{{bannerCurrentWidRich}}" height="{{bannerCurrentHeiRich}}"></iframe>
+                          </div><!-- 
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="port-text">
+                  <h6>Client:</h6> {{portDetail.client}} 
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="port-text">
+                  <h6>Date Launched: </h6> {{portDetail.date | date}}  
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="port-text">
+                  <h6>Technology:</h6>
+                    {{portDetail.technology}}
+                </div>
+                <div class="port-text">
+                  <h6>Description:</h6> {{portDetail.description}}
+                </div>
+              </div>
+            </div>
+            <div class="row pad-top-10">
+              <div class="col-sm-3">
+<!--                 <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" hm-tap="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+ -->              </div>
+              <div class="col-sm-3">
+                <!-- <div class="pixel-button" id="launchGit" data-link="{{portDetail.github}}"><img src="../images/pixel-button-carot.svg" alt="" />View on GitHub</div> -->
+              </div>
+              
+              <!-- <div class="col-sm-3 pull-right text-right">Share on
+                <a href="https://twitter.com/pixelrockstudio" target="_blank"><img class="social-icon" src="../images/twitter.svg" alt="Follow me on Twitter @PixelRockStudio"></a> 
+                <a href="https://www.facebook.com/pixelrockstudios" target="_blank"><img class="social-icon" src="../images/facebook-square.svg" alt="Follow me on Facebook"></a> 
+                <a href="https://www.linkedin.com/pub/henry-richardson/26/9aa/713" target="_blank"><img class="social-icon" src="../images/linkedin.svg" alt="Follow me on Linkedin"></a>
+              </div> -->
+            </div>
+            
           </div>
         </div>
       </div>
