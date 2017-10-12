@@ -1,0 +1,19 @@
+{       
+    "name": "Google Map API",
+    "link": "http://pixelrockstudios.com/#/citymaps",
+   "type": "web",
+    "id": "citymaps",
+    "client": "Google Maps API",
+    "date": "6/2016",
+    "technology": "Restful API, Google API, Angularjs",
+    "description": "Google map API connected to a third party API database that makes cust",
+    "facebook":"../images/citylg.jpg",
+    "twitter":"../images/citysm1.jpg",
+    "linkedin":"../images/citysm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/citylg.jpg"},
+        {"image":"../images/portfolio/citysm1.jpg"},
+        {"image":"../images/portfolio/citysm2.jpg"}
+    ]
+}

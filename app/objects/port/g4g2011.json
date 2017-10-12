@@ -1,0 +1,19 @@
+{       
+    "name": "Goods for Good - Gala 2011",
+    "link": "http://pixelrockstudios.com/work/g4g/2011/",
+   "type": "web",
+    "id": "g4g2011",
+    "client": "Goods for Good",
+    "date": "6/2011",
+    "technology": "HTML, CSS, Javascript, Video",
+    "description": "Basic site made for an annual Gala event in 2011",
+    "facebook":"../images/relatelg.jpg",
+    "twitter":"../images/relatesm1.jpg",
+    "linkedin":"../images/relatesm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/g4g2011lg.jpg"},
+        {"image":"../images/portfolio/g4g2011sm1.jpg"},
+        {"image":"../images/portfolio/g4g2011sm2.jpg"}
+    ]
+}

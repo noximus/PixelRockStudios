@@ -1,0 +1,19 @@
+{       
+    "name": "RelateIQ CRM Form",
+    "link": "http://pixelrockstudios.com/markerPort/app/#/",
+   "type": "web",
+    "id": "basser",
+    "client": "RelateIQ",
+    "date": "8/2016",
+    "technology": "HTML, CSS, AngularJS, PHP Slim Framework, PHP and Javascript Form Validation, Restful API GET and POST Methods, PHP Mailer, Composer",
+    "description": "This is a Form that connects to a Restful API to store the information captured by the form.  It was created for traveling salesmen who needed form to enter contacts in.",
+    "facebook":"../images/relatelg.jpg",
+    "twitter":"../images/relatesm1.jpg",
+    "linkedin":"../images/relatesm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/relatelg.jpg"},
+        {"image":"../images/portfolio/relatesm1.jpg"},
+        {"image":"../images/portfolio/relatesm2.jpg"}
+    ]
+}
