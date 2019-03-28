@@ -1,0 +1,47 @@
+<div class="col-md-12">
+    <div class="row pad-top-15">
+      <div class="col-sm-4 col-md-3">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">Search places in City Map</div><div class="pull-right"></div>
+          </div>
+          <div class="pixel-cont-area">
+            <input type="text" name="search" placeholder="Search Projects" maxlength="40" class="search" ng-model="search"/>
+			<br /><br />
+            <div ng-repeat="places in map.tempMarkers.items" class="pixel-button hidden-xs" data-link="">{{ places.name }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-9">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">City Maps &amp; Google Api</div>
+            <div class="pull-right">{{search}}</div>
+          </div>
+          <div class="pixel-cont-area">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="pixel-container portfolio-cont-lg">
+                	<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+    					<ui-gmap-markers models="map.markers" coords="'coords'" idKey="'idKey'"></ui-gmap-markers>
+ 					</ui-gmap-google-map>
+ 				</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="port-text">
+                  <h6>Latitude:</h6> {{map.center.latitude}}  
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="port-text text-right">
+                  <h6>Longitude: </h6> {{map.center.longitude}}  
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

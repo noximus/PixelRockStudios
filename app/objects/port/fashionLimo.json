@@ -1,0 +1,17 @@
+{		"name": "Fashion Limo",
+       "link": "http://www.pixelrockstudios.com/work/fashionLimo/",
+   "type": "web",
+       "id": "fashionLimo",
+       "client": "Fashion Limo",
+       "date": "5/2004",
+       "technology": "Design, Branding, Concept, Flash, ActionScript 1.0, XML, HTML, CSS, PHP, Fax Services",
+       "description": "Fashion Limo",
+       "facebook":"",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/fllg.jpg"},
+            {"image":"../images/portfolio/flsm1.jpg"},
+            {"image":"../images/portfolio/flsm2.jpg"}
+        ]}

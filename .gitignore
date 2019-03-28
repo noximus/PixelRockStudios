@@ -3,3 +3,7 @@ dist
 .tmp
 .sass-cache
 bower_components
+secret.json
+id_rsa
+id_rsa.pub
+.ftppass

@@ -1,0 +1,19 @@
+{       
+    "name": "BMW M 40th Anniversary",
+    "link": "http://www.bmwusa.com/m",
+   "type": "web",
+    "id": "bmw-m-40th",
+    "client": "BMW",
+    "date": "4/2013",
+    "technology": "HTML, CSS, Javascript, Jquery, Ajax, Greensock",
+    "description": "",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"https://github.com/noximus/bmw-explore-m40",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ]
+}

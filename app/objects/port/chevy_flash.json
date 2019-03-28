@@ -1,0 +1,17 @@
+{		"name": "Chevy Flash Calculator",
+       "link": "http://www.pixelrockstudios.com/work/chevy",
+   "type": "web",
+       "id": "chevy-flash",
+       "client": "Chevy",
+       "date": "4/2006",
+       "technology": "HTML, CSS, Flash, XML, Greensock",
+       "description": "",
+       "facebook":"../images/lg.jpg",
+        "twitter":"../images/sm1.jpg",
+        "linkedin":"../images/sm2.jpg",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/chevylg.jpg"},
+            {"image":"../images/portfolio/chevysm1.jpg"},
+            {"image":"../images/portfolio/chevysm2.jpg"}
+        ]}

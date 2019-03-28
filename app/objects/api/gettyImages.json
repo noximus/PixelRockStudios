@@ -1,0 +1,18 @@
+{
+	"name": "Getty Images",
+   "link": "http://",
+   "id": "getty",
+   "client": "Daily Mail - Getty Images",
+   "date": "9/2016",
+   "technology": "HTML, CSS, Javascript, Google Web Developer, PHP/Composer, Oauth2 API, SLIM Framework",
+   "description": "Created a Image Rotating Banner using the Getty Images API to pull in the latest images from the fashion show as they are posted.  The task was to create an Oauth2 Connection using a PHP API on a proxy server in order to get past the Cross Domain Issues.",
+   "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/biorelg.jpg"},
+        {"image":"../images/portfolio/bioresm1.jpg"},
+        {"image":"../images/portfolio/bioresm2.jpg"}
+    ]
+   }

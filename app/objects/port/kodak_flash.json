@@ -1,0 +1,18 @@
+{
+	"name": "Kodak Flash Banner",
+   "link": "http://www.pixelrockstudios.com/work/kodak",
+   "type": "web",
+   "id": "kodak-flash",
+   "client": "Kodak",
+   "date": "6/2009",
+   "technology": "Flash, ActionScript 2.0, XML",
+   "description": "Kodak Flash Banner",
+   "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/kodaklg.jpg"},
+        {"image":"../images/portfolio/kodaksm1.jpg"},
+        {"image":"../images/portfolio/kodaksm2.jpg"}
+    ]}

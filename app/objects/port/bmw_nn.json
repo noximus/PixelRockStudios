@@ -1,0 +1,19 @@
+{       
+    "name": "BMW Naughty or Nice",
+    "link": "http://www.pixelrockstudios.com/work/bmwNN/index.html",
+   "type": "web",
+    "id": "bmw-nn",
+    "client": "BMW",
+    "date": "12/2012",
+    "technology": "HTML, CSS, Javascript, Jquery",
+    "description": "",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/bmwnnlg.jpg"},
+        {"image":"../images/portfolio/bmwnnsm1.jpg"},
+        {"image":"../images/portfolio/bmwnnsm2.jpg"}
+    ]
+}

@@ -1,0 +1,20 @@
+{       
+    "name": "Star Wars - Playstation",
+    "link": "",
+    "type": "banner",
+    "frame":"../work/banners/starwars/AOC_SWExBundles_LearnMore_300x250_na_v1_html5/index.html",
+    "id": "starwars",
+    "client": "Playstation",
+    "date": "9/2015",
+    "technology": "HTML 5, CSS, Javascript, Jquery, Greensock, Minification",
+    "description": "Tasked with building HTML 5 Animatied Banners for both static and Rich Media expandable Banners. All banners meet file size specifications without sacrificing animation.",
+    "facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"https://github.com/noximus/PS4StarWarsBattleFrontBanners",
+    "img": [
+        {"image":"../images/lg.jpg"},
+        {"image":"../images/sm1.jpg"},
+        {"image":"../images/sm2.jpg"}
+    ]
+}

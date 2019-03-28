@@ -1,0 +1,19 @@
+{
+		"name": "BMW i8 Experience",
+       "link": "http://www.bmwusa.com/standard/content/vehicles/2014/bmwi/bmwi_i8redirect.aspx?from=/Standard/Content/Vehicles/2014/BMWi/BMWi8RD.aspx&return=/Standard/Content/Vehicles/2014/BMWi/BMWi8RD.aspx",
+   "type": "web",
+   "id": "bmw-i8",
+       "client": "BMW",
+       "date": "4/2013",
+       "technology": "HTML5, CSS3, Javascript, Jquery, Greensock",
+       "description": "BMW i8 Experience Template implemented inside BMW cutsom CMS",
+       "facebook":"../images/lg.jpg",
+        "twitter":"../images/sm1.jpg",
+        "linkedin":"../images/sm2.jpg",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/bmwi8lg.jpg"},
+            {"image":"../images/portfolio/bmwi8sm1.jpg"},
+            {"image":"../images/portfolio/bmwi8sm2.jpg"}
+        ]
+}

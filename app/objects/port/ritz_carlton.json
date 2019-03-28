@@ -1,0 +1,17 @@
+{		"name": "Ritz Carlton White Plains",
+       "link": "http://www.pixelrockstudios.com/work/ritz",
+   "type": "web",
+       "id": "ritz-carlton",
+       "client": "Ritz Carlton",
+       "date": "8/2006",
+       "technology": "Flash, ActionScript 2.0, XML, Greensock, HTML, CSS",
+       "description": "Ritz Carlton",
+       "facebook":"",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/ritzlg.jpg"},
+            {"image":"../images/portfolio/ritzsm1.jpg"},
+            {"image":"../images/portfolio/ritzsm2.jpg"}
+        ]}

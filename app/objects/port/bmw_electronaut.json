@@ -1,0 +1,17 @@
+{ "name": "BMW Naughty or Nice",
+"link": "http://electronaut.bmwactivatethefuture.com/",
+   "type": "web",
+"id": "bmw-electronaut",
+"client": "BMW",
+"date": "10/2012",
+"technology": "HTML, CSS, Javascript, Jquery, Ajax, Facebook Api",
+"description": "",
+"facebook":"../images/lg.jpg",
+"twitter":"../images/sm1.jpg",
+"linkedin":"../images/sm2.jpg",
+"github":"",
+"img": [
+    {"image":"../images/portfolio/bmweleclg.jpg"},
+    {"image":"../images/portfolio/bmwelecsm1.jpg"},
+    {"image":"../images/portfolio/bmwelecsm2.jpg"}
+]}

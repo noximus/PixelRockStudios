@@ -1,0 +1,17 @@
+{	"name": "Triumph Funding Realty Corp",
+       "link": "http://www.pixelrockstudios.com/work/Triumph-Realty/",
+   "type": "web",
+       "id": "Triumph-Realty",
+       "client": "Triumph Funding Realty Corp",
+       "date": "7/2004",
+       "technology": "Design, HTML, CSS, PHP, XML, Flash, ActionScript 2.0",
+       "description": "Triumph Funding Realty Corp Website",
+       "facebook":"",
+        "twitter":"",
+        "linkedin":"",
+        "github":"",
+        "img": [
+            {"image":"../images/portfolio/triumphlg.jpg"},
+            {"image":"../images/portfolio/triumphsm1.jpg"},
+            {"image":"../images/portfolio/triumphsm2.jpg"}
+        ]}

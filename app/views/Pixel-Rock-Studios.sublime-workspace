@@ -1,0 +1,740 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hover",
+				"hoverEvent"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"nav",
+				"navigationFact"
+			],
+			[
+				"font",
+				"font-roll"
+			],
+			[
+				"fon",
+				"font-color"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"im",
+				"img-responsive"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"ma",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/bmw_electronaut.json",
+			"settings":
+			{
+				"buffer_size": 508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bio.html",
+			"settings":
+			{
+				"buffer_size": 11890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 2287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers/port.js",
+			"settings":
+			{
+				"buffer_size": 2809,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "portfolio.html",
+			"settings":
+			{
+				"buffer_size": 3989,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/styles",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views"
+	],
+	"file_history":
+	[
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views/portfolio.html",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/styles/main.scss",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/triumphRealty.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/js/main.js",
+		"/Users/Noximus/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/app.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/index.html",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers/port.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/scene.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/Gruntfile.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/teachDearAmerica.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views/bio.html",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/directives/btnbounce.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/portmaster.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/kodak_flash.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/crestor_astra.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/ritz_carlton.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/chevy_flash.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/justin_bieber.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/portdetail.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/fantastic4.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/bmw_i8.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/bmw_pds.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/bmw_motorsports.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/fantastic4.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/bmw_connecteddrive.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/bmw_i8.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/biore.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/chevy_flash.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/bmw_pds.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/bmw_motorsports.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/bmw_m_40th.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/crestor_astra.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/justin_bieber.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/kodak_flash.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/ritz_carlton.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/objects/portfolio.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/directives/navigation.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/citymaps.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers/citymaps.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views/citymaps.html",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/bower.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views/partials/navigation.html",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/navigationFact.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers/main.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views/partials/breadcrumbs.html",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers/experimental.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/services/navigationServ.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers/contact.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views/navigation.html",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers/about.js",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views/experimental.html",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/views/main.html",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.projects.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.campaign.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.projects4.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.projects3.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.projects2.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collection_old.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collections14.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collectionf14.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collections13.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collections12.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collectionf13.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collectionf12.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/layout/theme.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/index.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.about.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.campaign_original.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.campaign3.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.projects_old.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.press_old.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.press.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.stockist.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.projects5.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/snippets/collection-loop.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.campaign2.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.campaign4.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collection.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collections11.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collections10.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collections09.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collectionf15.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collectionf11.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/templates/page.collectionf10.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-12204399/assets/bootstrap.css.liquid",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/package.json",
+		"/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/dist/index.html",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/assets/bootstrap.css.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/assets/bootstrap-theme.css.map",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/layout/theme.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/snippets/blog_sidebar.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/snippets/collection-loop.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/snippets/customer_links.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/assets/bootstrap.css.map",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/assets/bootstrap.min.js",
+		"/Users/Noximus/Projects/Archived Projects/BMW M Prototype/bmw-explore-m40/javascript/main2.js",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/assets/PixelRockStyles.css.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collectionf14.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collectionf13.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.projects.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.projects3.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.projects2.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.projects4.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collections13.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collections14.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collection.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/collection.liquid",
+		"/Users/Noximus/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/07C696F3-7B5C-4609-BFF2-830BD27E5644/FB-fLogo.svg",
+		"/Users/Noximus/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/12DE66DE-9F39-494F-9323-E91CA567F0A8/Twitter_logo_white.svg",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/snippets/navigation.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collectionf12.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.campaign.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.campaign2.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.campaign3.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.campaign4.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/product.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/index.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.about.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/cart.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collectionf11.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collectionf10.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collectionf09.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collections12.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collections11.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collections10.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collections09.liquid",
+		"/Users/Noximus/Projects/Active Projects/Rochambeau/Dev/rochambeau-11208867/templates/page.collectionf15.liquid"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Noximus/Projects/Flash Point/Aggregit"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h3",
+			"h2",
+			",",
+			"\"link\":",
+			"\"file\":",
+			"triumph",
+			"scene",
+			"ger",
+			"fl",
+			"ritz",
+			"nn",
+			"right",
+			"../images/",
+			"filerev",
+			"build",
+			"../images/",
+			"photos",
+			"'",
+			"\"}",
+			"'",
+			"$(\".navbut\")",
+			"li",
+			"bio",
+			"partials",
+			"state2",
+			"state1",
+			"ng-h",
+			"portfolio",
+			"6",
+			"\"https://cdn.shopify.com/s/files/1/0662/5083/files/",
+			"Rochambeau_FW_10",
+			"FW14",
+			".jpg",
+			"sm-4",
+			".jpg",
+			"FW12",
+			"/SS",
+			"FALLWINTER202013",
+			"/FW",
+			"RochambeauextendedSS14",
+			"/SS",
+			"/FW",
+			"/SS",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"linkSD",
+			"carousel-example-generic",
+			"btn-danger",
+			"a:focus",
+			"rsvp",
+			"ATL_",
+			"carousel",
+			"responsive",
+			"jpg",
+			".jpg",
+			"_01.jpg",
+			"responsive",
+			"_Twins_Campaign_Page",
+			"full",
+			"_Burke",
+			"responsive",
+			"full",
+			"Miles_Langford",
+			"Rochambeau_FW_",
+			"Rochambeau_SS_",
+			"SS13_Collection",
+			"Rochambeau_SS_",
+			"href=\"https://cdn.shopify.com/s/files/1/0662/5083/files/Rochambeau_FW_10_",
+			"data-lightbox=\"",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"' | asset_url }}",
+			"{{ '",
+			"url(",
+			"' | asset_url }}",
+			"autoprefixer",
+			"class=\"hidden-sm hidden-md hidden-lg\" ",
+			"generic",
+			" hidden-sm hidden-md hidden-lg",
+			"<!-- <div class=\"carousel-caption\">something</div> -->",
+			" hidden-sm hidden-md hidden-lg",
+			" class=\"item hidden-sm hidden-md hidden-lg\"",
+			" hidden-xs",
+			" class=\"hidden-sm hidden-md hidden-lg\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/objects/bmw_electronaut.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								508,
+								508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 419.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Noximus/Projects/Active Projects/Pixel Rock Studios/Dev/PixelRockStudios/app/scripts/controllers/port.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2802,
+								2802
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 39.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "portfolio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2759,
+								2759
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1063.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 251.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Pixel-Rock-Studios.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"app/scripts/controllers/port.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

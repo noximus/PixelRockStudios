@@ -1,17 +1,180 @@
-<div class="col-md-12">
-    <div class="row pad-top-60">
-      <div class="col-sm-3 col-xs-6"><a href="http://www.bmwusa.com/m" target="_blank" class="thumbnail"><img src="images/thumb_Msite.jpg" class="img-responsive" alt="BMW M 40th Anniversary" /></a></div>
-      <div class="col-sm-3 col-xs-6"><a href="http://www.bmwusa.com/standard/content/explore/bmwenthusiasts/bmwmotorsports.aspx" class="thumbnail"><img src="images/thumb_MotorsportsSite.jpg" target="_blank" class="img-responsive" alt="BMW Motorsports" /></a></div>
-      <div class="col-sm-3 col-xs-6"><a href="http://www.bmwusa.com/standard/content/innovations/bmwconnecteddrive/connecteddrive.aspx" class="thumbnail"><img src="images/thumb_ConnectedDriveSite.jpg" target="_blank" class="img-responsive" alt="BMW ConnectedDrive" /></a></div>
-      <div class="col-sm-3 col-xs-6"><a href="http://www.bmwusa.com/Standard/Content/Explore/Experience/PDS/default.aspx?#" class="thumbnail"><img src="images/thumb_PDSSite.jpg" class="img-responsive" target="_blank" alt="BMW Performance Driving School" /></a></div>
-      <div class="col-sm-3 col-xs-6"><a href="http://www.justinbiebercollectorsedition.com/#home" target="_blank" class="thumbnail"><img src="images/thumb_bieberSite.jpg" class="img-responsive" alt="Justin Bieber" /></a></div>
-      <div class="col-sm-3 col-xs-6"><a href="http://www.biore.com/en-US/biore-skincare" target="_blank" class="thumbnail"><img src="images/thumb_bioreSite.jpg" class="img-responsive" alt="Biore Skincare" /></a></div> 
-      <div class="col-sm-3 col-xs-6"><a href="http://www.bmwusa.com/standard/content/vehicles/2014/bmwi/bmwi_i8redirect.aspx?from=/Standard/Content/Vehicles/2014/BMWi/BMWi8RD.aspx&return=/Standard/Content/Vehicles/2014/BMWi/BMWi8RD.aspx" target="_blank" class="thumbnail"><img src="images/thumb_i8site.jpg" class="img-responsive" alt="BMW i8 Experience" /></a></div>
-      <div class="col-sm-3 col-xs-6 hidden-xs hidden-sm"><a href="http://www.pixelrockstudios.com/work/f4" target="_blank" class="thumbnail"><img src="images/thumb_F4site.jpg" class="img-responsive" alt="Fantastic 4 Rise of the Silver Surfer" /></a></div><!--
-      <div class="col-sm-3 col-xs-6 hidden-xs hidden-sm"><a href="http://www.pixelrockstudios.com/work/chevy" target="_blank" class="thumbnail"><img src="images/thumb_chevySite.jpg" class="img-responsive" alt="Checvy Flash Calculator" /></a></div>
-      <div class="col-sm-3 col-xs-6 hidden-xs hidden-sm"><a href="http://www.pixelrockstudios.com/work/ritz" target="_blank" class="thumbnail"><img src="images/thumb_ritzSite.jpg" class="img-responsive" alt="Ritz Carlton White Plains" /></a></div>
-      <div class="col-sm-3 col-xs-6 hidden-xs hidden-sm"><a href="http://www.pixelrockstudios.com/work/kodak" target="_blank" class="thumbnail"><img src="images/thumb_kodaksite.jpg" class="img-responsive" alt="Kodak Flash Banner" /></a></div>
-      <div class="col-sm-3 col-xs-6 hidden-xs hidden-sm"><a href="http://www.pixelrockstudios.com/work/astra" target="_blank" class="thumbnail"><img src="images/thumb_crestorsite.jpg" class="img-responsive" alt="Crestor Astra Zeneca" /></a></div> -->
-      
+<div class="col-xs-12 visible-xs">
+  <div class="row pad-top-15">
+    <div class="col-xs-12">
+      <div class="pixel-container">
+        <div class="pixel-cont-head">
+          <div class="pull-left">Portfolio</div><div class="pull-right"></div>
+        </div>
+        <div class="pixel-cont-area">
+        <div class="row">
+          <div ng-repeat="project in portfolio | filter:query" class="col-xs-4" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
+            <a href="#" class="thumbnail">
+              <img ng-src="{{portfolio[$index].thumb}}" alt="{{portfolio[$index].name}}">
+              <!-- <div class="caption">{{portfolio[$index].name}}</div> -->
+            </a>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-12 hidden-xs">
+    <div class="row pad-top-15">
+      <div class="col-sm-4 col-md-3">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">Select a Project</div><div class="pull-right">Search</div>
+          </div>
+
+          <div class="pixel-cont-area scroll">
+            
+            <input type="text" name="search" placeholder="Search Projects" maxlength="40" class="search" ng-model="query"/>
+            
+            <div ng-repeat="project in portfolio | filter:query" class="pixel-button" data-link="{{ project.link }}" ng-click="selectPortItem('{{ project.file }}')" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)">
+              
+              <img src="../images/pixel-button-carot.svg" alt="btn carot">{{ project.name }}
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8" ng-show="portDetail.type == 'banner'">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">{{portDetail.name}}</div>
+            <div class="pull-right">Banner
+            </div>
+          </div>
+          <div class="pixel-cont-area scroll">
+            <div class="row">
+              <div class="col-sm-12 col-lg-6 noscroll">
+                <iframe id="bannerView" ng-src="{{portDetail.frame}}"></iframe>
+              </div>
+              <div class="col-sm-12 col-lg-6">
+                <div class="port-text">
+                  <h6>Replay Animation:</h6>
+                    <span class="glyphicon glyphicon-repeat replay" aria-hidden="true" ng-click="refreshBanner()"></span>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="port-text">
+                  <h6>Standard Sizes:</h6>
+                  <p></p>
+                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">160x600</div>
+                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">300x250</div>
+                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">300x600</div>
+
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="port-text">
+                  <h6>Rich Media Sizes:</h6>
+                  <p></p>
+                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">160x600</div>
+                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">300x250</div>
+                    <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">300x600</div>
+
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="port-text">
+                  <h6>Client:</h6> {{portDetail.client}} 
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="port-text text-right">
+                  <h6>Date Launched: </h6> {{portDetail.date | date}}  
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="port-text">
+                  <h6>Technology:</h6>
+                    {{portDetail.technology}}
+                </div>
+                <div class="port-text">
+                  <h6>Description:</h6> {{portDetail.description}}
+                </div>
+              </div>
+            </div>
+            <div class="row pad-top-10">
+              <div class="col-sm-3">
+<!--                 <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+ -->              </div>
+              <div class="col-sm-3">
+                <!-- <div class="pixel-button" id="launchGit" data-link="{{portDetail.github}}"><img src="../images/pixel-button-carot.svg" alt="" />View on GitHub</div> -->
+              </div>
+              
+              <!-- <div class="col-sm-3 pull-right text-right">Share on
+                <a href="https://twitter.com/pixelrockstudio" target="_blank"><img class="social-icon" src="../images/twitter.svg" alt="Follow me on Twitter @PixelRockStudio"></a> 
+                <a href="https://www.facebook.com/pixelrockstudios" target="_blank"><img class="social-icon" src="../images/facebook-square.svg" alt="Follow me on Facebook"></a> 
+                <a href="https://www.linkedin.com/pub/henry-richardson/26/9aa/713" target="_blank"><img class="social-icon" src="../images/linkedin.svg" alt="Follow me on Linkedin"></a>
+              </div> -->
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-8 col-md-9" ng-show="portDetail.type == 'web'">
+        <div class="pixel-container">
+          <div class="pixel-cont-head">
+            <div class="pull-left">{{portDetail.name}}</div>
+            <div class="pull-right">Projects
+            </div>
+          </div>
+          <div class="pixel-cont-area scroll">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="pixel-container portfolio-cont-lg"><img ng-src="{{portDetail.img[0].image}}" class="img-responsive" alt=""></div>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="pixel-container portfolio-cont-sm"><img ng-src="{{portDetail.img[1].image}}" class="img-responsive" alt=""></div>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="pixel-container portfolio-cont-sm"><img ng-src="{{portDetail.img[2].image}}" class="img-responsive" alt=""></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="port-text">
+                  <h6>Client:</h6> {{portDetail.client}} 
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="port-text text-right">
+                  <h6>Date Launched: </h6> {{portDetail.date | date}}  
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="port-text">
+                  <h6>Technology:</h6>
+                    {{portDetail.technology}}
+                </div>
+                <div class="port-text">
+                  <h6>Description:</h6> {{portDetail.description}}
+                </div>
+              </div>
+            </div>
+            <div class="row pad-top-10">
+              <div class="col-sm-3">
+                <div class="pixel-button" id="launchSite" data-link="{{portDetail.link}}" ng-click="launchSite()" ng-mouseover="btnBounceOver($event)" ng-mouseleave="btnBounceLeave($event)"><img src="../images/pixel-button-carot.svg" alt="">Launch Project</div>
+              </div>
+              <div class="col-sm-3">
+                <!-- <div class="pixel-button" id="launchGit" data-link="{{portDetail.github}}"><img src="../images/pixel-button-carot.svg" alt="" />View on GitHub</div> -->
+              </div>
+              
+              <!-- <div class="col-sm-3 pull-right text-right">Share on
+                <a href="https://twitter.com/pixelrockstudio" target="_blank"><img class="social-icon" src="../images/twitter.svg" alt="Follow me on Twitter @PixelRockStudio"></a> 
+                <a href="https://www.facebook.com/pixelrockstudios" target="_blank"><img class="social-icon" src="../images/facebook-square.svg" alt="Follow me on Facebook"></a> 
+                <a href="https://www.linkedin.com/pub/henry-richardson/26/9aa/713" target="_blank"><img class="social-icon" src="../images/linkedin.svg" alt="Follow me on Linkedin"></a>
+              </div> -->
+            </div>
+            
+          </div>
+        </div>
+      </div>
     </div>
 </div>

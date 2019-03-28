@@ -1,0 +1,19 @@
+{
+	"name": "BMW ConnectedDrive",
+  	"link": "http://www.bmwusa.com/standard/content/innovations/bmwconnecteddrive/connecteddrive.aspx",
+   "type": "web",
+   	"id": "bmw_connecteddrive",
+	"client": "BMW",
+   	"date": "4/2013",
+   	"technology": "HTML, CSS, Javascript, Jquery, Bootstrap",
+   	"description": "Responsive template that goes into BMW CMS",
+   	"facebook":"../images/lg.jpg",
+    "twitter":"../images/sm1.jpg",
+    "linkedin":"../images/sm2.jpg",
+    "github":"",
+    "img": [
+        {"image":"../images/portfolio/bmwcdlg.jpg"},
+        {"image":"../images/portfolio/bmwcdsm1.jpg"},
+        {"image":"../images/portfolio/bmwcdsm2.jpg"}
+    ]
+  }
